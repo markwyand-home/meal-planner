@@ -1,0 +1,2775 @@
+{
+  "recipes": [
+    {
+      "id": "banh-mi-rice-bowls",
+      "file": "25 Minute Banh Mi Rice Bowls.mhtml",
+      "name": "25 Minute Banh Mi Rice Bowls",
+      "source_url": "https://www.halfbakedharvest.com/banh-mi-rice-bowls/",
+      "cuisine": "vietnamese",
+      "protein_primary": "meat",
+      "protein_notes": "1.5 lb ground chicken or pork - commenters subbed mushrooms; crumbled tofu would also work with same sauce",
+      "vegetarian": false,
+      "vegan": false,
+      "servings": 6,
+      "prep_min": 15,
+      "cook_min": 10,
+      "total_min": 25,
+      "ingredients": [
+        {
+          "raw": "2 Persian cucumbers, chopped",
+          "item": "persian cucumbers",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 Serrano or jalape\u00c3\u00b1o pepper, seeded and sliced",
+          "item": "serrano or jalapeno pepper",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 cup mixed fresh herbs, chopped",
+          "item": "mixed fresh herbs (cilantro, thai basil, mint)",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3 tablespoons mixed sesame seeds and peanuts",
+          "item": "sesame seeds and peanuts",
+          "quantity": 3,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons toasted sesame oil",
+          "item": "toasted sesame oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons lime juice",
+          "item": "lime juice",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 avocado, cubed",
+          "item": "avocado",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons sesame or olive oil",
+          "item": "sesame or olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 pounds ground chicken or ground pork",
+          "item": "ground chicken or pork",
+          "quantity": 1.5,
+          "unit": "lb",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 shallots, chopped",
+          "item": "shallots",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "4 cloves garlic, chopped",
+          "item": "garlic",
+          "quantity": 4,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/2 cup tamari",
+          "item": "tamari",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tablespoons fish sauce",
+          "item": "fish sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1-3 tablespoons chili paste",
+          "item": "chili paste",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons maple syrup",
+          "item": "maple syrup",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 cup shredded or pickled carrots",
+          "item": "shredded or pickled carrots",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/3 cup pickled ginger",
+          "item": "pickled ginger",
+          "quantity": 0.33,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3-4 cups cooked rice, for serving",
+          "item": "cooked rice",
+          "quantity": 3.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "spicy mayo, for serving",
+          "item": "spicy mayo",
+          "quantity": null,
+          "unit": null,
+          "category": "other",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 530,
+        "protein_g": 28,
+        "carbs_g": 45,
+        "fat_g": 26,
+        "fiber_g": 4,
+        "sodium_mg": 1600,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "bowl",
+        "weeknight"
+      ],
+      "notes": "Site calories (530) given; macros estimated. Fish sauce makes sauce non-vegetarian; commenter subbed mushrooms for meat. Reviewers say sauce is salty (use low-sodium tamari) and real time is closer to 45 min.",
+      "role": "main"
+    },
+    {
+      "id": "artichoke-vegan-fish-tacos",
+      "file": "Artichoke Tacos (Vegan Fish Tacos) - Forkful of Plants.mhtml",
+      "name": "Artichoke Tacos (Vegan Fish Tacos)",
+      "source_url": "https://forkfulofplants.com/artichoke-tacos-vegan-fish-tacos/",
+      "cuisine": "mexican",
+      "protein_primary": "none",
+      "protein_notes": "artichokes are the star (low protein); page suggests firm tofu in same marinade/batter for higher protein, or hearts of palm",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 15,
+      "cook_min": 30,
+      "total_min": 45,
+      "ingredients": [
+        {
+          "raw": "1 can artichoke hearts, halved",
+          "item": "canned artichoke hearts",
+          "quantity": 1,
+          "unit": "count",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "125 ml almond milk (1/2 cup)",
+          "item": "almond milk",
+          "quantity": 125,
+          "unit": "ml",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        },
+        {
+          "raw": "100 g chickpea flour, split (3/4 cup)",
+          "item": "chickpea flour",
+          "quantity": 100,
+          "unit": "g",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tbsp caper brine",
+          "item": "caper brine",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 lemon, zested and juiced",
+          "item": "lemon",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "60 g panko breadcrumbs (2/3 cup)",
+          "item": "panko breadcrumbs",
+          "quantity": 60,
+          "unit": "g",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tbsp seaweed flakes",
+          "item": "seaweed flakes (nori or dulse)",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tsp mixed herbs",
+          "item": "dried mixed herbs",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tsp old bay seasoning or all purpose seasoning",
+          "item": "old bay seasoning",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 head red cabbage, thinly sliced",
+          "item": "red cabbage",
+          "quantity": 0.25,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "60 ml apple cider vinegar (1/4 cup)",
+          "item": "apple cider vinegar",
+          "quantity": 60,
+          "unit": "ml",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "pinch salt and sugar",
+          "item": "salt and sugar",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 medium tomatoes, chopped",
+          "item": "tomatoes",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 avocado, sliced",
+          "item": "avocado",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 green onions, sliced",
+          "item": "green onions",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "4 tbsp vegan mayonnaise",
+          "item": "vegan mayonnaise",
+          "quantity": 4,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tbsp capers, finely chopped",
+          "item": "capers",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 sprigs dill, chopped",
+          "item": "fresh dill",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tbsp lemon juice",
+          "item": "lemon juice",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "4 soft shell tacos",
+          "item": "soft taco shells (wheat or corn tortillas)",
+          "quantity": 4,
+          "unit": "count",
+          "category": "bakery",
+          "pantry_staple": false
+        },
+        {
+          "raw": "cooking oil spray (optional, for crispier coating)",
+          "item": "cooking oil spray",
+          "quantity": null,
+          "unit": null,
+          "category": "pantry",
+          "pantry_staple": true
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 10,
+        "carbs_g": 52,
+        "fat_g": 21,
+        "fiber_g": 9,
+        "sodium_mg": 750,
+        "source": "estimated"
+      },
+      "tags": [
+        "tacos",
+        "light",
+        "vegan"
+      ],
+      "notes": "Serving unit is per taco (makes 4 tacos). Use plain canned/frozen artichokes, not marinated. Gluten-free option: corn tortillas + GF panko. Air fryer 7-8 min works per comments.",
+      "role": "main"
+    },
+    {
+      "id": "dan-dan-noodles",
+      "file": "Better Than Takeout Dan Dan Noodles. - Half Baked Harvest.mhtml",
+      "name": "Better Than Takeout Dan Dan Noodles",
+      "source_url": "https://www.halfbakedharvest.com/better-than-takeout-dan-dan-noodles/",
+      "cuisine": "chinese",
+      "protein_primary": "meat",
+      "protein_notes": "1/2 lb ground chicken or pork - author says double the mushrooms to make it vegetarian; crumbled tofu also an easy sub (use veg broth)",
+      "vegetarian": false,
+      "vegan": false,
+      "servings": 6,
+      "prep_min": 15,
+      "cook_min": 15,
+      "total_min": 30,
+      "ingredients": [
+        {
+          "raw": "1/3 cup + 2 tablespoons sesame oil",
+          "item": "sesame oil",
+          "quantity": 0.46,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "6 cloves garlic, thinly sliced or smashed",
+          "item": "garlic",
+          "quantity": 6,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1-2 tablespoons crushed red pepper flakes",
+          "item": "crushed red pepper flakes",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/2 cup low sodium soy sauce",
+          "item": "low sodium soy sauce",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/4 cup hoisin sauce (make sure to use GF, if needed)",
+          "item": "hoisin sauce",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tablespoon honey",
+          "item": "honey",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tablespoons rice vinegar",
+          "item": "rice vinegar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "3 tablespoons creamy peanut butter or tahini",
+          "item": "creamy peanut butter or tahini",
+          "quantity": 3,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "8 ounces Chinese style egg noodles, or rice noodles",
+          "item": "chinese egg noodles or rice noodles",
+          "quantity": 8,
+          "unit": "oz",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 1/2 cups low sodium chicken broth",
+          "item": "low sodium chicken broth",
+          "quantity": 2.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cups fresh baby spinach, roughly chopped",
+          "item": "baby spinach",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 pound ground chicken or pork",
+          "item": "ground chicken or pork",
+          "quantity": 0.5,
+          "unit": "lb",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cups mixed mushrooms, chopped",
+          "item": "mixed mushrooms",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "black pepper",
+          "item": "black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 medium shallot, chopped",
+          "item": "shallot",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "4 green onions, chopped",
+          "item": "green onions",
+          "quantity": 4,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 550,
+        "protein_g": 20,
+        "carbs_g": 48,
+        "fat_g": 31,
+        "fiber_g": 3,
+        "sodium_mg": 1400,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "noodles",
+        "one-pot",
+        "hearty",
+        "takeout-style"
+      ],
+      "notes": "Vegetarian: double mushrooms and use veg broth. Hoisin subs: soy sauce, miso paste. Keeps 2-3 days in fridge. Reviewers report longer than 30 min.",
+      "role": "main"
+    },
+    {
+      "id": "big-green-fried-rice",
+      "file": "Big Green Fried Rice - Live Naturally Magazine.mhtml",
+      "name": "Big Green Fried Rice",
+      "source_url": "https://livenaturallymagazine.com/recipes/big-green-fried-rice/",
+      "cuisine": "asian",
+      "protein_primary": "eggs",
+      "protein_notes": "2 eggs - modest protein; could add tofu or extra egg to boost",
+      "vegetarian": true,
+      "vegan": false,
+      "servings": 3,
+      "prep_min": null,
+      "cook_min": null,
+      "total_min": null,
+      "ingredients": [
+        {
+          "raw": "1 1/2 tablespoons toasted sesame oil",
+          "item": "toasted sesame oil",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "4 green onions, white and green parts, chopped",
+          "item": "green onions",
+          "quantity": 4,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 cup sliced asparagus or green beans, trimmed and cut into 1/4-inch segments",
+          "item": "asparagus or green beans",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cloves garlic, minced",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tablespoon peeled and grated fresh ginger",
+          "item": "fresh ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 1/2 cups cold cooked brown rice",
+          "item": "cooked brown rice",
+          "quantity": 2.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 cups well-chopped kale, trimmed and ribs removed",
+          "item": "kale",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 eggs, beaten",
+          "item": "eggs",
+          "quantity": 2,
+          "unit": "count",
+          "category": "dairy-eggs",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2-3 teaspoons tamari or soy sauce",
+          "item": "tamari or soy sauce",
+          "quantity": 2.5,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "Chile-sesame oil and zest of 1 lemon to serve (optional)",
+          "item": "chile-sesame oil and lemon zest",
+          "quantity": null,
+          "unit": null,
+          "category": "pantry",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 309,
+        "protein_g": 10,
+        "carbs_g": 42,
+        "fat_g": 11,
+        "fiber_g": 5,
+        "sodium_mg": 393,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "one-pot",
+        "light",
+        "fried-rice",
+        "weeknight"
+      ],
+      "notes": "From Heidi Swanson's Super Natural Simple. Needs cold pre-cooked rice (make ahead). Very fast active cooking (~10 min).",
+      "role": "main"
+    },
+    {
+      "id": "broccoli-caesar-tempeh",
+      "file": "Broccoli Caesar with Smoky Tempeh Bits - alive magazine.mhtml",
+      "name": "Broccoli Caesar with Smoky Tempeh Bits",
+      "source_url": "https://www.alive.com/recipe/broccoli-caesar-smoky-tempeh-bits/",
+      "cuisine": "american",
+      "protein_primary": "tempeh",
+      "protein_notes": "4 oz smoky crumbled tempeh plus cashew-butter dressing; more of a substantial vegetable course than a full main",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": null,
+      "cook_min": null,
+      "total_min": null,
+      "ingredients": [
+        {
+          "raw": "2 Tbsp (30 mL) raw cashew butter",
+          "item": "raw cashew butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 Tbsp (30 mL) filtered water",
+          "item": "water",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "other",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 Tbsp (22 mL) fresh lemon juice",
+          "item": "lemon juice",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Salt and pepper, to taste",
+          "item": "salt and pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 cloves garlic, grated with a microplane grater",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tsp (5 mL) Dijon mustard",
+          "item": "dijon mustard",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tsp (5 mL) minced capers",
+          "item": "capers",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 Tbsp (15 mL) nutritional yeast",
+          "item": "nutritional yeast",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3 Tbsp (45 mL) extra-virgin olive oil",
+          "item": "extra-virgin olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 bunch broccoli, cut into florets",
+          "item": "broccoli",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tsp (5 mL) sweet paprika",
+          "item": "sweet paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tsp (5 mL) smoked paprika",
+          "item": "smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tsp (5 mL) pure maple syrup",
+          "item": "maple syrup",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tsp (5 mL) apple cider vinegar",
+          "item": "apple cider vinegar",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/2 tsp (2 mL) gluten-free tamari soy sauce",
+          "item": "tamari",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tsp (10 mL) extra-virgin olive oil",
+          "item": "extra-virgin olive oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/2 block (4 oz/114 g) tempeh, crumbled",
+          "item": "tempeh",
+          "quantity": 4,
+          "unit": "oz",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tsp (10 mL) nutritional yeast (garnish)",
+          "item": "nutritional yeast",
+          "quantity": 2,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Freshly ground black pepper (garnish)",
+          "item": "black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 281,
+        "protein_g": 13,
+        "carbs_g": 19,
+        "fat_g": 19,
+        "fiber_g": 5,
+        "sodium_mg": 154,
+        "source": "site"
+      },
+      "tags": [
+        "salad",
+        "light",
+        "vegan",
+        "make-ahead"
+      ],
+      "notes": "Broccoli can be blanched (as written) or roasted at 400 F for ~20 min for a warm salad. Pairs well as a side or light main; add grain to bulk up.",
+      "role": "light"
+    },
+    {
+      "id": "charred-cauliflower-halloumi-pitas",
+      "file": "Charred Cauliflower Pitas with Halloumi and Harissa.mhtml",
+      "name": "Charred Cauliflower Pitas with Halloumi and Harissa",
+      "source_url": "https://parentscanada.com/food/charred-cauliflower-pitas-with-halloumi-and-harissa-recipe/",
+      "cuisine": "mediterranean",
+      "protein_primary": "halloumi",
+      "protein_notes": "broiled halloumi slices; could sub grilled tofu for vegan",
+      "vegetarian": true,
+      "vegan": false,
+      "servings": 4,
+      "prep_min": null,
+      "cook_min": null,
+      "total_min": 30,
+      "ingredients": [
+        {
+          "raw": "1 small cauliflower, sliced into 1-inch-thick slabs",
+          "item": "cauliflower",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Extra-virgin olive oil, for drizzling",
+          "item": "extra-virgin olive oil",
+          "quantity": null,
+          "unit": null,
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "Sea salt and freshly ground black pepper",
+          "item": "salt and black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "8 ounces halloumi cheese, sliced widthwise into 1/4-inch-thick pieces",
+          "item": "halloumi cheese",
+          "quantity": 8,
+          "unit": "oz",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 large or 4 smaller pitas",
+          "item": "pita bread",
+          "quantity": 2,
+          "unit": "count",
+          "category": "bakery",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 cup Homemade Harissa",
+          "item": "harissa",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cups arugula",
+          "item": "arugula",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 288,
+        "protein_g": 17,
+        "carbs_g": 24,
+        "fat_g": 19,
+        "fiber_g": null,
+        "sodium_mg": null,
+        "source": "site"
+      },
+      "tags": [
+        "sandwich",
+        "sheet-pan",
+        "hearty",
+        "quick"
+      ],
+      "notes": "Uses broiler for cauliflower and halloumi. Store-bought harissa works. Serve with extra harissa on the side. Roughly 30 min total.",
+      "role": "main"
+    },
+    {
+      "id": "chickpea-salad-sandwich",
+      "file": "Chickpea Salad Sandwich Recipe - Love and Lemons.mhtml",
+      "name": "Chickpea Salad Sandwich",
+      "source_url": "https://www.loveandlemons.com/chickpea-salad-sandwich/",
+      "cuisine": "french",
+      "protein_primary": "chickpeas",
+      "protein_notes": "mashed chickpea 'tuna' salad with tahini; fully plant-based",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 20,
+      "cook_min": 5,
+      "total_min": 25,
+      "ingredients": [
+        {
+          "raw": "1 1/2 cups cooked chickpeas, drained and rinsed",
+          "item": "chickpeas",
+          "quantity": 1.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons tahini",
+          "item": "tahini",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 teaspoon Dijon mustard",
+          "item": "dijon mustard",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/2 garlic clove",
+          "item": "garlic",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 teaspoon capers",
+          "item": "capers",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 green onion, chopped",
+          "item": "green onion",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons chopped cilantro",
+          "item": "cilantro",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons fresh lemon juice",
+          "item": "lemon juice",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "sea salt and freshly ground black pepper",
+          "item": "salt and black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "handful of thin green beans, trimmed",
+          "item": "green beans",
+          "quantity": null,
+          "unit": null,
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 soft baguette, sliced in half",
+          "item": "baguette",
+          "quantity": 1,
+          "unit": "count",
+          "category": "bakery",
+          "pantry_staple": false
+        },
+        {
+          "raw": "8 to 10 Kalamata olives, pitted and sliced in half",
+          "item": "kalamata olives",
+          "quantity": 8,
+          "unit": "count",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "thinly sliced red onion, rinsed and dried",
+          "item": "red onion",
+          "quantity": null,
+          "unit": null,
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "vegan mayo (or regular mayo), for spreading",
+          "item": "vegan mayo",
+          "quantity": null,
+          "unit": null,
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 English cucumber, thinly sliced",
+          "item": "english cucumber",
+          "quantity": 0.25,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 radish, thinly sliced",
+          "item": "radish",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "6 to 8 fresh basil leaves",
+          "item": "basil",
+          "quantity": 6,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 365,
+        "protein_g": 11,
+        "carbs_g": 50,
+        "fat_g": 13,
+        "fiber_g": 6,
+        "sodium_mg": 650,
+        "source": "estimated"
+      },
+      "tags": [
+        "sandwich",
+        "quick",
+        "make-ahead",
+        "light"
+      ],
+      "notes": "Vegan pan bagnat spin. Chickpea mixture keeps 3 days in fridge. Veggies are flexible. 1.5 cups chickpeas = one can. Use a soft baguette.",
+      "role": "main"
+    },
+    {
+      "id": "coconut-lime-rice-peanuts",
+      "file": "Creamy Coconut-Lime Rice With Peanuts Recipe.mhtml",
+      "name": "Creamy Coconut-Lime Rice With Peanuts",
+      "source_url": "https://cooking.nytimes.com/recipes/1025612-creamy-coconut-lime-rice-with-peanuts",
+      "cuisine": "southeast-asian",
+      "protein_primary": "nuts-seeds",
+      "protein_notes": "peanuts + peanut butter; page suggests topping with fried eggs to make it a fuller main",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 10,
+      "cook_min": 20,
+      "total_min": 30,
+      "ingredients": [
+        {
+          "raw": "1 cup uncooked jasmine rice, rinsed",
+          "item": "jasmine rice",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 (13- to 14-ounce) can coconut milk",
+          "item": "coconut milk",
+          "quantity": 1,
+          "unit": "count",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Salt and pepper",
+          "item": "salt and pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 (1 1/2-inch) piece ginger",
+          "item": "ginger",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 large garlic cloves",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 limes",
+          "item": "limes",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 cup roasted and salted peanuts, crushed",
+          "item": "roasted salted peanuts",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons peanut butter",
+          "item": "peanut butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 teaspoons granulated sugar",
+          "item": "sugar",
+          "quantity": 2,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 teaspoons sambal oelek",
+          "item": "sambal oelek",
+          "quantity": 2,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cups ripe cherry tomatoes, halved (about 10 ounces)",
+          "item": "cherry tomatoes",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 cup roughly chopped mixed herbs (such as dill, cilantro or mint)",
+          "item": "mixed fresh herbs (dill, cilantro, mint)",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 582,
+        "protein_g": 14,
+        "carbs_g": 63,
+        "fat_g": 35,
+        "fiber_g": 9,
+        "sodium_mg": 684,
+        "source": "site"
+      },
+      "tags": [
+        "bowl",
+        "salad",
+        "quick",
+        "light",
+        "make-ahead"
+      ],
+      "notes": "All plant-based. Serve at room temperature the day it's made. Commenters sub mango for tomatoes, cashews for peanuts; can top with fried or hard-boiled eggs for extra protein.",
+      "role": "main"
+    },
+    {
+      "id": "crispy-gnocchi-sausage-broccoli",
+      "file": "Crispy Gnocchi With Sausage and Broccoli Recipe.mhtml",
+      "name": "Crispy Gnocchi With Sausage and Broccoli",
+      "source_url": "https://cooking.nytimes.com/recipes/1025733-crispy-gnocchi-with-sausage-and-broccoli",
+      "cuisine": "italian",
+      "protein_primary": "meat",
+      "protein_notes": "Italian sausage pinched into meatballs - could sub veggie sausage (a commenter made it vegan with Beyond sausage and vegan parm)",
+      "vegetarian": false,
+      "vegan": false,
+      "servings": 4,
+      "prep_min": 10,
+      "cook_min": 35,
+      "total_min": 45,
+      "ingredients": [
+        {
+          "raw": "1 (12- to 18-ounce) package shelf-stable potato gnocchi",
+          "item": "shelf-stable potato gnocchi",
+          "quantity": 1,
+          "unit": "count",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 large head broccoli (about 1 pound), florets cut into 1 1/2- to 2-inch pieces, stems thinly sliced",
+          "item": "broccoli",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 cup extra-virgin olive oil",
+          "item": "extra-virgin olive oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 garlic cloves, finely grated",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "Salt",
+          "item": "salt",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "Crushed red pepper (optional)",
+          "item": "crushed red pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 pound hot or sweet Italian sausage, casings removed",
+          "item": "italian sausage",
+          "quantity": 1,
+          "unit": "lb",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 cup grated Parmesan, plus more for serving",
+          "item": "grated parmesan",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 lemon",
+          "item": "lemon",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 526,
+        "protein_g": 30,
+        "carbs_g": 44,
+        "fat_g": 27,
+        "fiber_g": 6,
+        "sodium_mg": 999,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "quick",
+        "hearty",
+        "kid-friendly"
+      ],
+      "notes": "Gnocchi go on the pan uncooked. Easily vegetarian/vegan with plant-based sausage and parm.",
+      "role": "main"
+    },
+    {
+      "id": "lentil-halloumi-curry",
+      "file": "Easy Lentil and Halloumi Curry - Easy Cheesy Vegetarian.mhtml",
+      "name": "Easy Lentil and Halloumi Curry",
+      "source_url": "https://www.easycheesyvegetarian.com/lentil-halloumi-curry/",
+      "cuisine": "indian",
+      "protein_primary": "lentils",
+      "protein_notes": "brown lentils plus fried halloumi; page suggests paneer as a halloumi sub",
+      "vegetarian": true,
+      "vegan": false,
+      "servings": 3,
+      "prep_min": 15,
+      "cook_min": 30,
+      "total_min": 45,
+      "ingredients": [
+        {
+          "raw": "1 tbsp oil",
+          "item": "oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 onion, sliced or diced",
+          "item": "onion",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 large courgette (zucchini), diced",
+          "item": "zucchini",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "6 medium mushrooms, diced",
+          "item": "mushrooms",
+          "quantity": 6,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "225 g (~8 oz / 1 small block) halloumi cheese, cut into bitesize pieces",
+          "item": "halloumi cheese",
+          "quantity": 225,
+          "unit": "g",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cloves garlic, minced",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "120 g (~2/3 cup) brown lentils",
+          "item": "brown lentils",
+          "quantity": 120,
+          "unit": "g",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "400 g tin chopped tomatoes (~1 1/3 cups)",
+          "item": "canned chopped tomatoes",
+          "quantity": 400,
+          "unit": "g",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "375 ml (~1 1/2 cups) vegetable stock",
+          "item": "vegetable stock",
+          "quantity": 375,
+          "unit": "ml",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tsp smoked paprika",
+          "item": "smoked paprika",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tsp garam masala",
+          "item": "garam masala",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 tsp ground cumin",
+          "item": "ground cumin",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Black pepper",
+          "item": "black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 451,
+        "protein_g": 27.5,
+        "carbs_g": 35.7,
+        "fat_g": 23.6,
+        "fiber_g": 8.6,
+        "sodium_mg": 764,
+        "source": "site"
+      },
+      "tags": [
+        "curry",
+        "one-pot",
+        "hearty",
+        "make-ahead"
+      ],
+      "notes": "Vegetables are flexible (peppers, eggplant, carrots, cauliflower, peas all work). Serve with rice or naan, cilantro, and yogurt/raita.",
+      "role": "main"
+    },
+    {
+      "id": "french-onion-baked-lentils-farro",
+      "file": "french onion baked lentils and farro \u00e2\u20ac\u201c smitten kitchen.mhtml",
+      "name": "French Onion Baked Lentils and Farro",
+      "source_url": "https://smittenkitchen.com/2024/01/french-onion-baked-lentils-and-farro/",
+      "cuisine": "french",
+      "protein_primary": "lentils",
+      "protein_notes": "Lentils and farro provide plant protein; gruyere cheese adds significant dairy protein",
+      "vegetarian": true,
+      "vegan": false,
+      "servings": 6,
+      "prep_min": null,
+      "cook_min": null,
+      "total_min": 105,
+      "ingredients": [
+        {
+          "raw": "2 pounds (910 grams) yellow onions (4 large or 5 medium), sliced",
+          "item": "yellow onions",
+          "quantity": 2,
+          "unit": "lb",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons (30 grams) unsalted butter",
+          "item": "unsalted butter",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "dairy-eggs",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tablespoon (15 grams) olive oil",
+          "item": "olive oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "Kosher salt and freshly ground black pepper",
+          "item": "kosher salt and black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tablespoons (30 ml) dry sherry, vermouth, or white wine (optional)",
+          "item": "dry sherry, vermouth, or white wine",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cloves garlic, minced",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 cups (300 grams) dried farro",
+          "item": "dried farro",
+          "quantity": 1.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3/4 cup (135 grams) dried lentils, green (le puy) or brown (italian)",
+          "item": "dried lentils",
+          "quantity": 0.75,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "A few sprigs of fresh thyme",
+          "item": "fresh thyme",
+          "quantity": null,
+          "unit": null,
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "6 cups (1.4 liters) vegetable broth + splashes more, if needed",
+          "item": "vegetable broth",
+          "quantity": 6,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cups (8 ounces or 225 grams) coarsely grated gruyere cheese",
+          "item": "gruyere cheese",
+          "quantity": 8,
+          "unit": "oz",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 535,
+        "protein_g": 24,
+        "carbs_g": 63,
+        "fat_g": 18,
+        "fiber_g": 10,
+        "sodium_mg": 1200,
+        "source": "estimated"
+      },
+      "tags": [
+        "one-pot",
+        "hearty",
+        "make-ahead",
+        "casserole",
+        "cozy"
+      ],
+      "notes": "Serves 6 to 8. Gluten-free option: sub shortgrain brown rice for farro. Keeps 4-5 days in fridge; base can be made ahead and cheese broiled before serving.",
+      "role": "main"
+    },
+    {
+      "id": "kale-power-salad-spicy-almond",
+      "file": "Kale Power Salad with Spicy Almond Dressing _ The First Mess.mhtml",
+      "name": "Kale Power Salad with Spicy Almond Dressing",
+      "source_url": "https://thefirstmess.com/2022/02/02/kale-power-salad-vegan-spicy-almond-dressing/",
+      "cuisine": "american",
+      "protein_primary": "tofu",
+      "protein_notes": "Crispy baked spiced tofu bits plus almonds in the dressing and as garnish",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 20,
+      "cook_min": 35,
+      "total_min": 55,
+      "ingredients": [
+        {
+          "raw": "1/2 cup sliced almonds, soaked for 1 hour and drained (dressing)",
+          "item": "sliced almonds",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 cloves garlic, peeled (dressing)",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tablespoon nutritional yeast (dressing)",
+          "item": "nutritional yeast",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons olive oil (dressing)",
+          "item": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tablespoon white wine vinegar (dressing)",
+          "item": "white wine vinegar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 tablespoon lime juice (dressing)",
+          "item": "lime juice",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 teaspoon Tamari (dressing)",
+          "item": "tamari",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 teaspoon maple syrup (dressing)",
+          "item": "maple syrup",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 teaspoon Dijon mustard (dressing)",
+          "item": "dijon mustard",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1-2 teaspoons hot sauce of choice (dressing)",
+          "item": "hot sauce",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 teaspoons nutritional yeast (salad)",
+          "item": "nutritional yeast",
+          "quantity": 2,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 1/2 teaspoons garlic powder",
+          "item": "garlic powder",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 teaspoons onion powder",
+          "item": "onion powder",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 teaspoons sweet paprika",
+          "item": "sweet paprika",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 teaspoons chili powder",
+          "item": "chili powder",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 medium sweet potatoes (about 500 grams), peeled and diced",
+          "item": "sweet potatoes",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 350 gram block firm OR extra firm tofu, drained and torn",
+          "item": "firm or extra-firm tofu",
+          "quantity": 350,
+          "unit": "g",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "4 tablespoons olive oil, divided (salad)",
+          "item": "olive oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tablespoons arrowroot powder",
+          "item": "arrowroot powder",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons cornmeal",
+          "item": "cornmeal",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "6 cups chopped kale, lightly packed",
+          "item": "kale",
+          "quantity": 6,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tablespoon lime juice (salad)",
+          "item": "lime juice",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 teaspoon maple syrup (salad)",
+          "item": "maple syrup",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 ripe avocado, peeled, pitted and chopped",
+          "item": "avocado",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 small red onion, sliced thin",
+          "item": "red onion",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 cup toasted sliced almonds",
+          "item": "toasted sliced almonds",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 570,
+        "protein_g": 15,
+        "carbs_g": 45,
+        "fat_g": 38,
+        "fiber_g": 10,
+        "sodium_mg": 450,
+        "source": "estimated"
+      },
+      "tags": [
+        "salad",
+        "sheet-pan",
+        "hearty",
+        "bowl",
+        "gluten-free"
+      ],
+      "notes": "Serves 4-6. Sunflower seeds or cashews can sub for almonds. Dressing is great doubled for grain bowls. Requires a blender.",
+      "role": "main"
+    },
+    {
+      "id": "one-pot-beans-greens-grains",
+      "file": "One-Pot Beans, Greens and Grains Recipe.mhtml",
+      "name": "One-Pot Beans, Greens and Grains",
+      "source_url": "https://cooking.nytimes.com/recipes/1026472-one-pot-beans-greens-and-grains",
+      "cuisine": "american",
+      "protein_primary": "beans",
+      "protein_notes": "One can of any beans plus quinoa; optional egg/cheese/nut toppings add more protein",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 5,
+      "cook_min": 35,
+      "total_min": 40,
+      "ingredients": [
+        {
+          "raw": "1 3/4 cups water or broth",
+          "item": "water or broth",
+          "quantity": 1.75,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 cup quinoa, long-grain white rice or a mix of the two, rinsed",
+          "item": "quinoa or long-grain white rice",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Salt and black pepper",
+          "item": "salt and black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 (14-ounce) can of any beans",
+          "item": "canned beans",
+          "quantity": 14,
+          "unit": "oz",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 small garlic clove",
+          "item": "garlic",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tablespoons extra-virgin olive oil",
+          "item": "extra-virgin olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 bunch collard greens, kale, spinach or other hearty dark leafy green",
+          "item": "collard greens, kale, or other dark leafy greens",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 lemon",
+          "item": "lemon",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Toppings (optional): toasted nuts or seeds, fresh herbs, cheese, soft-boiled egg, avocado, hot sauce",
+          "item": "optional toppings (nuts, herbs, cheese, egg, avocado, hot sauce)",
+          "quantity": null,
+          "unit": null,
+          "category": "other",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 381,
+        "protein_g": 13,
+        "carbs_g": 66,
+        "fat_g": 8,
+        "fiber_g": 8,
+        "sodium_mg": 852,
+        "source": "site"
+      },
+      "tags": [
+        "one-pot",
+        "quick",
+        "bowl",
+        "make-ahead",
+        "budget",
+        "weeknight"
+      ],
+      "notes": "Extremely flexible template: any beans, any hearty greens, quinoa/rice/other grains. Good warm or cold, works for grain-bowl lunches.",
+      "role": "main"
+    },
+    {
+      "id": "roasted-broccoli-tofu-peanut-bowls",
+      "file": "Roasted Broccoli and Tofu Bowls with Peanut Sauce \u00e2\u20ac\u00a2.mhtml",
+      "name": "Roasted Broccoli and Tofu Bowls with Peanut Sauce",
+      "source_url": "https://faithfulplateful.com/roasted-broccoli-and-tofu-bowls-with-peanut-sauce/",
+      "cuisine": "asian-inspired",
+      "protein_primary": "tofu",
+      "protein_notes": "Marinated baked extra-firm tofu plus peanut butter sauce and optional peanut garnish",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": null,
+      "cook_min": 30,
+      "total_min": null,
+      "ingredients": [
+        {
+          "raw": "1 block (12-16 oz) extra-firm or super firm tofu",
+          "item": "extra-firm tofu",
+          "quantity": 14,
+          "unit": "oz",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 TBSP soy sauce (marinade)",
+          "item": "soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 TBSP rice vinegar (marinade)",
+          "item": "rice vinegar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 TBSP sesame oil (optional) (marinade)",
+          "item": "sesame oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 clove garlic, minced (marinade)",
+          "item": "garlic",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 TBSP fresh ginger, grated (or 1 tsp dry ginger powder)",
+          "item": "fresh ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 TBSP arrowroot powder or cornstarch",
+          "item": "arrowroot powder or cornstarch",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/4 cup natural peanut butter (sauce)",
+          "item": "natural peanut butter",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 TBSP soy sauce (sauce)",
+          "item": "soy sauce",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 TBSP rice vinegar (sauce)",
+          "item": "rice vinegar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 TBSP maple syrup (sauce)",
+          "item": "maple syrup",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 clove garlic, minced (sauce)",
+          "item": "garlic",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tsp sesame oil (optional) (sauce)",
+          "item": "sesame oil",
+          "quantity": 2,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 1/2 cups brown or white rice",
+          "item": "brown or white rice",
+          "quantity": 1.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 bunches broccoli (about 1 lb) (even frozen works)",
+          "item": "broccoli",
+          "quantity": 1,
+          "unit": "lb",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 red bell pepper, chopped into 1-inch pieces",
+          "item": "red bell pepper",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 large orange sweet potato, cubed",
+          "item": "sweet potato",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 cup carrots, zucchini, or other vegetables (optional)",
+          "item": "carrots or zucchini",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "garnish: chopped peanuts, cilantro, sesame seeds, green onions, chili garlic sauce (optional)",
+          "item": "garnishes (peanuts, cilantro, sesame seeds, green onions)",
+          "quantity": null,
+          "unit": null,
+          "category": "other",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 610,
+        "protein_g": 21,
+        "carbs_g": 76,
+        "fat_g": 25,
+        "fiber_g": 9,
+        "sodium_mg": 950,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "sheet-pan",
+        "hearty",
+        "gluten-free",
+        "make-ahead"
+      ],
+      "notes": "Tofu can marinate 10 minutes up to several days. Frozen broccoli works without thawing. Doubling the peanut sauce is recommended.",
+      "role": "main"
+    },
+    {
+      "id": "romanesco-glow-salad",
+      "file": "Romanesco Glow Salad \u00e2\u20ac\u201d Luna Yoga Montreal _ Yoga Classes, Jivamukti, Yoga Flo, Teacher Training.mhtml",
+      "name": "Meyer Lemon Romanesco Glow Salad",
+      "source_url": "https://www.lunayoga.ca/blog/romanesco-glow-salad",
+      "cuisine": "american",
+      "protein_primary": "nuts-seeds",
+      "protein_notes": "Walnuts are the only notable protein source; this is a light side-style salad",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 20,
+      "cook_min": null,
+      "total_min": 20,
+      "ingredients": [
+        {
+          "raw": "1/4 teaspoon Meyer lemon zest (dressing)",
+          "item": "meyer lemon zest",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tablespoon fresh Meyer lemon juice (dressing)",
+          "item": "meyer lemon juice",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 teaspoon Dijon mustard (dressing)",
+          "item": "dijon mustard",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tablespoons grapeseed or other neutral-flavoured oil (dressing)",
+          "item": "grapeseed or neutral oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 medium head Romanesco broccoli (or cauliflower), broken up into florets",
+          "item": "romanesco broccoli or cauliflower",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 medium sweet apple, cored and chopped",
+          "item": "sweet apple",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 stalk celery, small dice",
+          "item": "celery",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 cup seedless grapes, halved",
+          "item": "seedless grapes",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3 green onions, thinly sliced",
+          "item": "green onions",
+          "quantity": 3,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 teaspoons minced fresh sage (about 1 sprig)",
+          "item": "fresh sage",
+          "quantity": 2,
+          "unit": "tsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/3 cup walnut halves, toasted and chopped",
+          "item": "walnut halves",
+          "quantity": 0.33,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 190,
+        "protein_g": 4,
+        "carbs_g": 17,
+        "fat_g": 13,
+        "fiber_g": 4,
+        "sodium_mg": 100,
+        "source": "estimated"
+      },
+      "tags": [
+        "salad",
+        "light",
+        "no-cook",
+        "quick",
+        "make-ahead"
+      ],
+      "notes": "Romanesco is blitzed in a food processor to couscous texture. Keeps refrigerated up to 3 days. Light on protein \u00e2\u20ac\u201d best as a side or paired with a protein.",
+      "role": "light"
+    },
+    {
+      "id": "sheet-pan-ratatouille-tofu",
+      "file": "Sheet Pan Ratatouille with Crispy Baked Tofu - Minimalist Baker Recipes.mhtml",
+      "name": "Sheet Pan Ratatouille with Crispy Baked Tofu",
+      "source_url": "https://minimalistbaker.com/sheet-pan-ratatouille-with-crispy-baked-tofu/",
+      "cuisine": "french",
+      "protein_primary": "tofu",
+      "protein_notes": "Crispy Baked Italian Herb Tofu (separate linked sub-recipe, 1 batch) provides the protein",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 15,
+      "cook_min": 30,
+      "total_min": 45,
+      "ingredients": [
+        {
+          "raw": "1 medium zucchini, halved lengthwise and sliced",
+          "item": "zucchini",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 medium eggplant, cut into 1-inch pieces",
+          "item": "eggplant",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 medium red onion, diced",
+          "item": "red onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 medium red bell pepper, cut into 1/2-inch pieces",
+          "item": "red bell pepper",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 Tbsp dried Italian herbs (or sub dried oregano + basil)",
+          "item": "dried italian herbs",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "spices",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 Tbsp olive oil",
+          "item": "olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 cup whole cherry tomatoes",
+          "item": "cherry tomatoes",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 batch Crispy Baked Tofu with Italian Herbs (14 oz firm tofu + herbs)",
+          "item": "firm tofu",
+          "quantity": 14,
+          "unit": "oz",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Creamy Pesto Sauce (vegan pesto + cashews or store-bought)",
+          "item": "vegan pesto sauce",
+          "quantity": 1,
+          "unit": "count",
+          "category": "other",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Pasta, polenta, or grain of choice (optional)",
+          "item": "pasta, polenta, or grain of choice",
+          "quantity": null,
+          "unit": null,
+          "category": "pantry",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 399,
+        "protein_g": 18.8,
+        "carbs_g": 21.7,
+        "fat_g": 29.5,
+        "fiber_g": 7.6,
+        "sodium_mg": 1131,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "hearty",
+        "make-ahead",
+        "gluten-free"
+      ],
+      "notes": "Requires two linked sub-recipes (Crispy Baked Italian Herb Tofu, Creamy Pesto Sauce). Freezer friendly 1 month; keeps 3-4 days.",
+      "role": "main"
+    },
+    {
+      "id": "sheet-pan-baked-feta-broccolini",
+      "file": "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon Recipe.mhtml",
+      "name": "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+      "source_url": "https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon",
+      "cuisine": "mediterranean",
+      "protein_primary": "cheese",
+      "protein_notes": "Two 6-8 oz blocks of feta roasted with vegetables; commenters say one block is plenty",
+      "vegetarian": true,
+      "vegan": false,
+      "servings": 4,
+      "prep_min": null,
+      "cook_min": null,
+      "total_min": 25,
+      "ingredients": [
+        {
+          "raw": "1 bunch broccolini, ends trimmed, or broccoli",
+          "item": "broccolini",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 pint grape tomatoes, halved (about 2 cups)",
+          "item": "grape tomatoes",
+          "quantity": 2,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 small red onion, peeled, quartered and cut into wedges",
+          "item": "red onion",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 lemon, 1/2 cut into thin rounds, 1/2 for serving",
+          "item": "lemon",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3 tablespoons olive oil, plus more for serving",
+          "item": "olive oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 teaspoon ground cumin",
+          "item": "ground cumin",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 teaspoon red-pepper flakes",
+          "item": "red pepper flakes",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 (6- to 8-ounce) blocks feta, cut into 1-inch slices",
+          "item": "feta cheese",
+          "quantity": 14,
+          "unit": "oz",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Cooked orzo or farro, for serving",
+          "item": "orzo or farro",
+          "quantity": null,
+          "unit": null,
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 cup fresh basil or cilantro leaves, roughly chopped (optional)",
+          "item": "fresh basil or cilantro",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 548,
+        "protein_g": 24,
+        "carbs_g": 43,
+        "fat_g": 33,
+        "fiber_g": 7,
+        "sodium_mg": 1188,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "quick",
+        "hearty"
+      ],
+      "notes": "Broccoli can substitute for broccolini. Serve over orzo or farro. Several commenters use only one block of feta. Best served hot.",
+      "role": "main"
+    },
+    {
+      "id": "sweet-chile-grain-bowl-tofu",
+      "file": "Sweet Chile Grain Bowl With Tofu Recipe.mhtml",
+      "name": "Sweet Chile Grain Bowl With Tofu",
+      "source_url": "https://cooking.nytimes.com/recipes/1024956-sweet-chile-grain-bowl-with-tofu",
+      "cuisine": "asian-inspired",
+      "protein_primary": "tofu",
+      "protein_notes": "One 14-16 oz package firm/extra-firm tofu, pressed and roasted with chile-crisp sauce",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 20,
+      "cook_min": 30,
+      "total_min": 50,
+      "ingredients": [
+        {
+          "raw": "1 (14- to 16-ounce) package firm or extra-firm tofu",
+          "item": "firm or extra-firm tofu",
+          "quantity": 14,
+          "unit": "oz",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 cup neutral oil, such as grapeseed",
+          "item": "neutral oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 garlic cloves, grated or minced",
+          "item": "garlic",
+          "quantity": 2,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/4 cup ketchup",
+          "item": "ketchup",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 tablespoons soy sauce",
+          "item": "soy sauce",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 tablespoons fish sauce (or substitute Yondu, coconut aminos, or more soy sauce)",
+          "item": "fish sauce",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tablespoon chile crisp, more to taste",
+          "item": "chile crisp",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 teaspoon rice vinegar",
+          "item": "rice vinegar",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1 1/2 cups cherry tomatoes, halved",
+          "item": "cherry tomatoes",
+          "quantity": 1.5,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 1/2 pounds napa cabbage, halved lengthwise, cored and sliced",
+          "item": "napa cabbage",
+          "quantity": 1.5,
+          "unit": "lb",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 bunch scallions, thinly sliced",
+          "item": "scallions",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 lime, cut into wedges",
+          "item": "lime",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "4 cups cooked grains (rice, farro, barley, millet) or salad greens",
+          "item": "cooked grains (rice, farro, barley, or millet)",
+          "quantity": 4,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Chopped cilantro, for serving",
+          "item": "cilantro",
+          "quantity": null,
+          "unit": null,
+          "category": "produce",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 284,
+        "protein_g": 15,
+        "carbs_g": 20,
+        "fat_g": 19,
+        "fiber_g": 6,
+        "sodium_mg": 1143,
+        "source": "site"
+      },
+      "tags": [
+        "bowl",
+        "sheet-pan",
+        "make-ahead"
+      ],
+      "notes": "Contains fish sauce as written; recipe offers subs (Yondu, coconut aminos, or more soy sauce) to make it plant-based. Nutrition likely excludes the grains.",
+      "role": "main"
+    },
+    {
+      "id": "telegraph-rainbow-salad",
+      "file": "Telegraph Rainbow Salad _ TASTE.mhtml",
+      "name": "Telegraph Rainbow Salad",
+      "source_url": "https://tastecooking.com/recipes/telegraph-rainbow-salad/",
+      "cuisine": "american",
+      "protein_primary": "beans",
+      "protein_notes": "Kidney beans and chickpeas plus tahini and sunflower seeds; mixed plant proteins",
+      "vegetarian": true,
+      "vegan": false,
+      "servings": 4,
+      "prep_min": null,
+      "cook_min": null,
+      "total_min": null,
+      "ingredients": [
+        {
+          "raw": "4-5 handfuls of baby romaine or Little Gem lettuce",
+          "item": "baby romaine or little gem lettuce",
+          "quantity": null,
+          "unit": null,
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Handful of cherry tomatoes, halved",
+          "item": "cherry tomatoes",
+          "quantity": null,
+          "unit": null,
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3/4 c kidney beans",
+          "item": "kidney beans",
+          "quantity": 0.75,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "3/4 c chickpeas",
+          "item": "chickpeas",
+          "quantity": 0.75,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 celery stalk, thinly sliced",
+          "item": "celery",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 carrot, scrubbed and sliced into thin coins",
+          "item": "carrot",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Big handful of whole grain croutons or crumbled Lemon-Garlic Pita Chips",
+          "item": "whole grain croutons or pita chips",
+          "quantity": null,
+          "unit": null,
+          "category": "bakery",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 c tahini",
+          "item": "tahini",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/3 c freshly squeezed orange juice",
+          "item": "orange juice",
+          "quantity": 0.33,
+          "unit": "cup",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tbsp ponzu or 1 tablespoon tamari",
+          "item": "ponzu or tamari",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tsp honey",
+          "item": "honey",
+          "quantity": 1,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/3 c toasted sunflower seeds, to serve",
+          "item": "toasted sunflower seeds",
+          "quantity": 0.33,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 11,
+        "carbs_g": 32,
+        "fat_g": 16,
+        "fiber_g": 7,
+        "sodium_mg": 350,
+        "source": "estimated"
+      },
+      "tags": [
+        "salad",
+        "quick",
+        "light",
+        "no-cook"
+      ],
+      "notes": "Meal-size loaded salad with orange-tahini-ponzu dressing (leftover dressing keeps 5 days refrigerated). Sub maple syrup for honey to veganize.",
+      "role": "main"
+    }
+  ]
+}

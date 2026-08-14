@@ -1,0 +1,113 @@
+{
+  "week_of": "2026-07-26",
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "artichoke-vegan-fish-tacos",
+      "name": "Artichoke Tacos (Vegan Fish Tacos)",
+      "protein": "none",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": "https://forkfulofplants.com/artichoke-tacos-vegan-fish-tacos/",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 10,
+        "carbs_g": 52,
+        "fat_g": 21,
+        "fiber_g": 9,
+        "sodium_mg": 750,
+        "source": "estimated"
+      },
+      "tags": [
+        "tacos",
+        "light",
+        "vegan"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "sheet-pan-baked-feta-broccolini",
+      "name": "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+      "protein": "cheese",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 25,
+      "servings": 4,
+      "source_url": "https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon",
+      "nutrition_per_serving": {
+        "calories": 548,
+        "protein_g": 24,
+        "carbs_g": 43,
+        "fat_g": 33,
+        "fiber_g": 7,
+        "sodium_mg": 1188,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "quick",
+        "hearty"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "coconut-lime-rice-peanuts",
+      "name": "Creamy Coconut-Lime Rice With Peanuts",
+      "protein": "nuts-seeds",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 30,
+      "servings": 4,
+      "source_url": "https://cooking.nytimes.com/recipes/1025612-creamy-coconut-lime-rice-with-peanuts",
+      "nutrition_per_serving": {
+        "calories": 582,
+        "protein_g": 14,
+        "carbs_g": 63,
+        "fat_g": 35,
+        "fiber_g": 9,
+        "sodium_mg": 684,
+        "source": "site"
+      },
+      "tags": [
+        "bowl",
+        "salad",
+        "quick",
+        "light",
+        "make-ahead"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "banh-mi-rice-bowls",
+      "name": "25 Minute Banh Mi Rice Bowls",
+      "protein": "meat",
+      "vegetarian": false,
+      "veg_sub_note": "1.5 lb ground chicken or pork - commenters subbed mushrooms; crumbled tofu would also work with same sauce",
+      "total_min": 25,
+      "servings": 6,
+      "source_url": "https://www.halfbakedharvest.com/banh-mi-rice-bowls/",
+      "nutrition_per_serving": {
+        "calories": 530,
+        "protein_g": 28,
+        "carbs_g": 45,
+        "fat_g": 26,
+        "fiber_g": 4,
+        "sodium_mg": 1600,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "bowl",
+        "weeknight"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 522,
+    "protein_g": 19.0,
+    "carbs_g": 50.8,
+    "fat_g": 28.8
+  }
+}

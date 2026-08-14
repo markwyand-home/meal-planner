@@ -1,0 +1,22 @@
+{
+  "weeks": [
+    {
+      "week_of": "2026-07-26",
+      "meals": [
+        "artichoke-vegan-fish-tacos",
+        "sheet-pan-baked-feta-broccolini",
+        "coconut-lime-rice-peanuts",
+        "banh-mi-rice-bowls"
+      ]
+    },
+    {
+      "week_of": "2026-08-09",
+      "meals": [
+        "one-pot-beans-greens-grains",
+        "lentil-halloumi-curry",
+        "charred-cauliflower-halloumi-pitas",
+        "sheet-pan-ratatouille-tofu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "week_of": "2026-07-26",
+  "meals": [
+    "Artichoke Tacos (Vegan Fish Tacos)",
+    "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+    "Creamy Coconut-Lime Rice With Peanuts",
+    "25 Minute Banh Mi Rice Bowls"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "avocado",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)",
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 avocado"
+      },
+      {
+        "item": "broccolini",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "1 broccolini"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "2 cup cherry tomatoes"
+      },
+      {
+        "item": "fresh basil or cilantro",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "0.5 cup fresh basil or cilantro"
+      },
+      {
+        "item": "fresh dill",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "2 fresh dill"
+      },
+      {
+        "item": "ginger",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "1 ginger"
+      },
+      {
+        "item": "grape tomatoes",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "2 cup grape tomatoes"
+      },
+      {
+        "item": "green onions",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "2 green onions"
+      },
+      {
+        "item": "lemon",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)",
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "2 lemon"
+      },
+      {
+        "item": "lemon juice",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tbsp lemon juice"
+      },
+      {
+        "item": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 tbsp lime juice"
+      },
+      {
+        "item": "limes",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "2 limes"
+      },
+      {
+        "item": "mixed fresh herbs (cilantro, thai basil, mint)",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "1 cup mixed fresh herbs (cilantro, thai basil, mint)"
+      },
+      {
+        "item": "mixed fresh herbs (dill, cilantro, mint)",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "1 cup mixed fresh herbs (dill, cilantro, mint)"
+      },
+      {
+        "item": "persian cucumbers",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 persian cucumbers"
+      },
+      {
+        "item": "red cabbage",
+        "quantity": 0.25,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "0.25 red cabbage"
+      },
+      {
+        "item": "red onion",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "1 red onion"
+      },
+      {
+        "item": "serrano or jalapeno pepper",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "1 serrano or jalapeno pepper"
+      },
+      {
+        "item": "shallots",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 shallots"
+      },
+      {
+        "item": "shredded or pickled carrots",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "1 cup shredded or pickled carrots"
+      },
+      {
+        "item": "tomatoes",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "2 tomatoes"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "almond milk",
+        "quantity": 125.0,
+        "unit": "ml",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "125 ml almond milk"
+      },
+      {
+        "item": "feta cheese",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "14 oz feta cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "soft taco shells (wheat or corn tortillas)",
+        "quantity": 4.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "4 soft taco shells (wheat or corn tortillas)"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "canned artichoke hearts",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 canned artichoke hearts"
+      },
+      {
+        "item": "caper brine",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "2 tbsp caper brine"
+      },
+      {
+        "item": "capers",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tbsp capers"
+      },
+      {
+        "item": "chickpea flour",
+        "quantity": 100.0,
+        "unit": "g",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "100 g chickpea flour"
+      },
+      {
+        "item": "chili paste",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 tbsp chili paste"
+      },
+      {
+        "item": "coconut milk",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "1 coconut milk"
+      },
+      {
+        "item": "fish sauce",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 tbsp fish sauce"
+      },
+      {
+        "item": "jasmine rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "1 cup jasmine rice"
+      },
+      {
+        "item": "maple syrup",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 tbsp maple syrup"
+      },
+      {
+        "item": "orzo or farro",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "orzo or farro"
+      },
+      {
+        "item": "panko breadcrumbs",
+        "quantity": 60.0,
+        "unit": "g",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "60 g panko breadcrumbs"
+      },
+      {
+        "item": "pickled ginger",
+        "quantity": 0.33,
+        "unit": "cup",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "0.33 cup pickled ginger"
+      },
+      {
+        "item": "roasted salted peanuts",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "0.5 cup roasted salted peanuts"
+      },
+      {
+        "item": "sambal oelek",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "2 tsp sambal oelek"
+      },
+      {
+        "item": "seaweed flakes (nori or dulse)",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tbsp seaweed flakes (nori or dulse)"
+      },
+      {
+        "item": "sesame seeds and peanuts",
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "3 tbsp sesame seeds and peanuts"
+      },
+      {
+        "item": "toasted sesame oil",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "2 tbsp toasted sesame oil"
+      },
+      {
+        "item": "vegan mayonnaise",
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "4 tbsp vegan mayonnaise"
+      }
+    ],
+    "spices": [
+      {
+        "item": "ground cumin",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "1 tsp ground cumin"
+      },
+      {
+        "item": "old bay seasoning",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tsp old bay seasoning"
+      }
+    ],
+    "other": [
+      {
+        "item": "ground chicken or pork",
+        "quantity": 1.5,
+        "unit": "lb",
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "1.5 lb ground chicken or pork"
+      },
+      {
+        "item": "spicy mayo",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "25 Minute Banh Mi Rice Bowls"
+        ],
+        "display": "spicy mayo"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

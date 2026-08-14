@@ -1,0 +1,277 @@
+{
+  "week_of": "2026-08-09",
+  "meals": [
+    "One-Pot Beans, Greens and Grains",
+    "Easy Lentil and Halloumi Curry",
+    "Charred Cauliflower Pitas with Halloumi and Harissa",
+    "Sheet Pan Ratatouille with Crispy Baked Tofu"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "arugula",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 cup arugula"
+      },
+      {
+        "item": "cauliflower",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "1 cauliflower"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 cup cherry tomatoes"
+      },
+      {
+        "item": "collard greens, kale, or other dark leafy greens",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "One-Pot Beans, Greens and Grains"
+        ],
+        "display": "1 collard greens, kale, or other dark leafy greens"
+      },
+      {
+        "item": "eggplant",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 eggplant"
+      },
+      {
+        "item": "lemon",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "One-Pot Beans, Greens and Grains"
+        ],
+        "display": "1 lemon"
+      },
+      {
+        "item": "mushrooms",
+        "quantity": 6.0,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "6 mushrooms"
+      },
+      {
+        "item": "onion",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 onion"
+      },
+      {
+        "item": "red bell pepper",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "0.5 red bell pepper"
+      },
+      {
+        "item": "red onion",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "0.5 red onion"
+      },
+      {
+        "item": "zucchini",
+        "quantity": 1.5,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry",
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1.5 zucchini"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "halloumi cheese",
+        "quantity": 225.0,
+        "unit": "g",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "225 g halloumi cheese"
+      },
+      {
+        "item": "halloumi cheese",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "8 oz halloumi cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "pita bread",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 pita bread"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "brown lentils",
+        "quantity": 120.0,
+        "unit": "g",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "120 g brown lentils"
+      },
+      {
+        "item": "canned beans",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "One-Pot Beans, Greens and Grains"
+        ],
+        "display": "14 oz canned beans"
+      },
+      {
+        "item": "canned chopped tomatoes",
+        "quantity": 400.0,
+        "unit": "g",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "400 g canned chopped tomatoes"
+      },
+      {
+        "item": "harissa",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "0.5 cup harissa"
+      },
+      {
+        "item": "pasta, polenta, or grain of choice",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "pasta, polenta, or grain of choice"
+      },
+      {
+        "item": "quinoa or long-grain white rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "One-Pot Beans, Greens and Grains"
+        ],
+        "display": "1 cup quinoa or long-grain white rice"
+      },
+      {
+        "item": "vegetable stock",
+        "quantity": 375.0,
+        "unit": "ml",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "375 ml vegetable stock"
+      }
+    ],
+    "spices": [
+      {
+        "item": "dried italian herbs",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 tbsp dried italian herbs"
+      },
+      {
+        "item": "garam masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 tsp garam masala"
+      },
+      {
+        "item": "ground cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "0.5 tsp ground cumin"
+      },
+      {
+        "item": "smoked paprika",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 tsp smoked paprika"
+      }
+    ],
+    "other": [
+      {
+        "item": "firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "14 oz firm tofu"
+      },
+      {
+        "item": "optional toppings (nuts, herbs, cheese, egg, avocado, hot sauce)",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "One-Pot Beans, Greens and Grains"
+        ],
+        "display": "optional toppings (nuts, herbs, cheese, egg, avocado, hot sauce)"
+      },
+      {
+        "item": "vegan pesto sauce",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 vegan pesto sauce"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

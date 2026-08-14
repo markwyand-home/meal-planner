@@ -1,0 +1,117 @@
+{
+  "week_of": "2026-08-09",
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "one-pot-beans-greens-grains",
+      "name": "One-Pot Beans, Greens and Grains",
+      "protein": "beans",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 40,
+      "servings": 4,
+      "source_url": "https://cooking.nytimes.com/recipes/1026472-one-pot-beans-greens-and-grains",
+      "nutrition_per_serving": {
+        "calories": 381,
+        "protein_g": 13,
+        "carbs_g": 66,
+        "fat_g": 8,
+        "fiber_g": 8,
+        "sodium_mg": 852,
+        "source": "site"
+      },
+      "tags": [
+        "one-pot",
+        "quick",
+        "bowl",
+        "make-ahead",
+        "budget",
+        "weeknight"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "lentil-halloumi-curry",
+      "name": "Easy Lentil and Halloumi Curry",
+      "protein": "lentils",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 3,
+      "source_url": "https://www.easycheesyvegetarian.com/lentil-halloumi-curry/",
+      "nutrition_per_serving": {
+        "calories": 451,
+        "protein_g": 27.5,
+        "carbs_g": 35.7,
+        "fat_g": 23.6,
+        "fiber_g": 8.6,
+        "sodium_mg": 764,
+        "source": "site"
+      },
+      "tags": [
+        "curry",
+        "one-pot",
+        "hearty",
+        "make-ahead"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "charred-cauliflower-halloumi-pitas",
+      "name": "Charred Cauliflower Pitas with Halloumi and Harissa",
+      "protein": "halloumi",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 30,
+      "servings": 4,
+      "source_url": "https://parentscanada.com/food/charred-cauliflower-pitas-with-halloumi-and-harissa-recipe/",
+      "nutrition_per_serving": {
+        "calories": 288,
+        "protein_g": 17,
+        "carbs_g": 24,
+        "fat_g": 19,
+        "fiber_g": null,
+        "sodium_mg": null,
+        "source": "site"
+      },
+      "tags": [
+        "sandwich",
+        "sheet-pan",
+        "hearty",
+        "quick"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "sheet-pan-ratatouille-tofu",
+      "name": "Sheet Pan Ratatouille with Crispy Baked Tofu",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": "https://minimalistbaker.com/sheet-pan-ratatouille-with-crispy-baked-tofu/",
+      "nutrition_per_serving": {
+        "calories": 399,
+        "protein_g": 18.8,
+        "carbs_g": 21.7,
+        "fat_g": 29.5,
+        "fiber_g": 7.6,
+        "sodium_mg": 1131,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "hearty",
+        "make-ahead",
+        "gluten-free"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 380,
+    "protein_g": 19.1,
+    "carbs_g": 36.9,
+    "fat_g": 20.0
+  }
+}
