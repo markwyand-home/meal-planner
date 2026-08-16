@@ -24,7 +24,7 @@
           "pantry_staple": false
         },
         {
-          "raw": "1 Serrano or jalape\u00c3\u00b1o pepper, seeded and sliced",
+          "raw": "1 Serrano or jalapeÃ±o pepper, seeded and sliced",
           "item": "serrano or jalapeno pepper",
           "quantity": 1,
           "unit": "count",
@@ -662,7 +662,15 @@
         "weeknight"
       ],
       "notes": "From Heidi Swanson's Super Natural Simple. Needs cold pre-cooked rice (make ahead). Very fast active cooking (~10 min).",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Heat 1 tablespoon of the sesame oil in a large skillet or wok over high heat. Add green onions and asparagus and cook for 3 to 4 minutes, until green onions soften.",
+        "Stir in garlic and ginger. Wait 30 seconds, then add rice and stir to separate the grains. Cook for about 3 minutes, until rice is hot, then stir in kale.",
+        "Shift rice and vegetables to the sides of the skillet and add remaining 1/2 tablespoon sesame oil to the pan. Add eggs and push them around until just set. Break up eggs with a spatula.",
+        "Drizzle in tamari and stir-fry everything together until well-combined, about 30 seconds.",
+        "To serve, drizzle with chile-sesame oil if you like a bit of heat and sprinkle with lemon zest. Serve immediately."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/big-green-fried-rice.html"
     },
     {
       "id": "broccoli-caesar-tempeh",
@@ -1108,7 +1116,13 @@
         "light"
       ],
       "notes": "Vegan pan bagnat spin. Chickpea mixture keeps 3 days in fridge. Veggies are flexible. 1.5 cups chickpeas = one can. Use a soft baguette.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Make the chickpea salad: in a food processor, combine the chickpeas, tahini, Dijon mustard, garlic, capers, green onion, cilantro, lemon juice, and a pinch of salt and pepper. Pulse until combined but not pureed. Season to taste.",
+        "Blanch the green beans: boil in salted water 1½ minutes, then transfer to an ice water bath to stop cooking. Drain, pat dry, and chop into 1-inch pieces.",
+        "Assemble the sandwiches: spread the chickpea salad on one side of the baguette. Press the green beans into the chickpea salad and top with the olives and red onion. Spread mayo on the other half and top with cucumber, radish, and basil. Season with salt and pepper, press together, slice, and serve."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/chickpea-salad-sandwich.html"
     },
     {
       "id": "coconut-lime-rice-peanuts",
@@ -1487,7 +1501,7 @@
     },
     {
       "id": "french-onion-baked-lentils-farro",
-      "file": "french onion baked lentils and farro \u00e2\u20ac\u201c smitten kitchen.mhtml",
+      "file": "french onion baked lentils and farro â€“ smitten kitchen.mhtml",
       "name": "French Onion Baked Lentils and Farro",
       "source_url": "https://smittenkitchen.com/2024/01/french-onion-baked-lentils-and-farro/",
       "cuisine": "french",
@@ -1606,7 +1620,15 @@
         "cozy"
       ],
       "notes": "Serves 6 to 8. Gluten-free option: sub shortgrain brown rice for farro. Keeps 4-5 days in fridge; base can be made ahead and cheese broiled before serving.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Caramelize the onions: heat butter and olive oil in a large, deep saute pan (ovenproof if you have one) over medium heat. Add the onions, toss to coat, and cover. Reduce heat to medium-low and let steep 15-20 minutes. Uncover, raise heat to medium-high, stir in about 2 tsp kosher salt, and cook, stirring every few minutes, until brown, soft, and sweet, about 20 minutes more, reducing heat to medium once their liquid cooks off.",
+        "Heat the oven to 375°F (190°C).",
+        "Assemble the casserole: add garlic to the onions and cook, stirring, 1 minute. Add the sherry (if using) and cook until it disappears. Add the farro and cook 2 minutes. Add the lentils, 6 cups broth, and thyme, and bring to a simmer. Season well with salt and pepper. If your pan isn't ovenproof, transfer to a casserole dish.",
+        "Bake, covered, stirring about halfway through, until the lentils and farro are tender, 40-50 minutes. If the liquid absorbs before then, add another 1/4-1/2 cup broth — aim for a risotto-like looseness. Fish out the thyme stems.",
+        "Sprinkle with gruyere and broil until browned on top."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/french-onion-baked-lentils-farro.html"
     },
     {
       "id": "kale-power-salad-spicy-almond",
@@ -1849,7 +1871,17 @@
         "gluten-free"
       ],
       "notes": "Serves 4-6. Sunflower seeds or cashews can sub for almonds. Dressing is great doubled for grain bowls. Requires a blender.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Preheat the oven to 425°F. Line a large baking sheet with parchment paper.",
+        "Make the spicy almond dressing: in a blender, combine the almonds, garlic, nutritional yeast, water, olive oil, white wine vinegar, lime juice, tamari, maple syrup, Dijon mustard, hot sauce, salt, and pepper. Blend until smooth and creamy, adding a splash more water if too thick. Taste and adjust seasoning; set aside.",
+        "Make a spice blend: stir together the nutritional yeast, garlic powder, onion powder, paprika, and chili powder. Put the sweet potatoes in one bowl and the tofu in another; blot the tofu very dry with a clean towel first.",
+        "Divide the spice blend between the sweet potatoes and tofu. Drizzle both with olive oil (1½ tbsp each) and season with salt and pepper. Add the arrowroot and cornmeal to the tofu only, then toss each until evenly coated.",
+        "Spread the sweet potatoes and tofu on opposite sides of the baking sheet, giving each piece space. Roast 35 minutes, stirring/flipping halfway, until the sweet potatoes are tender and the tofu is crunchy outside.",
+        "Combine the kale with the remaining tablespoon of olive oil, lime juice, maple syrup, salt, and pepper in a large bowl. Massage with your hands until slightly tenderized, about 1 minute.",
+        "Drizzle the kale with some of the dressing, then top with the roasted sweet potatoes, tofu, avocado, and red onion. Drizzle with more dressing and finish with the toasted sliced almonds. Serve immediately."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/kale-power-salad-spicy-almond.html"
     },
     {
       "id": "one-pot-beans-greens-grains",
@@ -1961,7 +1993,7 @@
     },
     {
       "id": "roasted-broccoli-tofu-peanut-bowls",
-      "file": "Roasted Broccoli and Tofu Bowls with Peanut Sauce \u00e2\u20ac\u00a2.mhtml",
+      "file": "Roasted Broccoli and Tofu Bowls with Peanut Sauce â€¢.mhtml",
       "name": "Roasted Broccoli and Tofu Bowls with Peanut Sauce",
       "source_url": "https://faithfulplateful.com/roasted-broccoli-and-tofu-bowls-with-peanut-sauce/",
       "cuisine": "asian-inspired",
@@ -2148,7 +2180,7 @@
     },
     {
       "id": "romanesco-glow-salad",
-      "file": "Romanesco Glow Salad \u00e2\u20ac\u201d Luna Yoga Montreal _ Yoga Classes, Jivamukti, Yoga Flo, Teacher Training.mhtml",
+      "file": "Romanesco Glow Salad â€” Luna Yoga Montreal _ Yoga Classes, Jivamukti, Yoga Flo, Teacher Training.mhtml",
       "name": "Meyer Lemon Romanesco Glow Salad",
       "source_url": "https://www.lunayoga.ca/blog/romanesco-glow-salad",
       "cuisine": "american",
@@ -2266,8 +2298,15 @@
         "quick",
         "make-ahead"
       ],
-      "notes": "Romanesco is blitzed in a food processor to couscous texture. Keeps refrigerated up to 3 days. Light on protein \u00e2\u20ac\u201d best as a side or paired with a protein.",
-      "role": "light"
+      "notes": "Romanesco is blitzed in a food processor to couscous texture. Keeps refrigerated up to 3 days. Light on protein â€” best as a side or paired with a protein.",
+      "role": "light",
+      "instructions": [
+        "Make the dressing: in a small bowl, whisk together the Meyer lemon zest, lemon juice, Dijon mustard, grapeseed oil, salt, and pepper until combined. Set aside.",
+        "Make the salad: working in batches, pulse the Romanesco florets in a food processor until couscous-like in size and texture. Transfer to a large bowl.",
+        "Add the apple, celery, grapes, green onions, sage, and walnuts to the bowl. Season with salt and pepper and toss to combine.",
+        "Pour the dressing over the salad and toss. Serve immediately, or store in the fridge up to 3 days."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/romanesco-glow-salad.html"
     },
     {
       "id": "sheet-pan-ratatouille-tofu",
@@ -2639,7 +2678,18 @@
         "make-ahead"
       ],
       "notes": "Contains fish sauce as written; recipe offers subs (Yondu, coconut aminos, or more soy sauce) to make it plant-based. Nutrition likely excludes the grains.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Heat oven to 425F. Line a baking sheet with parchment paper.",
+        "Cut the tofu into 1-inch-thick slabs. Cut each slab in half to make squares. Line a plate or baking sheet with paper towels and place tofu on top. Place another layer of paper towels on the tofu and weigh down with a skillet or cans. Let sit for at least 15 minutes.",
+        "While the tofu is draining, make the sauce: heat the oil in a small pot or skillet over medium-high. Stir in the garlic and let cook until fragrant, about 1 minute. Whisk in ketchup, soy sauce, fish sauce, 1/2 tablespoon of the chile crisp, and the rice vinegar. Set aside to cool for a few minutes.",
+        "In a small bowl, mix together the tomatoes, the remaining 1/2 tablespoon chile crisp, and a pinch of salt. Set aside.",
+        "Place tofu on one side of the prepared baking sheet and generously brush both sides of the pieces with the sauce.",
+        "Add the cabbage to a bowl, sprinkle lightly with salt, and toss with 1/4 cup sauce (reserve remaining sauce for serving). Spread cabbage on the other side of the baking sheet in an even layer.",
+        "Roast tofu and cabbage for about 30 minutes, tossing the cabbage after 15 minutes. The tofu should be lightly golden at the edges and the cabbage tender and bronzed. Toss about half of the scallions into the cabbage and squeeze lime wedges over everything (or drizzle with a little rice vinegar). Taste cabbage and add more salt or sauce, if needed.",
+        "To serve, put 1 cup grains in each of 4 bowls. Drizzle the grains with a little of the sauce. Top with tofu, cabbage, and spicy tomatoes. Garnish with cilantro and remaining scallions, and drizzle with remaining sauce. Serve warm or at room temperature."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/sweet-chile-grain-bowl-tofu.html"
     },
     {
       "id": "telegraph-rainbow-salad",
@@ -2770,6 +2820,152 @@
       ],
       "notes": "Meal-size loaded salad with orange-tahini-ponzu dressing (leftover dressing keeps 5 days refrigerated). Sub maple syrup for honey to veganize.",
       "role": "main"
+    },
+    {
+      "id": "barley-bowls-chickpeas-avocado",
+      "name": "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing",
+      "source_url": null,
+      "cuisine": "american",
+      "protein_primary": "chickpeas",
+      "protein_notes": "chickpeas plus barley; fully plant-based",
+      "vegetarian": true,
+      "vegan": true,
+      "servings": 4,
+      "prep_min": 15,
+      "cook_min": 30,
+      "total_min": 45,
+      "ingredients": [
+        {
+          "raw": "1 cup uncooked pearled barley",
+          "item": "pearled barley",
+          "quantity": 1,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "12 ounces Brussels sprouts, halved (about 4 cups)",
+          "item": "brussels sprouts",
+          "quantity": 12,
+          "unit": "oz",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "12 ounces chopped broccoli florets (about 4 cups)",
+          "item": "broccoli florets",
+          "quantity": 12,
+          "unit": "oz",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 cup extra-virgin olive oil (for the bowls)",
+          "item": "extra-virgin olive oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "Kosher salt and freshly ground black pepper to taste (for the bowls)",
+          "item": "salt and black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "3 cups Crispy Chickpeas (page 198) or store-bought, such as Saffron Road brand",
+          "item": "chickpeas",
+          "quantity": 3,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Pickled Onions (page 231)",
+          "item": "red onion",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 ripe avocado, peeled and pitted",
+          "item": "avocado",
+          "quantity": 1,
+          "unit": "count",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/4 cup extra-virgin olive oil (for the dressing)",
+          "item": "extra-virgin olive oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "3 tablespoons white wine vinegar or distilled white vinegar",
+          "item": "white wine vinegar",
+          "quantity": 3,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "1/2 teaspoon honey or agave for vegans",
+          "item": "honey or agave",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "2 tablespoons fresh lemon juice (from 1/2 medium lemon)",
+          "item": "lemon juice",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Kosher salt and freshly ground black pepper to taste (for the dressing)",
+          "item": "salt and black pepper",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 16,
+        "carbs_g": 68,
+        "fat_g": 20,
+        "fiber_g": 12,
+        "sodium_mg": 550,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "vegan",
+        "roasted",
+        "make-ahead",
+        "hearty"
+      ],
+      "notes": "From The Weekday Vegetarians by Jenny Rosenstrach, p.49. The book's Crispy Chickpeas (p.198) and Pickled Onions (p.231) component recipes were converted to plain chickpeas and sliced red onion for the grocery list, per household preference. Times are estimated (not listed in the source).",
+      "role": "main",
+      "instructions": [
+        "Preheat the oven to 425F.",
+        "Prepare the bowls: in a medium pot, combine the barley and 3 cups water. Bring to a boil, then decrease the heat to low and keep at the laziest simmer. Cover and cook, checking for doneness after 30 minutes. You want the grains to be tripled in size and tender but not mushy. If there is still water left in the pot when they've reached this point (you might have to let them cook another 5 to 10 minutes), strain the barley in a colander, the way you'd strain pasta.",
+        "Meanwhile, in a large bowl, toss together the Brussels sprouts, broccoli, olive oil, and some salt and pepper. Spread them out in an even layer on a sheet pan and roast for 20 to 25 minutes, until everything is crispy and browned.",
+        "Make the dressing: meanwhile, in a small food processor, whirl together the avocado, olive oil, vinegar, honey, lemon juice, 2 tablespoons water, and some salt and pepper. The final consistency should be thin enough to drizzle, so add more water as necessary. Adjust seasoning to taste.",
+        "Divide the barley evenly among four bowls and top with the roasted vegetables, chickpeas, and sliced red onion. Drizzle with avocado dressing and serve."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/barley-bowls-chickpeas-avocado.html"
     }
   ]
 }

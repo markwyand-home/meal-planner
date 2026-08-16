@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wyand Dinner Plan — Week of August 17 – August 20</title>
+<style>
+  :root {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2;
+    --honey:#B58A2E; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  } }
+  :root[data-theme="dark"] {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  }
+  :root[data-theme="light"] {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2; --honey:#B58A2E;
+  }
+  html { background:var(--paper); }
+  body { font-family:var(--sans); color:var(--ink); margin:0; padding:0 16px 64px;
+         -webkit-font-smoothing:antialiased; }
+  main { max-width:720px; margin:0 auto; }
+  header.week { padding:40px 0 8px; border-bottom:2px solid var(--ink); margin-bottom:24px; }
+  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--leaf); font-weight:600; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(28px,6vw,40px); margin:6px 0 4px; text-wrap:balance; }
+  .tagline { color:var(--muted); margin:0 0 16px; font-size:14px; }
+  h2 { font-family:var(--serif); font-weight:500; font-size:22px; margin:40px 0 14px; }
+  .meal { display:flex; gap:16px; background:var(--card); border:1px solid var(--line);
+          border-radius:6px; padding:16px; margin-bottom:12px; }
+  .dayrail { display:flex; flex-direction:column; align-items:center; min-width:44px;
+             border-right:1px solid var(--line); padding-right:14px; }
+  .dow { font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--leaf); font-weight:700; }
+  .dom { font-size:13px; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .mealbody { flex:1; min-width:0; }
+  .meal h3 { font-family:var(--serif); font-size:19px; font-weight:500; margin:0 0 8px; text-wrap:balance; }
+  .meal h3 a { color:var(--ink); text-decoration:none; border-bottom:1px solid var(--line); }
+  .meal h3 a:hover, .meal h3 a:focus { border-bottom-color:var(--leaf); color:var(--leaf); outline:none; }
+  .rating { color:var(--honey); font-size:14px; margin-left:8px; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:6px; }
+  .chip { font-size:12px; padding:2px 9px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
+  .chip-veg { color:var(--leaf); border-color:var(--leaf); }
+  .chip-meat { background:var(--tomato-soft); color:var(--tomato); border-color:transparent; font-weight:600; }
+  .subnote { font-size:13px; color:var(--tomato); margin:4px 0 6px; }
+  dl.nut { display:flex; gap:22px; margin:10px 0 0; padding-top:10px; border-top:1px dashed var(--line); }
+  dl.nut div { display:flex; flex-direction:column; }
+  dl.nut dt { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  dl.nut dd { margin:0; font-variant-numeric:tabular-nums; font-size:15px; }
+  .est { font-size:10px; color:var(--muted); font-style:italic; }
+  .summary { display:flex; gap:0; background:var(--leaf-soft); border-radius:6px; padding:14px 6px; margin:18px 0 0; }
+  .summary div { flex:1; text-align:center; }
+  .summary dt { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--leaf); }
+  .summary dd { margin:2px 0 0; font-family:var(--serif); font-size:20px; font-variant-numeric:tabular-nums; }
+  details { background:var(--card); border:1px solid var(--line); border-radius:6px; margin-bottom:10px; padding:0 16px; }
+  summary { font-weight:600; padding:12px 0; cursor:pointer; }
+  summary .count { color:var(--muted); font-weight:400; font-size:13px; margin-left:6px; }
+  details ul { list-style:none; margin:0 0 12px; padding:0; }
+  details li { border-top:1px solid var(--line); }
+  details label { display:flex; align-items:baseline; gap:10px; padding:8px 0; cursor:pointer; }
+  details label em { margin-left:auto; font-style:normal; font-size:11px; color:var(--muted); text-align:right; max-width:45%; }
+  details input[type=checkbox] { accent-color:var(--leaf); }
+  details input[type=checkbox]:checked ~ span { text-decoration:line-through; color:var(--muted); }
+  table.hist { width:100%; border-collapse:collapse; font-size:14px; }
+  table.hist td { padding:8px 10px 8px 0; border-top:1px solid var(--line); vertical-align:top; }
+  td.wkdate { color:var(--muted); white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .muted { color:var(--muted); }
+  footer { margin-top:48px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
+  footer strong { color:var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <header class="week">
+    <div class="eyebrow">Wyand dinner plan</div>
+    <h1>Week of August 17 – August 20</h1>
+    <p class="tagline">Four dinners &middot; vegetarian-first &middot; no protein repeated</p>
+  </header>
+
+      <article class="meal">
+        <div class="dayrail"><span class="dow">Mon</span><span class="dom">8/17</span></div>
+        <div class="mealbody">
+          <h3><a href="https://markwyand-home.github.io/meal-planner/recipes/chickpea-salad-sandwich.html" target="_blank" rel="noopener">Chickpea Salad Sandwich</a></h3>
+          <div class="chips">
+            <span class="chip chip-protein">Chickpeas</span>
+            <span class="chip chip-veg">Vegetarian</span><span class="chip">25 min</span>
+            <span class="chip">serves 4</span>
+          </div>
+          
+          <dl class="nut"><div><dt>Cal</dt><dd>365 <span class="est">est.</span></dd></div>
+            <div><dt>Protein</dt><dd>11 g</dd></div>
+            <div><dt>Carbs</dt><dd>50 g</dd></div>
+            <div><dt>Fat</dt><dd>13 g</dd></div></dl>
+        </div>
+      </article>
+      <article class="meal">
+        <div class="dayrail"><span class="dow">Tue</span><span class="dom">8/18</span></div>
+        <div class="mealbody">
+          <h3><a href="https://markwyand-home.github.io/meal-planner/recipes/sweet-chile-grain-bowl-tofu.html" target="_blank" rel="noopener">Sweet Chile Grain Bowl With Tofu</a></h3>
+          <div class="chips">
+            <span class="chip chip-protein">Tofu</span>
+            <span class="chip chip-veg">Vegetarian</span><span class="chip">50 min</span>
+            <span class="chip">serves 4</span>
+          </div>
+          
+          <dl class="nut"><div><dt>Cal</dt><dd>284</dd></div>
+            <div><dt>Protein</dt><dd>15 g</dd></div>
+            <div><dt>Carbs</dt><dd>20 g</dd></div>
+            <div><dt>Fat</dt><dd>19 g</dd></div></dl>
+        </div>
+      </article>
+      <article class="meal">
+        <div class="dayrail"><span class="dow">Wed</span><span class="dom">8/19</span></div>
+        <div class="mealbody">
+          <h3><a href="https://markwyand-home.github.io/meal-planner/recipes/french-onion-baked-lentils-farro.html" target="_blank" rel="noopener">French Onion Baked Lentils and Farro</a></h3>
+          <div class="chips">
+            <span class="chip chip-protein">Lentils</span>
+            <span class="chip chip-veg">Vegetarian</span><span class="chip">105 min</span>
+            <span class="chip">serves 6</span>
+          </div>
+          
+          <dl class="nut"><div><dt>Cal</dt><dd>535 <span class="est">est.</span></dd></div>
+            <div><dt>Protein</dt><dd>24 g</dd></div>
+            <div><dt>Carbs</dt><dd>63 g</dd></div>
+            <div><dt>Fat</dt><dd>18 g</dd></div></dl>
+        </div>
+      </article>
+      <article class="meal">
+        <div class="dayrail"><span class="dow">Thu</span><span class="dom">8/20</span></div>
+        <div class="mealbody">
+          <h3><a href="https://markwyand-home.github.io/meal-planner/recipes/big-green-fried-rice.html" target="_blank" rel="noopener">Big Green Fried Rice</a></h3>
+          <div class="chips">
+            <span class="chip chip-protein">Eggs</span>
+            <span class="chip chip-veg">Vegetarian</span>
+            <span class="chip">serves 3</span>
+          </div>
+          
+          <dl class="nut"><div><dt>Cal</dt><dd>309</dd></div>
+            <div><dt>Protein</dt><dd>10 g</dd></div>
+            <div><dt>Carbs</dt><dd>42 g</dd></div>
+            <div><dt>Fat</dt><dd>11 g</dd></div></dl>
+        </div>
+      </article>
+  <dl class="summary">
+    <div><dt>Avg cal / serv</dt><dd>373</dd></div>
+    <div><dt>Protein</dt><dd>15.0 g</dd></div>
+    <div><dt>Carbs</dt><dd>43.8 g</dd></div>
+    <div><dt>Fat</dt><dd>15.2 g</dd></div>
+  </dl>
+
+  <h2>Grocery list <span class="count muted" style="font-size:14px">(36 items — also pushed to AnyList)</span></h2>
+<details open><summary>Produce <span class="count">19</span></summary><ul><li><label><input type="checkbox"><span>1 cup asparagus or green beans</span><em>Big Green Fried Rice</em></label></li><li><label><input type="checkbox"><span>6 basil</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1.5 cup cherry tomatoes</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>2 tbsp cilantro</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>cilantro</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>0.25 english cucumber</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1 tbsp fresh ginger</span><em>Big Green Fried Rice</em></label></li><li><label><input type="checkbox"><span>fresh thyme</span><em>French Onion Baked Lentils and Farro</em></label></li><li><label><input type="checkbox"><span>green beans</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1 green onion</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>4 green onions</span><em>Big Green Fried Rice</em></label></li><li><label><input type="checkbox"><span>2 cup kale</span><em>Big Green Fried Rice</em></label></li><li><label><input type="checkbox"><span>2 tbsp lemon juice</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1 lime</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>1.5 lb napa cabbage</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>1 radish</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>red onion</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1 scallions</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>2 lb yellow onions</span><em>French Onion Baked Lentils and Farro</em></label></li></ul></details><details open><summary>Dairy & Eggs <span class="count">2</span></summary><ul><li><label><input type="checkbox"><span>14 oz firm or extra-firm tofu</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>8 oz gruyere cheese</span><em>French Onion Baked Lentils and Farro</em></label></li></ul></details><details open><summary>Bakery <span class="count">1</span></summary><ul><li><label><input type="checkbox"><span>1 baguette</span><em>Chickpea Salad Sandwich</em></label></li></ul></details><details open><summary>Pantry <span class="count">14</span></summary><ul><li><label><input type="checkbox"><span>1 tsp capers</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1.5 cup chickpeas</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1 tbsp chile crisp</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>chile-sesame oil and lemon zest</span><em>Big Green Fried Rice</em></label></li><li><label><input type="checkbox"><span>4 cup cooked grains (rice, farro, barley, or millet)</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>1.5 cup dried farro</span><em>French Onion Baked Lentils and Farro</em></label></li><li><label><input type="checkbox"><span>0.75 cup dried lentils</span><em>French Onion Baked Lentils and Farro</em></label></li><li><label><input type="checkbox"><span>2 tbsp dry sherry, vermouth, or white wine</span><em>French Onion Baked Lentils and Farro</em></label></li><li><label><input type="checkbox"><span>1.5 tbsp fish sauce</span><em>Sweet Chile Grain Bowl With Tofu</em></label></li><li><label><input type="checkbox"><span>8 kalamata olives</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>2 tbsp tahini</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>1.5 tbsp toasted sesame oil</span><em>Big Green Fried Rice</em></label></li><li><label><input type="checkbox"><span>vegan mayo</span><em>Chickpea Salad Sandwich</em></label></li><li><label><input type="checkbox"><span>6 cup vegetable broth</span><em>French Onion Baked Lentils and Farro</em></label></li></ul></details>
+  <p class="muted" style="font-size:13px">Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them.</p>
+
+  <h2>Recent weeks</h2>
+<table class='hist'><tbody><tr><td class="wkdate">2026-08-16</td><td>Chickpea Salad Sandwich · Sweet Chile Grain Bowl With Tofu · French Onion Baked Lentils and Farro · Big Green Fried Rice</td></tr><tr><td class="wkdate">2026-08-09</td><td>One-Pot Beans, Greens and Grains · Easy Lentil and Halloumi Curry · Charred Cauliflower Pitas with Halloumi and Harissa · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-07-26</td><td>Artichoke Tacos (Vegan Fish Tacos) · Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon · Creamy Coconut-Lime Rice With Peanuts · 25 Minute Banh Mi Rice Bowls</td></tr></tbody></table>
+  <footer>
+    <strong>Rate a meal:</strong> tell Claude — e.g. “we loved the ratatouille, the tacos were just ok” —
+    and it updates the preferences that steer future weeks. Checkboxes above are for in-store use and don’t sync back.
+  </footer>
+</main>
+</body>
+</html>

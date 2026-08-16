@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>French Onion Baked Lentils and Farro</title>
+<style>
+  :root {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2;
+    --honey:#B58A2E; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  } }
+  :root[data-theme="dark"] {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  }
+  :root[data-theme="light"] {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2; --honey:#B58A2E;
+  }
+  html { background:var(--paper); }
+  body { font-family:var(--sans); color:var(--ink); margin:0; padding:0 20px 56px;
+         -webkit-font-smoothing:antialiased; }
+  main { max-width:640px; margin:0 auto; }
+  header { padding:32px 0 16px; border-bottom:2px solid var(--ink); margin-bottom:24px; }
+  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--leaf); font-weight:600; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(26px,7vw,36px); margin:6px 0 12px; text-wrap:balance; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { font-size:12px; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
+  .chip-veg { color:var(--leaf); border-color:var(--leaf); }
+  .chip-meat { background:var(--tomato-soft); color:var(--tomato); border-color:transparent; font-weight:600; }
+  h2 { font-family:var(--serif); font-weight:500; font-size:20px; margin:32px 0 12px; }
+  ul.ing { list-style:none; margin:0; padding:0; }
+  ul.ing li { padding:9px 0; border-top:1px solid var(--line); font-size:16px; line-height:1.4; }
+  ul.ing li:last-child { padding-bottom:0; }
+  ol.steps { margin:0; padding:0; list-style:none; counter-reset:step; }
+  ol.steps li { counter-increment:step; display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line); }
+  ol.steps li:last-child { padding-bottom:0; }
+  ol.steps li::before {
+    content:counter(step); flex:none; width:28px; height:28px; border-radius:50%;
+    background:var(--leaf-soft); color:var(--leaf); font-weight:700; font-size:14px;
+    display:flex; align-items:center; justify-content:center;
+  }
+  ol.steps p { margin:0; font-size:17px; line-height:1.55; padding-top:2px; }
+  .notes { margin-top:32px; padding:14px 16px; background:var(--leaf-soft); border-radius:6px;
+           font-size:14px; color:var(--ink); }
+  .notes strong { color:var(--leaf); }
+  footer { margin-top:40px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Recipe</div>
+    <h1>French Onion Baked Lentils and Farro</h1>
+    <div class="meta"><span class="chip chip-protein">Lentils</span><span class="chip chip-veg">Vegetarian</span><span class="chip">105 min</span><span class="chip">serves 6</span></div>
+  </header>
+  <h2>Ingredients</h2>
+  <ul class="ing"><li>2 pounds (910 grams) yellow onions (4 large or 5 medium), sliced</li><li>2 tablespoons (30 grams) unsalted butter</li><li>1 tablespoon (15 grams) olive oil</li><li>Kosher salt and freshly ground black pepper</li><li>2 tablespoons (30 ml) dry sherry, vermouth, or white wine (optional)</li><li>2 cloves garlic, minced</li><li>1 1/2 cups (300 grams) dried farro</li><li>3/4 cup (135 grams) dried lentils, green (le puy) or brown (italian)</li><li>A few sprigs of fresh thyme</li><li>6 cups (1.4 liters) vegetable broth + splashes more, if needed</li><li>2 cups (8 ounces or 225 grams) coarsely grated gruyere cheese</li></ul>
+  <h2>Instructions</h2>
+  <ol class="steps"><li><p>Caramelize the onions: heat butter and olive oil in a large, deep saute pan (ovenproof if you have one) over medium heat. Add the onions, toss to coat, and cover. Reduce heat to medium-low and let steep 15-20 minutes. Uncover, raise heat to medium-high, stir in about 2 tsp kosher salt, and cook, stirring every few minutes, until brown, soft, and sweet, about 20 minutes more, reducing heat to medium once their liquid cooks off.</p></li><li><p>Heat the oven to 375°F (190°C).</p></li><li><p>Assemble the casserole: add garlic to the onions and cook, stirring, 1 minute. Add the sherry (if using) and cook until it disappears. Add the farro and cook 2 minutes. Add the lentils, 6 cups broth, and thyme, and bring to a simmer. Season well with salt and pepper. If your pan isn&#x27;t ovenproof, transfer to a casserole dish.</p></li><li><p>Bake, covered, stirring about halfway through, until the lentils and farro are tender, 40-50 minutes. If the liquid absorbs before then, add another 1/4-1/2 cup broth — aim for a risotto-like looseness. Fish out the thyme stems.</p></li><li><p>Sprinkle with gruyere and broil until browned on top.</p></li></ol>
+<div class="notes"><strong>Notes:</strong> Serves 6 to 8. Gluten-free option: sub shortgrain brown rice for farro. Keeps 4-5 days in fridge; base can be made ahead and cheese broiled before serving.</div>
+  <footer><a href="https://smittenkitchen.com/2024/01/french-onion-baked-lentils-and-farro/" target="_blank" rel="noopener">Original recipe &rarr;</a></footer>
+</main>
+</body>
+</html>

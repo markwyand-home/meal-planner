@@ -1,8 +1,9 @@
-"""Render dashboard.html from the meal-planner data files.
+"""Render docs/index.html from the meal-planner data files.
 
 Reads data/plans/<week>.json, <week>_grocery.json, history.json,
-preferences.json, recipes.json and writes dashboard.html in the project root.
-The Sunday session republishes the file as the private web page.
+preferences.json, recipes.json and writes docs/index.html, the page GitHub
+Pages serves at https://markwyand-home.github.io/meal-planner/. The Sunday
+session commits and pushes docs/ so the live page updates automatically.
 
 Run: MEAL_PLANNER_HOME="<dir>" cat scripts/build_dashboard.py | python - [YYYY-MM-DD]
 """
@@ -64,11 +65,12 @@ def main():
         time_chip = '<span class="chip">' + str(m["total_min"]) + ' min</span>' if m.get("total_min") else ""
         rating = prefs.get("ratings", {}).get(m["id"], {}).get("rating")
         rating_html = '<span class="rating" title="' + esc(rating) + '">' + RATING_GLYPH.get(rating, "") + '</span>' if rating else ""
+        recipe_link = recipes.get(m["id"], {}).get("page_url") or m["source_url"]
         meal_cards.append(f"""
       <article class="meal">
         <div class="dayrail"><span class="dow">{m["day"][:3]}</span><span class="dom">{d.strftime('%m/%d').lstrip('0')}</span></div>
         <div class="mealbody">
-          <h3><a href="{esc(m["source_url"])}" target="_blank" rel="noopener">{esc(m["name"])}</a>{rating_html}</h3>
+          <h3><a href="{esc(recipe_link)}" target="_blank" rel="noopener">{esc(m["name"])}</a>{rating_html}</h3>
           <div class="chips">
             <span class="chip chip-protein">{PROTEIN_LABEL.get(m["protein"], m["protein"])}</span>
             {veg_badge}{time_chip}
@@ -171,8 +173,12 @@ def main():
   footer strong { color:var(--ink); }
 """
 
-    page = ("<title>Wyand Dinner Plan — Week of " + esc(span) + "</title>\n"
+    page = ("<!doctype html>\n<html lang=\"en\">\n<head>\n"
+            "<meta charset=\"utf-8\">\n"
+            "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n"
+            "<title>Wyand Dinner Plan — Week of " + esc(span) + "</title>\n"
             "<style>" + css + "</style>\n"
+            "</head>\n<body>\n"
             '<main>\n  <header class="week">\n    <div class="eyebrow">Wyand dinner plan</div>\n'
             "    <h1>Week of " + esc(span) + "</h1>\n"
             '    <p class="tagline">Four dinners &middot; vegetarian-first &middot; no protein repeated</p>\n'
@@ -191,9 +197,10 @@ def main():
             "\n  <h2>Recent weeks</h2>\n" + hist_html + "\n"
             "  <footer>\n    <strong>Rate a meal:</strong> tell Claude — e.g. “we loved the ratatouille, the tacos were just ok” —\n"
             "    and it updates the preferences that steer future weeks. Checkboxes above are for in-store use and don’t sync back.\n"
-            "  </footer>\n</main>\n")
+            "  </footer>\n</main>\n</body>\n</html>\n")
 
-    out = BASE / "dashboard.html"
+    out = BASE / "docs" / "index.html"
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page, encoding="utf-8")
     print("dashboard written: " + str(out) + " (" + str(len(page)) + " chars)")
 

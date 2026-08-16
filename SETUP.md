@@ -63,7 +63,7 @@ python scripts/build_dashboard.py
 ```
 
 Expect: a plan and grocery JSON under `data/plans/`, a line reporting how many items
-were added to AnyList, and a regenerated `dashboard.html`. Open that file in a
+were added to AnyList, and a regenerated `docs/index.html`. Open that file in a
 browser to confirm it shows the right week.
 
 If a script fails with "Permission denied" when Python or Node tries to open it,
@@ -73,16 +73,23 @@ your endpoint protection is blocking reads of new script files. Pipe them instea
 MEAL_PLANNER_HOME="<project dir>" cat scripts/planner.py | python -
 ```
 
-## 6. Publish the dashboard
+## 6. Host the dashboard on GitHub Pages
 
-Ask Claude to publish `dashboard.html` as an artifact. It returns a private URL.
-Record that URL in two places, or the weekly run will create a new page each time:
+The dashboard and recipe pages are static HTML committed to `docs/` and served by
+GitHub Pages — no manual publish step, and the URL never changes once set up.
 
-- the `DASHBOARD_URL` line in `CLAUDE.md`
-- the prompt of the scheduled task (step 7)
-
-The previous dashboard cannot be transferred between accounts — this new URL
-replaces it, and the old one should be deleted from the account that owned it.
+- The `markwyand-home/meal-planner` repo must be **public** (GitHub Pages on a
+  private repo needs a paid plan; a public repo gets it for free). If it's private,
+  make it public first: `gh repo edit markwyand-home/meal-planner --visibility public --accept-visibility-change-consequences`.
+  Nothing secret lives in the repo — AnyList credentials stay in
+  `~/.meal-planner/anylist.env`, outside it.
+- Enable Pages once, sourced from `main` branch, `/docs` folder:
+  ```bash
+  echo '{"build_type":"legacy","source":{"branch":"main","path":"/docs"}}' | gh api repos/markwyand-home/meal-planner/pages -X POST --input -
+  ```
+- Commit and push `docs/` (see weekly workflow step 6 in `CLAUDE.md`). The live
+  site is then always at `https://markwyand-home.github.io/meal-planner/` —
+  nothing to record anywhere, unlike the old per-account artifact URL.
 
 ## 7. Weekly schedule
 
@@ -108,5 +115,4 @@ hit the permission problem described in step 5 — otherwise skip it.
 
 - **Credentials.** Re-entered in step 4 by hand.
 - **`node_modules`.** Reinstalled in step 3.
-- **The old dashboard page.** Republished in step 6, with a new URL.
 - **The old scheduled task.** Recreated in step 7.
