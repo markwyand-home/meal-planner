@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Farrotto for All Seasons</title>
+<style>
+  :root {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2;
+    --honey:#B58A2E; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  } }
+  :root[data-theme="dark"] {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  }
+  :root[data-theme="light"] {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2; --honey:#B58A2E;
+  }
+  html { background:var(--paper); }
+  body { font-family:var(--sans); color:var(--ink); margin:0; padding:0 20px 56px;
+         -webkit-font-smoothing:antialiased; }
+  main { max-width:640px; margin:0 auto; }
+  header { padding:32px 0 16px; border-bottom:2px solid var(--ink); margin-bottom:24px; }
+  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--leaf); font-weight:600; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(26px,7vw,36px); margin:6px 0 12px; text-wrap:balance; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { font-size:12px; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
+  .chip-veg { color:var(--leaf); border-color:var(--leaf); }
+  .chip-meat { background:var(--tomato-soft); color:var(--tomato); border-color:transparent; font-weight:600; }
+  h2 { font-family:var(--serif); font-weight:500; font-size:20px; margin:32px 0 12px; }
+  ul.ing { list-style:none; margin:0; padding:0; }
+  ul.ing li { padding:9px 0; border-top:1px solid var(--line); font-size:16px; line-height:1.4; }
+  ul.ing li:last-child { padding-bottom:0; }
+  ol.steps { margin:0; padding:0; list-style:none; counter-reset:step; }
+  ol.steps li { counter-increment:step; display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line); }
+  ol.steps li:last-child { padding-bottom:0; }
+  ol.steps li::before {
+    content:counter(step); flex:none; width:28px; height:28px; border-radius:50%;
+    background:var(--leaf-soft); color:var(--leaf); font-weight:700; font-size:14px;
+    display:flex; align-items:center; justify-content:center;
+  }
+  ol.steps p { margin:0; font-size:17px; line-height:1.55; padding-top:2px; }
+  .notes { margin-top:32px; padding:14px 16px; background:var(--leaf-soft); border-radius:6px;
+           font-size:14px; color:var(--ink); }
+  .notes strong { color:var(--leaf); }
+  footer { margin-top:40px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Recipe</div>
+    <h1>A Farrotto for All Seasons</h1>
+    <div class="meta"><span class="chip chip-protein">Cheese</span><span class="chip chip-veg">Vegetarian</span><span class="chip">45 min</span><span class="chip">serves 4</span></div>
+  </header>
+  <h2>Ingredients</h2>
+  <ul class="ing"><li>2 tablespoons extra-virgin olive oil</li><li>1 tablespoon unsalted butter</li><li>1/2 small onion, chopped</li><li>Kosher salt and freshly ground black pepper to taste</li><li>Dash of dried red pepper flakes</li><li>2 cups pearled farro</li><li>1/2 cup dry white wine</li><li>4 cups vegetable stock, store-bought or homemade (page 232), warmed</li><li>1/3 cup grated Parmesan cheese</li><li>Summer add-in: 1 cup quartered cherry tomatoes</li><li>Summer add-in: uncooked kernels from 2 medium ears of corn</li><li>Summer add-in: chopped fresh basil, to finish</li></ul>
+  <h2>Instructions</h2>
+  <ol class="steps"><li><p>Combine the olive oil and 1 tablespoon of the butter in a deep medium-size skillet over medium heat. Add the onion, salt, black pepper, and red pepper flakes and cook until the onion is softened, stirring occasionally, about 3 minutes.</p></li><li><p>Stir in the farro and wine and increase the heat to medium-high. Stir until most of the wine has been absorbed, then start adding vegetable stock in 1-cup drizzles, adding more as the liquid is absorbed. (You want the grains to always be just slightly submerged.) This is when you should prepare your seasonal vegetable add-in.</p></li><li><p>When the farro is cooked (porridge but still a little toothy, like risotto, 30 to 35 minutes), turn off the heat and stir in the remaining tablespoon butter, the Parmesan, and the desired vegetable combination.</p></li><li><p>Summer add-in: toss in 1 cup quartered cherry tomatoes and the uncooked kernels from 2 medium ears of corn. Serve the farrotto in bowls topped with chopped fresh basil.</p></li></ol>
+<div class="notes"><strong>Notes:</strong> From The Weekday Vegetarians by Jenny Rosenstrach, p.50. This is a seasonal template recipe — the book offers different vegetable add-ins by season. Defaulted here to the Summer add-in (cherry tomatoes, corn, basil) since that&#x27;s what&#x27;s in season now; the book&#x27;s other variants (Fall: roasted honeynut squash with crispy sage; Winter: roasted Brussels sprouts and peas; Spring: sauteed mushrooms and asparagus) can be swapped in later on request. Times are estimated except the farro&#x27;s stated 30-35 minute cook window.</div>
+  <footer></footer>
+</main>
+</body>
+</html>

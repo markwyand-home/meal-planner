@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spicy-Tangy-Smoky Pinto Bean Bowls</title>
+<style>
+  :root {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2;
+    --honey:#B58A2E; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  } }
+  :root[data-theme="dark"] {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  }
+  :root[data-theme="light"] {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
+    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2; --honey:#B58A2E;
+  }
+  html { background:var(--paper); }
+  body { font-family:var(--sans); color:var(--ink); margin:0; padding:0 20px 56px;
+         -webkit-font-smoothing:antialiased; }
+  main { max-width:640px; margin:0 auto; }
+  header { padding:32px 0 16px; border-bottom:2px solid var(--ink); margin-bottom:24px; }
+  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--leaf); font-weight:600; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(26px,7vw,36px); margin:6px 0 12px; text-wrap:balance; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { font-size:12px; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
+  .chip-veg { color:var(--leaf); border-color:var(--leaf); }
+  .chip-meat { background:var(--tomato-soft); color:var(--tomato); border-color:transparent; font-weight:600; }
+  h2 { font-family:var(--serif); font-weight:500; font-size:20px; margin:32px 0 12px; }
+  ul.ing { list-style:none; margin:0; padding:0; }
+  ul.ing li { padding:9px 0; border-top:1px solid var(--line); font-size:16px; line-height:1.4; }
+  ul.ing li:last-child { padding-bottom:0; }
+  ol.steps { margin:0; padding:0; list-style:none; counter-reset:step; }
+  ol.steps li { counter-increment:step; display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line); }
+  ol.steps li:last-child { padding-bottom:0; }
+  ol.steps li::before {
+    content:counter(step); flex:none; width:28px; height:28px; border-radius:50%;
+    background:var(--leaf-soft); color:var(--leaf); font-weight:700; font-size:14px;
+    display:flex; align-items:center; justify-content:center;
+  }
+  ol.steps p { margin:0; font-size:17px; line-height:1.55; padding-top:2px; }
+  .notes { margin-top:32px; padding:14px 16px; background:var(--leaf-soft); border-radius:6px;
+           font-size:14px; color:var(--ink); }
+  .notes strong { color:var(--leaf); }
+  footer { margin-top:40px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">Recipe</div>
+    <h1>Spicy-Tangy-Smoky Pinto Bean Bowls</h1>
+    <div class="meta"><span class="chip chip-protein">Beans</span><span class="chip chip-veg">Vegetarian</span><span class="chip">25 min</span><span class="chip">serves 4</span></div>
+  </header>
+  <h2>Ingredients</h2>
+  <ul class="ing"><li>3 tablespoons neutral oil (such as canola or vegetable, or extra-virgin olive oil in a pinch)</li><li>1/2 small yellow onion, chopped</li><li>Kosher salt and freshly ground black pepper to taste</li><li>1 large garlic clove, minced</li><li>1 tablespoon plus 1 teaspoon smoked paprika</li><li>2 teaspoons tomato paste</li><li>Pinch of cayenne pepper (optional)</li><li>3 cups cooked pinto beans, or 2 (15-ounce) cans, rinsed and drained</li><li>3 tablespoons red wine vinegar</li><li>1/2 cup water (or reserved bean cooking liquid if you home-cooked your beans)</li><li>4 cups cooked rice (any kind), for serving</li><li>Optional toppings: guacamole, sour cream (omit for vegans), cilantro, shredded lettuce tossed with oil and red wine vinegar, shredded sharp cheddar cheese (omit for vegans), sliced radishes, Salsa Fresca, minced red onion</li></ul>
+  <h2>Instructions</h2>
+  <ol class="steps"><li><p>In a medium pot set over medium heat, combine the oil, onion, salt, and black pepper and cook until the onion is soft, about 3 minutes.</p></li><li><p>Add the garlic, paprika, tomato paste, and cayenne (if using), stirring everything together and allowing the tomato paste to sizzle and toast.</p></li><li><p>Toss in the beans and 1/2 cup water (or bean cooking liquid if you home-cooked your beans) and heat until everything has warmed through, 5 to 6 minutes.</p></li><li><p>Remove from the heat and stir in the vinegar. (The beans should be slightly stewy; if they aren&#x27;t, add a little more water to loosen them up.) Serve with cooked rice and your desired toppings.</p></li></ol>
+<div class="notes"><strong>Notes:</strong> From The Weekday Vegetarians by Jenny Rosenstrach, pp.52-53.</div>
+  <footer></footer>
+</main>
+</body>
+</html>
