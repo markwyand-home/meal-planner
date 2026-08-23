@@ -1269,7 +1269,13 @@
         "make-ahead"
       ],
       "notes": "All plant-based. Serve at room temperature the day it's made. Commenters sub mango for tomatoes, cashews for peanuts; can top with fried or hard-boiled eggs for extra protein.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Cook the rice according to the packaging instructions until tender, replacing 1 1/4 cups of the cooking water with 1 1/4 cups of the coconut milk. Fluff the cooked rice with a fork, transfer to a serving bowl, season with salt and pepper (it should taste well-seasoned and almost buttery), and let cool.",
+        "While the rice is cooking, add 1/4 cup coconut milk to another bowl. Finely grate the ginger and garlic into the bowl, followed by the zest of 1 lime. Juice both limes into the bowl. Whisk in 1/4 cup of the peanuts, the peanut butter, sugar, and sambal, and season with salt.",
+        "When ready to serve, add the tomatoes and 3/4 cup of the herbs to the bowl with the rice. Pour in the coconut dressing, toss well to coat, season with pepper, and top with the remaining 1/4 cup crushed peanuts and 1/4 cup herbs. For the best flavor, serve at room temperature the day it is made."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/coconut-lime-rice-peanuts.html"
     },
     {
       "id": "crispy-gnocchi-sausage-broccoli",

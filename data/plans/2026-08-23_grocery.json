@@ -2,30 +2,12 @@
   "week_of": "2026-08-23",
   "meals": [
     "A Farrotto for All Seasons",
-    "Broccoli Caesar with Smoky Tempeh Bits",
+    "Spicy-Tangy-Smoky Pinto Bean Bowls",
     "Roasted Broccoli and Tofu Bowls with Peanut Sauce",
-    "Better Than Takeout Dan Dan Noodles"
+    "Creamy Coconut-Lime Rice With Peanuts"
   ],
   "sections": {
     "produce": [
-      {
-        "item": "baby spinach",
-        "quantity": 2.0,
-        "unit": "cup",
-        "for": [
-          "Better Than Takeout Dan Dan Noodles"
-        ],
-        "display": "2 cup baby spinach"
-      },
-      {
-        "item": "broccoli",
-        "quantity": 1.0,
-        "unit": "count",
-        "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
-        ],
-        "display": "1 broccoli"
-      },
       {
         "item": "broccoli",
         "quantity": 1.0,
@@ -46,12 +28,13 @@
       },
       {
         "item": "cherry tomatoes",
-        "quantity": 1.0,
+        "quantity": 3.0,
         "unit": "cup",
         "for": [
-          "A Farrotto for All Seasons"
+          "A Farrotto for All Seasons",
+          "Creamy Coconut-Lime Rice With Peanuts"
         ],
-        "display": "1 cup cherry tomatoes"
+        "display": "3 cup cherry tomatoes"
       },
       {
         "item": "corn",
@@ -81,31 +64,31 @@
         "display": "1 tbsp fresh ginger"
       },
       {
-        "item": "green onions",
-        "quantity": 4.0,
+        "item": "ginger",
+        "quantity": 1.0,
         "unit": "count",
         "for": [
-          "Better Than Takeout Dan Dan Noodles"
+          "Creamy Coconut-Lime Rice With Peanuts"
         ],
-        "display": "4 green onions"
+        "display": "1 ginger"
       },
       {
-        "item": "lemon juice",
-        "quantity": 1.5,
-        "unit": "tbsp",
-        "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
-        ],
-        "display": "1.5 tbsp lemon juice"
-      },
-      {
-        "item": "mixed mushrooms",
+        "item": "limes",
         "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "2 limes"
+      },
+      {
+        "item": "mixed fresh herbs (dill, cilantro, mint)",
+        "quantity": 1.0,
         "unit": "cup",
         "for": [
-          "Better Than Takeout Dan Dan Noodles"
+          "Creamy Coconut-Lime Rice With Peanuts"
         ],
-        "display": "2 cup mixed mushrooms"
+        "display": "1 cup mixed fresh herbs (dill, cilantro, mint)"
       },
       {
         "item": "onion",
@@ -126,15 +109,6 @@
         "display": "1 red bell pepper"
       },
       {
-        "item": "shallot",
-        "quantity": 1.0,
-        "unit": "count",
-        "for": [
-          "Better Than Takeout Dan Dan Noodles"
-        ],
-        "display": "1 shallot"
-      },
-      {
         "item": "sweet potato",
         "quantity": 1.0,
         "unit": "count",
@@ -142,6 +116,15 @@
           "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
         ],
         "display": "1 sweet potato"
+      },
+      {
+        "item": "yellow onion",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "0.5 yellow onion"
       }
     ],
     "dairy-eggs": [
@@ -157,22 +140,22 @@
     ],
     "pantry": [
       {
-        "item": "capers",
+        "item": "coconut milk",
         "quantity": 1.0,
-        "unit": "tsp",
+        "unit": "count",
         "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
+          "Creamy Coconut-Lime Rice With Peanuts"
         ],
-        "display": "1 tsp capers"
+        "display": "1 coconut milk"
       },
       {
-        "item": "chinese egg noodles or rice noodles",
-        "quantity": 8.0,
-        "unit": "oz",
+        "item": "cooked rice",
+        "quantity": 4.0,
+        "unit": "cup",
         "for": [
-          "Better Than Takeout Dan Dan Noodles"
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
         ],
-        "display": "8 oz chinese egg noodles or rice noodles"
+        "display": "4 cup cooked rice"
       },
       {
         "item": "dry white wine",
@@ -184,31 +167,13 @@
         "display": "0.5 cup dry white wine"
       },
       {
-        "item": "hoisin sauce",
-        "quantity": 0.25,
-        "unit": "cup",
-        "for": [
-          "Better Than Takeout Dan Dan Noodles"
-        ],
-        "display": "0.25 cup hoisin sauce"
-      },
-      {
-        "item": "low sodium chicken broth",
-        "quantity": 2.5,
-        "unit": "cup",
-        "for": [
-          "Better Than Takeout Dan Dan Noodles"
-        ],
-        "display": "2.5 cup low sodium chicken broth"
-      },
-      {
-        "item": "maple syrup",
+        "item": "jasmine rice",
         "quantity": 1.0,
-        "unit": "tsp",
+        "unit": "cup",
         "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
+          "Creamy Coconut-Lime Rice With Peanuts"
         ],
-        "display": "1 tsp maple syrup"
+        "display": "1 cup jasmine rice"
       },
       {
         "item": "maple syrup",
@@ -229,24 +194,6 @@
         "display": "0.25 cup natural peanut butter"
       },
       {
-        "item": "nutritional yeast",
-        "quantity": 1.0,
-        "unit": "tbsp",
-        "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
-        ],
-        "display": "1 tbsp nutritional yeast"
-      },
-      {
-        "item": "nutritional yeast",
-        "quantity": 2.0,
-        "unit": "tsp",
-        "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
-        ],
-        "display": "2 tsp nutritional yeast"
-      },
-      {
         "item": "pearled farro",
         "quantity": 2.0,
         "unit": "cup",
@@ -256,13 +203,31 @@
         "display": "2 cup pearled farro"
       },
       {
-        "item": "raw cashew butter",
+        "item": "pinto beans",
         "quantity": 2.0,
-        "unit": "tbsp",
+        "unit": "(15 oz) can",
         "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
         ],
-        "display": "2 tbsp raw cashew butter"
+        "display": "2 (15 oz) can pinto beans"
+      },
+      {
+        "item": "roasted salted peanuts",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "0.5 cup roasted salted peanuts"
+      },
+      {
+        "item": "sambal oelek",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "2 tsp sambal oelek"
       },
       {
         "item": "sesame oil",
@@ -283,13 +248,13 @@
         "display": "2 tsp sesame oil"
       },
       {
-        "item": "sesame oil",
-        "quantity": 0.46,
-        "unit": "cup",
+        "item": "tomato paste",
+        "quantity": 2.0,
+        "unit": "tsp",
         "for": [
-          "Better Than Takeout Dan Dan Noodles"
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
         ],
-        "display": "0.46 cup sesame oil"
+        "display": "2 tsp tomato paste"
       },
       {
         "item": "vegetable stock",
@@ -304,12 +269,12 @@
     "spices": [
       {
         "item": "smoked paprika",
-        "quantity": 1.0,
+        "quantity": 4.0,
         "unit": "tsp",
         "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
         ],
-        "display": "1 tsp smoked paprika"
+        "display": "4 tsp smoked paprika"
       }
     ],
     "other": [
@@ -332,22 +297,13 @@
         "display": "garnishes (peanuts, cilantro, sesame seeds, green onions)"
       },
       {
-        "item": "ground chicken or pork",
-        "quantity": 0.5,
-        "unit": "lb",
+        "item": "optional toppings",
+        "quantity": null,
+        "unit": null,
         "for": [
-          "Better Than Takeout Dan Dan Noodles"
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
         ],
-        "display": "0.5 lb ground chicken or pork"
-      },
-      {
-        "item": "tempeh",
-        "quantity": 4.0,
-        "unit": "oz",
-        "for": [
-          "Broccoli Caesar with Smoky Tempeh Bits"
-        ],
-        "display": "4 oz tempeh"
+        "display": "optional toppings"
       }
     ]
   },
