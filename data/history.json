@@ -17,6 +17,24 @@
         "charred-cauliflower-halloumi-pitas",
         "sheet-pan-ratatouille-tofu"
       ]
+    },
+    {
+      "week_of": "2026-08-16",
+      "meals": [
+        "chickpea-salad-sandwich",
+        "sweet-chile-grain-bowl-tofu",
+        "french-onion-baked-lentils-farro",
+        "big-green-fried-rice"
+      ]
+    },
+    {
+      "week_of": "2026-08-23",
+      "meals": [
+        "farrotto-all-seasons",
+        "broccoli-caesar-tempeh",
+        "roasted-broccoli-tofu-peanut-bowls",
+        "dan-dan-noodles"
+      ]
     }
   ]
 }

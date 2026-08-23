@@ -1,0 +1,344 @@
+{
+  "week_of": "2026-08-16",
+  "meals": [
+    "Chickpea Salad Sandwich",
+    "Sweet Chile Grain Bowl With Tofu",
+    "French Onion Baked Lentils and Farro",
+    "Big Green Fried Rice"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "asparagus or green beans",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Big Green Fried Rice"
+        ],
+        "display": "1 cup asparagus or green beans"
+      },
+      {
+        "item": "basil",
+        "quantity": 6.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "6 basil"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 1.5,
+        "unit": "cup",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1.5 cup cherry tomatoes"
+      },
+      {
+        "item": "cilantro",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "2 tbsp cilantro"
+      },
+      {
+        "item": "cilantro",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "cilantro"
+      },
+      {
+        "item": "english cucumber",
+        "quantity": 0.25,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "0.25 english cucumber"
+      },
+      {
+        "item": "fresh ginger",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Big Green Fried Rice"
+        ],
+        "display": "1 tbsp fresh ginger"
+      },
+      {
+        "item": "fresh thyme",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "fresh thyme"
+      },
+      {
+        "item": "green beans",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "green beans"
+      },
+      {
+        "item": "green onion",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 green onion"
+      },
+      {
+        "item": "green onions",
+        "quantity": 4.0,
+        "unit": "count",
+        "for": [
+          "Big Green Fried Rice"
+        ],
+        "display": "4 green onions"
+      },
+      {
+        "item": "kale",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Big Green Fried Rice"
+        ],
+        "display": "2 cup kale"
+      },
+      {
+        "item": "lemon juice",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "2 tbsp lemon juice"
+      },
+      {
+        "item": "lime",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1 lime"
+      },
+      {
+        "item": "napa cabbage",
+        "quantity": 1.5,
+        "unit": "lb",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1.5 lb napa cabbage"
+      },
+      {
+        "item": "radish",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 radish"
+      },
+      {
+        "item": "red onion",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "red onion"
+      },
+      {
+        "item": "scallions",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1 scallions"
+      },
+      {
+        "item": "yellow onions",
+        "quantity": 2.0,
+        "unit": "lb",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "2 lb yellow onions"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "firm or extra-firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "14 oz firm or extra-firm tofu"
+      },
+      {
+        "item": "gruyere cheese",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "8 oz gruyere cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "baguette",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 baguette"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "capers",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 tsp capers"
+      },
+      {
+        "item": "chickpeas",
+        "quantity": 1.5,
+        "unit": "cup",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1.5 cup chickpeas"
+      },
+      {
+        "item": "chile crisp",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1 tbsp chile crisp"
+      },
+      {
+        "item": "chile-sesame oil and lemon zest",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Big Green Fried Rice"
+        ],
+        "display": "chile-sesame oil and lemon zest"
+      },
+      {
+        "item": "cooked grains (rice, farro, barley, or millet)",
+        "quantity": 4.0,
+        "unit": "cup",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "4 cup cooked grains (rice, farro, barley, or millet)"
+      },
+      {
+        "item": "dried farro",
+        "quantity": 1.5,
+        "unit": "cup",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "1.5 cup dried farro"
+      },
+      {
+        "item": "dried lentils",
+        "quantity": 0.75,
+        "unit": "cup",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "0.75 cup dried lentils"
+      },
+      {
+        "item": "dry sherry, vermouth, or white wine",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "2 tbsp dry sherry, vermouth, or white wine"
+      },
+      {
+        "item": "fish sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1.5 tbsp fish sauce"
+      },
+      {
+        "item": "kalamata olives",
+        "quantity": 8.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "8 kalamata olives"
+      },
+      {
+        "item": "tahini",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "2 tbsp tahini"
+      },
+      {
+        "item": "toasted sesame oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "for": [
+          "Big Green Fried Rice"
+        ],
+        "display": "1.5 tbsp toasted sesame oil"
+      },
+      {
+        "item": "vegan mayo",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "vegan mayo"
+      },
+      {
+        "item": "vegetable broth",
+        "quantity": 6.0,
+        "unit": "cup",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "6 cup vegetable broth"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

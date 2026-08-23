@@ -1,0 +1,116 @@
+{
+  "week_of": "2026-08-23",
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "farrotto-all-seasons",
+      "name": "A Farrotto for All Seasons",
+      "protein": "cheese",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 380,
+        "protein_g": 11,
+        "carbs_g": 55,
+        "fat_g": 12,
+        "fiber_g": 7,
+        "sodium_mg": 520,
+        "source": "estimated"
+      },
+      "tags": [
+        "one-pot",
+        "seasonal",
+        "cozy"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "broccoli-caesar-tempeh",
+      "name": "Broccoli Caesar with Smoky Tempeh Bits",
+      "protein": "tempeh",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": null,
+      "servings": 4,
+      "source_url": "https://www.alive.com/recipe/broccoli-caesar-smoky-tempeh-bits/",
+      "nutrition_per_serving": {
+        "calories": 281,
+        "protein_g": 13,
+        "carbs_g": 19,
+        "fat_g": 19,
+        "fiber_g": 5,
+        "sodium_mg": 154,
+        "source": "site"
+      },
+      "tags": [
+        "salad",
+        "light",
+        "vegan",
+        "make-ahead"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "roasted-broccoli-tofu-peanut-bowls",
+      "name": "Roasted Broccoli and Tofu Bowls with Peanut Sauce",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": null,
+      "servings": 4,
+      "source_url": "https://faithfulplateful.com/roasted-broccoli-and-tofu-bowls-with-peanut-sauce/",
+      "nutrition_per_serving": {
+        "calories": 610,
+        "protein_g": 21,
+        "carbs_g": 76,
+        "fat_g": 25,
+        "fiber_g": 9,
+        "sodium_mg": 950,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "sheet-pan",
+        "hearty",
+        "gluten-free",
+        "make-ahead"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "dan-dan-noodles",
+      "name": "Better Than Takeout Dan Dan Noodles",
+      "protein": "meat",
+      "vegetarian": false,
+      "veg_sub_note": "1/2 lb ground chicken or pork - author says double the mushrooms to make it vegetarian; crumbled tofu also an easy sub (use veg broth)",
+      "total_min": 30,
+      "servings": 6,
+      "source_url": "https://www.halfbakedharvest.com/better-than-takeout-dan-dan-noodles/",
+      "nutrition_per_serving": {
+        "calories": 550,
+        "protein_g": 20,
+        "carbs_g": 48,
+        "fat_g": 31,
+        "fiber_g": 3,
+        "sodium_mg": 1400,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "noodles",
+        "one-pot",
+        "hearty",
+        "takeout-style"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 455,
+    "protein_g": 16.2,
+    "carbs_g": 49.5,
+    "fat_g": 21.8
+  }
+}

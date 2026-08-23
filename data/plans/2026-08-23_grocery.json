@@ -1,0 +1,355 @@
+{
+  "week_of": "2026-08-23",
+  "meals": [
+    "A Farrotto for All Seasons",
+    "Broccoli Caesar with Smoky Tempeh Bits",
+    "Roasted Broccoli and Tofu Bowls with Peanut Sauce",
+    "Better Than Takeout Dan Dan Noodles"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "baby spinach",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "2 cup baby spinach"
+      },
+      {
+        "item": "broccoli",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "1 broccoli"
+      },
+      {
+        "item": "broccoli",
+        "quantity": 1.0,
+        "unit": "lb",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 lb broccoli"
+      },
+      {
+        "item": "carrots or zucchini",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 cup carrots or zucchini"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "1 cup cherry tomatoes"
+      },
+      {
+        "item": "corn",
+        "quantity": 2.0,
+        "unit": "ears",
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "2 ears corn"
+      },
+      {
+        "item": "fresh basil",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "fresh basil"
+      },
+      {
+        "item": "fresh ginger",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 tbsp fresh ginger"
+      },
+      {
+        "item": "green onions",
+        "quantity": 4.0,
+        "unit": "count",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "4 green onions"
+      },
+      {
+        "item": "lemon juice",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "1.5 tbsp lemon juice"
+      },
+      {
+        "item": "mixed mushrooms",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "2 cup mixed mushrooms"
+      },
+      {
+        "item": "onion",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "0.5 onion"
+      },
+      {
+        "item": "red bell pepper",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 red bell pepper"
+      },
+      {
+        "item": "shallot",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "1 shallot"
+      },
+      {
+        "item": "sweet potato",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 sweet potato"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "parmesan cheese",
+        "quantity": 0.333,
+        "unit": "cup",
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "0.33 cup parmesan cheese"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "capers",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "1 tsp capers"
+      },
+      {
+        "item": "chinese egg noodles or rice noodles",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "8 oz chinese egg noodles or rice noodles"
+      },
+      {
+        "item": "dry white wine",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "0.5 cup dry white wine"
+      },
+      {
+        "item": "hoisin sauce",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "0.25 cup hoisin sauce"
+      },
+      {
+        "item": "low sodium chicken broth",
+        "quantity": 2.5,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "2.5 cup low sodium chicken broth"
+      },
+      {
+        "item": "maple syrup",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "1 tsp maple syrup"
+      },
+      {
+        "item": "maple syrup",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 tbsp maple syrup"
+      },
+      {
+        "item": "natural peanut butter",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "0.25 cup natural peanut butter"
+      },
+      {
+        "item": "nutritional yeast",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "1 tbsp nutritional yeast"
+      },
+      {
+        "item": "nutritional yeast",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "2 tsp nutritional yeast"
+      },
+      {
+        "item": "pearled farro",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "2 cup pearled farro"
+      },
+      {
+        "item": "raw cashew butter",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "2 tbsp raw cashew butter"
+      },
+      {
+        "item": "sesame oil",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 tbsp sesame oil"
+      },
+      {
+        "item": "sesame oil",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "2 tsp sesame oil"
+      },
+      {
+        "item": "sesame oil",
+        "quantity": 0.46,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "0.46 cup sesame oil"
+      },
+      {
+        "item": "vegetable stock",
+        "quantity": 4.0,
+        "unit": "cup",
+        "for": [
+          "A Farrotto for All Seasons"
+        ],
+        "display": "4 cup vegetable stock"
+      }
+    ],
+    "spices": [
+      {
+        "item": "smoked paprika",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "1 tsp smoked paprika"
+      }
+    ],
+    "other": [
+      {
+        "item": "extra-firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "14 oz extra-firm tofu"
+      },
+      {
+        "item": "garnishes (peanuts, cilantro, sesame seeds, green onions)",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "garnishes (peanuts, cilantro, sesame seeds, green onions)"
+      },
+      {
+        "item": "ground chicken or pork",
+        "quantity": 0.5,
+        "unit": "lb",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "0.5 lb ground chicken or pork"
+      },
+      {
+        "item": "tempeh",
+        "quantity": 4.0,
+        "unit": "oz",
+        "for": [
+          "Broccoli Caesar with Smoky Tempeh Bits"
+        ],
+        "display": "4 oz tempeh"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

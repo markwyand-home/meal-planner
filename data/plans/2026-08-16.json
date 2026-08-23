@@ -1,0 +1,116 @@
+{
+  "week_of": "2026-08-16",
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "chickpea-salad-sandwich",
+      "name": "Chickpea Salad Sandwich",
+      "protein": "chickpeas",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 25,
+      "servings": 4,
+      "source_url": "https://www.loveandlemons.com/chickpea-salad-sandwich/",
+      "nutrition_per_serving": {
+        "calories": 365,
+        "protein_g": 11,
+        "carbs_g": 50,
+        "fat_g": 13,
+        "fiber_g": 6,
+        "sodium_mg": 650,
+        "source": "estimated"
+      },
+      "tags": [
+        "sandwich",
+        "quick",
+        "make-ahead",
+        "light"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "sweet-chile-grain-bowl-tofu",
+      "name": "Sweet Chile Grain Bowl With Tofu",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 50,
+      "servings": 4,
+      "source_url": "https://cooking.nytimes.com/recipes/1024956-sweet-chile-grain-bowl-with-tofu",
+      "nutrition_per_serving": {
+        "calories": 284,
+        "protein_g": 15,
+        "carbs_g": 20,
+        "fat_g": 19,
+        "fiber_g": 6,
+        "sodium_mg": 1143,
+        "source": "site"
+      },
+      "tags": [
+        "bowl",
+        "sheet-pan",
+        "make-ahead"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "french-onion-baked-lentils-farro",
+      "name": "French Onion Baked Lentils and Farro",
+      "protein": "lentils",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 105,
+      "servings": 6,
+      "source_url": "https://smittenkitchen.com/2024/01/french-onion-baked-lentils-and-farro/",
+      "nutrition_per_serving": {
+        "calories": 535,
+        "protein_g": 24,
+        "carbs_g": 63,
+        "fat_g": 18,
+        "fiber_g": 10,
+        "sodium_mg": 1200,
+        "source": "estimated"
+      },
+      "tags": [
+        "one-pot",
+        "hearty",
+        "make-ahead",
+        "casserole",
+        "cozy"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "big-green-fried-rice",
+      "name": "Big Green Fried Rice",
+      "protein": "eggs",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": null,
+      "servings": 3,
+      "source_url": "https://livenaturallymagazine.com/recipes/big-green-fried-rice/",
+      "nutrition_per_serving": {
+        "calories": 309,
+        "protein_g": 10,
+        "carbs_g": 42,
+        "fat_g": 11,
+        "fiber_g": 5,
+        "sodium_mg": 393,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "one-pot",
+        "light",
+        "fried-rice",
+        "weeknight"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 373,
+    "protein_g": 15.0,
+    "carbs_g": 43.8,
+    "fat_g": 15.2
+  }
+}
