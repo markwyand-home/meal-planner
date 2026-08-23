@@ -92,12 +92,13 @@
       },
       {
         "item": "onion",
-        "quantity": 0.5,
+        "quantity": 1.0,
         "unit": "count",
         "for": [
-          "A Farrotto for All Seasons"
+          "A Farrotto for All Seasons",
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
         ],
-        "display": "0.5 onion"
+        "display": "1 onion"
       },
       {
         "item": "red bell pepper",
@@ -116,15 +117,6 @@
           "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
         ],
         "display": "1 sweet potato"
-      },
-      {
-        "item": "yellow onion",
-        "quantity": 0.5,
-        "unit": "count",
-        "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
-        ],
-        "display": "0.5 yellow onion"
       }
     ],
     "dairy-eggs": [

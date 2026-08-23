@@ -1,0 +1,83 @@
+{
+  "_note": "Extra filtering/display rules applied ONLY to the AnyList push (scripts/anylist_push.js). data/plans/<week>_grocery.json and the dashboard are unaffected — they keep every non-pantry_staple ingredient at its recipe-accurate quantity. When new recipes introduce pantry items that should be excluded here, add them to exclude_items (or exclude_keywords_regex if the pattern generalizes). Decided with the user 2026-08-14.",
+
+  "exclude_categories": ["spices"],
+
+  "exclude_keywords_regex": [
+    "\\boil\\b",
+    "\\b(rice|farro|quinoa|barley|millet|orzo|noodles?|cornmeal|panko|breadcrumbs?|polenta|pasta|grains?)\\b",
+    "\\blentils?\\b",
+    "\\b(broth|stock)\\b"
+  ],
+
+  "exclude_items": [
+    "fish sauce", "hoisin sauce", "chili paste", "chile crisp", "sambal oelek",
+    "ponzu or tamari", "harissa", "tahini", "hot sauce", "vegan mayo",
+    "vegan mayonnaise", "spicy mayo", "natural peanut butter", "raw cashew butter",
+    "maple syrup", "dry sherry, vermouth, or white wine",
+    "nutritional yeast", "seaweed flakes (nori or dulse)",
+    "arrowroot powder", "chickpea flour", "shelf-stable potato gnocchi"
+  ],
+
+  "_kept_ambiguous_note": "User explicitly chose to KEEP (not exclude) these groups when asked: nuts & seeds (sliced/toasted almonds, walnut halves, roasted peanuts, sunflower/sesame seeds), non-lentil legumes (chickpeas, kidney beans, canned beans, canned artichoke hearts), briny/pickled condiments (capers, caper brine, kalamata olives, pickled ginger), and coconut milk (2026-08-23: household doesn't keep it on hand, so it must always be pushed).",
+
+  "produce_conversions": {
+    "arugula": {"unit": "bag"},
+    "baby spinach": {"unit": "bag"},
+    "cherry tomatoes": {"unit": "pint"},
+    "grape tomatoes": {"unit": "pint"},
+    "cilantro": {"unit": "bunch"},
+    "fresh ginger": {"unit": "piece"},
+    "fresh sage": {"unit": "bunch"},
+    "kale": {"unit": "bunch"},
+    "lemon juice": {"unit": "count", "name": "lemon"},
+    "lime juice": {"unit": "count", "name": "lime"},
+    "meyer lemon juice": {"unit": "count", "name": "meyer lemon"},
+    "meyer lemon zest": {"unit": "count", "name": "meyer lemon"},
+    "mixed fresh herbs (cilantro, thai basil, mint)": {"unit": "bunch"},
+    "mixed fresh herbs (dill, cilantro, mint)": {"unit": "bunch"},
+    "mixed mushrooms": {"unit": "package"},
+    "napa cabbage": {"unit": "count"},
+    "orange juice": {"unit": "count", "name": "orange"},
+    "seedless grapes": {"unit": "bunch"},
+    "yellow onions": {"unit": "bag"}
+  },
+
+  "_unconverted_note": "Left at their recipe measurement (cup/etc.) rather than guessed, because the ingredient name is a compound either/or with no single clean produce noun: 'asparagus or green beans', 'carrots or zucchini', 'fresh basil or cilantro', 'shredded or pickled carrots'. Flag to the user if seen on the list.",
+
+  "_category_note": "AnyList's categoryMatchId groups items under the app's built-in aisle headers (fetched from userCategoriesResponse — the valid ids are: baby, bakery, beverages, breakfast-and-cereal, condiments-oils-and-salad-dressings, cooking-and-baking, dairy, deli, frozen-foods, grains-pasta-and-side-dishes, health-and-personal-care, household-and-cleaning, meat, pet-supplies, produce, seafood, snacks-cookies-and-candy, soups-and-canned-goods, wine-beer-spirits, other). grocery.json's own sections (produce/dairy-eggs/bakery/frozen) map straightforwardly via section_category_defaults; the catch-all 'pantry' and 'other' sections need per-item mapping since AnyList has no equivalent generic bucket — item_category_map covers every currently-surviving (non-excluded) pantry/other ingredient. A new recipe's pantry/other ingredient not yet in this map falls back to 'other' rather than guessing wrong.",
+
+  "section_category_defaults": {
+    "produce": "produce",
+    "dairy-eggs": "dairy",
+    "bakery": "bakery",
+    "frozen": "frozen-foods"
+  },
+
+  "item_category_map": {
+    "canned artichoke hearts": "soups-and-canned-goods",
+    "canned beans": "soups-and-canned-goods",
+    "canned chopped tomatoes": "soups-and-canned-goods",
+    "chickpeas": "soups-and-canned-goods",
+    "kidney beans": "soups-and-canned-goods",
+    "caper brine": "condiments-oils-and-salad-dressings",
+    "capers": "condiments-oils-and-salad-dressings",
+    "kalamata olives": "condiments-oils-and-salad-dressings",
+    "pickled ginger": "condiments-oils-and-salad-dressings",
+    "vegan pesto sauce": "condiments-oils-and-salad-dressings",
+    "roasted salted peanuts": "snacks-cookies-and-candy",
+    "sesame seeds and peanuts": "cooking-and-baking",
+    "sliced almonds": "cooking-and-baking",
+    "toasted sliced almonds": "cooking-and-baking",
+    "toasted sunflower seeds": "cooking-and-baking",
+    "walnut halves": "cooking-and-baking",
+    "ground chicken or pork": "meat",
+    "italian sausage": "meat",
+    "extra-firm tofu": "other",
+    "firm or extra-firm tofu": "other",
+    "firm tofu": "other",
+    "tempeh": "other",
+    "garnishes (peanuts, cilantro, sesame seeds, green onions)": "other",
+    "optional toppings (nuts, herbs, cheese, egg, avocado, hot sauce)": "other"
+  }
+}

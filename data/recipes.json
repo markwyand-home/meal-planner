@@ -3293,7 +3293,7 @@
         },
         {
           "raw": "1/2 small yellow onion, chopped",
-          "item": "yellow onion",
+          "item": "onion",
           "quantity": 0.5,
           "unit": "count",
           "category": "produce",
