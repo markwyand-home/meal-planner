@@ -70,7 +70,7 @@ function loadRules() {
   if (!fs.existsSync(rulesPath)) {
     return {
       exclude_categories: new Set(), exclude_keywords_regex: [], exclude_items: new Set(),
-      produce_conversions: {}, section_category_defaults: {}, item_category_map: {},
+      include_keywords_regex: [], produce_conversions: {}, section_category_defaults: {}, item_category_map: {},
     };
   }
   const raw = JSON.parse(fs.readFileSync(rulesPath, "utf-8"));
@@ -78,15 +78,20 @@ function loadRules() {
     exclude_categories: new Set(raw.exclude_categories || []),
     exclude_keywords_regex: (raw.exclude_keywords_regex || []).map(p => new RegExp(p, "i")),
     exclude_items: new Set((raw.exclude_items || []).map(s => s.toLowerCase())),
+    include_keywords_regex: (raw.include_keywords_regex || []).map(p => new RegExp(p, "i")),
     produce_conversions: raw.produce_conversions || {},
     section_category_defaults: raw.section_category_defaults || {},
     item_category_map: Object.fromEntries(Object.entries(raw.item_category_map || {}).map(([k, v]) => [k.toLowerCase(), v])),
   };
 }
 
+// include_keywords_regex overrides everything else below: an ingredient
+// matching it (e.g. "chinese egg noodles or rice noodles", which also
+// contains the excluded word "rice") is never treated as a pantry staple.
 function isPantryStaple(it, category, rules) {
-  if (rules.exclude_categories.has(category)) return true;
   const name = it.item.toLowerCase();
+  if (rules.include_keywords_regex.some(re => re.test(name))) return false;
+  if (rules.exclude_categories.has(category)) return true;
   if (rules.exclude_items.has(name)) return true;
   return rules.exclude_keywords_regex.some(re => re.test(name));
 }

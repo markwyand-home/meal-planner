@@ -5,10 +5,16 @@
 
   "exclude_keywords_regex": [
     "\\boil\\b",
-    "\\b(rice|farro|quinoa|barley|millet|orzo|noodles?|cornmeal|panko|breadcrumbs?|polenta|pasta|grains?)\\b",
+    "\\b(rice|farro|quinoa|barley|millet|orzo|cornmeal|panko|breadcrumbs?|polenta|grains?)\\b",
     "\\blentils?\\b",
     "\\b(broth|stock)\\b"
   ],
+
+  "include_keywords_regex": [
+    "\\b(noodles?|pasta|tofu)\\b"
+  ],
+
+  "_include_note": "include_keywords_regex overrides every other exclude rule below (category, exact-item, and keyword) — always added to the AnyList push, never treated as a pantry staple. Added 2026-08-30 after fresh garlic, then noodles/pasta and tofu, were found missing from the pushed list; noodles/pasta needed this override specifically because several ingredient names are 'X noodles or rice noodles' / 'pasta, polenta, or grain of choice' style either/or compounds that also contain an excluded staple word.",
 
   "exclude_items": [
     "fish sauce", "hoisin sauce", "chili paste", "chile crisp", "sambal oelek",
