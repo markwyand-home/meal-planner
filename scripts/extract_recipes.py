@@ -79,6 +79,29 @@ def parse_duration(iso):
     return total or None
 
 
+def extract_instructions(instructions):
+    """Flatten schema.org recipeInstructions (string, list of strings, list of
+    HowToStep, or list of HowToSection containing HowToSteps) into step strings."""
+    steps = []
+    if isinstance(instructions, str):
+        return [clean(instructions)] if instructions.strip() else []
+    if not isinstance(instructions, list):
+        return steps
+    for entry in instructions:
+        if isinstance(entry, str):
+            if entry.strip():
+                steps.append(clean(entry))
+        elif isinstance(entry, dict):
+            t = str(entry.get("@type", "")).lower()
+            if t == "howtosection" and isinstance(entry.get("itemListElement"), list):
+                steps.extend(extract_instructions(entry["itemListElement"]))
+            else:
+                text = entry.get("text") or entry.get("name")
+                if text:
+                    steps.append(clean(text))
+    return steps
+
+
 def extract(path: Path):
     html = mhtml_html(path)
     if not html:
@@ -110,8 +133,7 @@ def extract(path: Path):
             url = recipe.get("url") or recipe.get("mainEntityOfPage")
             if isinstance(url, dict):
                 url = url.get("@id")
-            instructions = recipe.get("recipeInstructions")
-            n_steps = len(instructions) if isinstance(instructions, list) else None
+            instructions = extract_instructions(recipe.get("recipeInstructions"))
             return {
                 "file": path.name,
                 "name": clean(recipe.get("name")),
@@ -122,7 +144,8 @@ def extract(path: Path):
                 "cook_min": parse_duration(recipe.get("cookTime")),
                 "total_min": parse_duration(recipe.get("totalTime")),
                 "nutrition": nutrition,
-                "n_instruction_steps": n_steps,
+                "instructions": instructions,
+                "n_instruction_steps": len(instructions),
                 "keywords": clean(recipe.get("keywords")) if isinstance(recipe.get("keywords"), str) else None,
             }
     return None
