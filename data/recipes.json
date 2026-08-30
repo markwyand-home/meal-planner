@@ -101,7 +101,7 @@
           "quantity": 4,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1/2 cup tamari",
@@ -415,7 +415,7 @@
           "quantity": 6,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1-2 tablespoons crushed red pepper flakes",
@@ -602,7 +602,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1 tablespoon peeled and grated fresh ginger",
@@ -733,7 +733,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1 tsp (5 mL) Dijon mustard",
@@ -1009,7 +1009,7 @@
           "quantity": 0.5,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1 teaspoon capers",
@@ -1193,7 +1193,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "2 limes",
@@ -1322,7 +1322,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "Salt",
@@ -1444,7 +1444,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "120 g (~2/3 cup) brown lentils",
@@ -1582,7 +1582,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1 1/2 cups (300 grams) dried farro",
@@ -1681,7 +1681,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1 tablespoon nutritional yeast (dressing)",
@@ -1958,7 +1958,7 @@
           "quantity": 1,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "2 tablespoons extra-virgin olive oil",
@@ -2066,7 +2066,7 @@
           "quantity": 1,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1 TBSP fresh ginger, grated (or 1 tsp dry ginger powder)",
@@ -2122,7 +2122,7 @@
           "quantity": 1,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "2 tsp sesame oil (optional) (sauce)",
@@ -2451,7 +2451,16 @@
         "gluten-free"
       ],
       "notes": "Requires two linked sub-recipes (Crispy Baked Italian Herb Tofu, Creamy Pesto Sauce). Freezer friendly 1 month; keeps 3-4 days.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Before preheating, arrange two oven racks so that two baking sheets will fit in your oven. Preheat your oven to 425 degrees F (218 C) and line two standard size baking sheets with parchment paper.",
+        "To one baking sheet, add the zucchini, eggplant, red onion, and red bell pepper. Add the salt, Italian herbs, and olive oil. Toss to evenly coat and spread the veggies so they're overlapping as little as possible.",
+        "Next, prepare the Crispy Baked Italian Herb Tofu, adding it to the other parchment-lined baking sheet.",
+        "Place both baking sheets in the oven — the vegetables on the upper rack and the tofu below — and cook for 15 minutes. After 15 minutes, flip the tofu with a spatula, then add the cherry tomatoes on top of the roasted veggies and bake both for another 15 minutes, or until the tofu is a little firm and golden with crispy edges, the veggies are slightly caramelized, and the tomatoes are beginning to burst.",
+        "While everything is in the oven, make your Creamy Pesto Sauce and prepare any pasta or polenta to serve with your ratatouille.",
+        "Serve the ratatouille and tofu over your pasta, polenta, or grains, drizzle with the creamy pesto sauce, and sprinkle with vegan parmesan cheese (optional). Leftovers keep stored separately for 3-4 days in the refrigerator, or in the freezer for 1 month."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/sheet-pan-ratatouille-tofu.html"
     },
     {
       "id": "sheet-pan-baked-feta-broccolini",
@@ -2603,7 +2612,7 @@
           "quantity": 2,
           "unit": "count",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1/4 cup ketchup",
@@ -3082,7 +3091,7 @@
           "quantity": 1,
           "unit": "clove",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "5 cups roughly chopped Swiss chard (including stems), amaranth, kale, or spinach",
@@ -3313,7 +3322,7 @@
           "quantity": 1,
           "unit": "clove",
           "category": "produce",
-          "pantry_staple": true
+          "pantry_staple": false
         },
         {
           "raw": "1 tablespoon plus 1 teaspoon smoked paprika",

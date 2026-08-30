@@ -1,0 +1,64 @@
+{
+  "week_of": "2026-08-30",
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "dan-dan-noodles",
+      "name": "Better Than Takeout Dan Dan Noodles",
+      "protein": "meat",
+      "vegetarian": false,
+      "veg_sub_note": "1/2 lb ground chicken or pork - author says double the mushrooms to make it vegetarian; crumbled tofu also an easy sub (use veg broth)",
+      "total_min": 30,
+      "servings": 6,
+      "source_url": "https://www.halfbakedharvest.com/better-than-takeout-dan-dan-noodles/",
+      "nutrition_per_serving": {
+        "calories": 550,
+        "protein_g": 20,
+        "carbs_g": 48,
+        "fat_g": 31,
+        "fiber_g": 3,
+        "sodium_mg": 1400,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "noodles",
+        "one-pot",
+        "hearty",
+        "takeout-style"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "sheet-pan-ratatouille-tofu",
+      "name": "Sheet Pan Ratatouille with Crispy Baked Tofu",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": "https://minimalistbaker.com/sheet-pan-ratatouille-with-crispy-baked-tofu/",
+      "nutrition_per_serving": {
+        "calories": 399,
+        "protein_g": 18.8,
+        "carbs_g": 21.7,
+        "fat_g": 29.5,
+        "fiber_g": 7.6,
+        "sodium_mg": 1131,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "hearty",
+        "make-ahead",
+        "gluten-free"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 474,
+    "protein_g": 19.4,
+    "carbs_g": 34.9,
+    "fat_g": 30.2
+  }
+}

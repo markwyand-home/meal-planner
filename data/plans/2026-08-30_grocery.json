@@ -1,0 +1,189 @@
+{
+  "week_of": "2026-08-30",
+  "meals": [
+    "Better Than Takeout Dan Dan Noodles",
+    "Sheet Pan Ratatouille with Crispy Baked Tofu"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "baby spinach",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "2 cup baby spinach"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 cup cherry tomatoes"
+      },
+      {
+        "item": "eggplant",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 eggplant"
+      },
+      {
+        "item": "garlic",
+        "quantity": 6.0,
+        "unit": "count",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "6 garlic"
+      },
+      {
+        "item": "green onions",
+        "quantity": 4.0,
+        "unit": "count",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "4 green onions"
+      },
+      {
+        "item": "mixed mushrooms",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "2 cup mixed mushrooms"
+      },
+      {
+        "item": "red bell pepper",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "0.5 red bell pepper"
+      },
+      {
+        "item": "red onion",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "0.5 red onion"
+      },
+      {
+        "item": "shallot",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "1 shallot"
+      },
+      {
+        "item": "zucchini",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 zucchini"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "chinese egg noodles or rice noodles",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "8 oz chinese egg noodles or rice noodles"
+      },
+      {
+        "item": "hoisin sauce",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "0.25 cup hoisin sauce"
+      },
+      {
+        "item": "low sodium chicken broth",
+        "quantity": 2.5,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "2.5 cup low sodium chicken broth"
+      },
+      {
+        "item": "pasta, polenta, or grain of choice",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "pasta, polenta, or grain of choice"
+      },
+      {
+        "item": "sesame oil",
+        "quantity": 0.46,
+        "unit": "cup",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "0.46 cup sesame oil"
+      }
+    ],
+    "spices": [
+      {
+        "item": "dried italian herbs",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 tbsp dried italian herbs"
+      }
+    ],
+    "other": [
+      {
+        "item": "firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "14 oz firm tofu"
+      },
+      {
+        "item": "ground chicken or pork",
+        "quantity": 0.5,
+        "unit": "lb",
+        "for": [
+          "Better Than Takeout Dan Dan Noodles"
+        ],
+        "display": "0.5 lb ground chicken or pork"
+      },
+      {
+        "item": "vegan pesto sauce",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 vegan pesto sauce"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}
