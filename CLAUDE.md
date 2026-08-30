@@ -59,7 +59,11 @@ Sunday, and every step is idempotent for a given week.
    introduce pantry items not yet covered by the rules file (exclusion or
    category); when that happens, ask before adding them rather than guessing.
    `node scripts/anylist_push.js --clear` removes every item currently on the
-   list (useful when re-testing the filtering logic).
+   list (useful when re-testing the filtering logic). After the recipe-derived
+   items, it also adds every item on that AnyList list's built-in "favorites"
+   (managed in the AnyList app itself, e.g. bananas, eggs, coffee) — every
+   week, not just a one-time thing. Same idempotency: skipped if already on
+   the list unchecked.
 4. For any of this week's 4 recipes that don't yet have `"instructions"` in
    `data/recipes.json`: read the recipe's page from `Recipes/<file>.mhtml` (see
    `scripts/extract_recipes.py`'s `mhtml_html()` for pulling plain text out of the

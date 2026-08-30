@@ -19,6 +19,10 @@
  * measurement ("2 tbsp lemon juice") for a whole-item buy ("1 lemon"). This only
  * affects what gets pushed to AnyList — data/plans/<week>_grocery.json and the
  * dashboard keep the full, recipe-accurate list untouched for cross-checking.
+ *
+ * After the recipe-derived items, also adds every item on this list's AnyList
+ * "favorites" (a built-in AnyList feature, managed in the app itself — not
+ * anylist_rules.json) every week, e.g. household staples like bananas or coffee.
  */
 
 const fs = require("fs");
@@ -175,5 +179,22 @@ function categoryFor(it, section, rules) {
   console.log(`AnyList "${listName}": ${added} items added, ${skipped} already on list, ${staples} pantry staples omitted.`);
   if (staplesOmitted.length) console.log(`  Omitted: ${staplesOmitted.join(", ")}`);
   if (converted.length) console.log(`  Converted to whole-item: ${converted.join("; ")}`);
+
+  // Every week, also add AnyList's own "favorites" for this list (a built-in
+  // AnyList feature, separate from the recipe-derived grocery list) — e.g.
+  // household staples like bananas, eggs, coffee.
+  const favList = any.getFavoriteItemsByListId(list.identifier);
+  let favAdded = 0, favSkipped = 0;
+  if (favList) {
+    for (const fav of favList.items) {
+      if (existing.has(fav.name.toLowerCase())) { favSkipped++; continue; }
+      const item = any.createItem({ name: fav.name, categoryMatchId: fav.categoryMatchId });
+      item.details = "Weekly favorite";
+      await list.addItem(item);
+      existing.add(fav.name.toLowerCase());
+      favAdded++;
+    }
+  }
+  console.log(`AnyList "${listName}": ${favAdded} favorites added, ${favSkipped} already on list.`);
   process.exit(0);
 })().catch(e => { console.error("AnyList push failed:", e.message); process.exit(1); });
