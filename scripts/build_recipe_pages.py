@@ -17,6 +17,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 BASE = Path(os.environ.get("MEAL_PLANNER_HOME") or Path(__file__).resolve().parent.parent)
 DATA = BASE / "data"
@@ -24,30 +25,26 @@ OUT_DIR = BASE / "docs" / "recipes"
 
 CSS = """
   :root {
-    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
-    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2;
-    --honey:#B58A2E; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#636B61; --line:#E4DFD3;
+    --leaf:#2F6540; --leaf-soft:#EAF2EC; --tomato:#95401F; --tomato-soft:#F6E9E2;
+    --honey:#8A6714; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
     --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
   }
   @media (prefers-color-scheme: dark) { :root {
     --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
-    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#E09A78; --tomato-soft:#3A2A22; --honey:#D3AC58;
   } }
-  :root[data-theme="dark"] {
-    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
-    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
-  }
-  :root[data-theme="light"] {
-    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
-    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2; --honey:#B58A2E;
-  }
-  html { background:var(--paper); }
+  html { background:var(--paper); scrollbar-color:var(--line) var(--paper); }
   body { font-family:var(--sans); color:var(--ink); margin:0; padding:0 20px 56px;
          -webkit-font-smoothing:antialiased; }
+  ::selection { background:var(--leaf-soft); color:var(--ink); }
+  :focus-visible { outline:2px solid var(--leaf); outline-offset:3px; border-radius:2px; }
   main { max-width:640px; margin:0 auto; }
-  header { padding:32px 0 16px; border-bottom:2px solid var(--ink); margin-bottom:24px; }
-  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--leaf); font-weight:600; }
-  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(26px,7vw,36px); margin:6px 0 12px; text-wrap:balance; }
+  .back { display:inline-block; margin:28px 0 0; font-size:13px; font-weight:600; color:var(--leaf);
+          text-decoration:none; border-bottom:1px solid var(--line); }
+  .back:hover { border-bottom-color:var(--leaf); }
+  header { padding:16px 0; border-bottom:2px solid var(--ink); margin-bottom:24px; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(26px,7vw,36px); margin:0 0 12px; text-wrap:balance; }
   .meta { display:flex; flex-wrap:wrap; gap:8px; }
   .chip { font-size:12px; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
   .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
@@ -69,9 +66,16 @@ CSS = """
   .notes { margin-top:32px; padding:14px 16px; background:var(--leaf-soft); border-radius:6px;
            font-size:14px; color:var(--ink); }
   .notes strong { color:var(--leaf); }
-  footer { margin-top:40px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
-  footer a { color:var(--muted); }
+  footer { margin-top:40px; font-size:13px; color:var(--muted); border-top:1px solid var(--line);
+           padding-top:14px; display:flex; flex-wrap:wrap; gap:8px 20px; }
+  footer a { color:var(--muted); text-underline-offset:3px; }
 """
+
+FAVICON_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">'
+               '<rect width="32" height="32" rx="7" fill="#2F6540"/>'
+               '<path d="M8.5 23.5c0-8.5 5.5-13.5 15-14.5 1 9.5-4.5 15-12 15z" fill="#FAF7F0"/>'
+               '<path d="M8.5 23.5c3.2-3.4 6.6-5.6 11-7.2" fill="none" stroke="#2F6540" '
+               'stroke-width="1.7" stroke-linecap="round"/></svg>')
 
 PROTEIN_LABEL = {"tofu": "Tofu", "tempeh": "Tempeh", "halloumi": "Halloumi", "paneer": "Paneer",
                  "chickpeas": "Chickpeas", "lentils": "Lentils", "beans": "Beans", "eggs": "Eggs",
@@ -94,13 +98,18 @@ def render(recipe):
     source_html = (f'<a href="{esc(recipe["source_url"])}" target="_blank" rel="noopener">Original recipe &rarr;</a>'
                    if recipe.get("source_url") else "")
 
+    favicon = "data:image/svg+xml," + quote(FAVICON_SVG, safe="")
     return ("<!doctype html>\n<html lang=\"en\">\n<head>\n"
             "<meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n"
+            "<meta name=\"theme-color\" content=\"#FAF7F0\" media=\"(prefers-color-scheme: light)\">\n"
+            "<meta name=\"theme-color\" content=\"#161B17\" media=\"(prefers-color-scheme: dark)\">\n"
+            "<link rel=\"icon\" href=\"" + favicon + "\">\n"
             "<title>" + esc(recipe["name"]) + "</title>\n"
             "<style>" + CSS + "</style>\n"
             "</head>\n<body>\n"
-            "<main>\n  <header>\n    <div class=\"eyebrow\">Recipe</div>\n"
+            "<main>\n  <a class=\"back\" href=\"../index.html\">&larr; This week&rsquo;s plan</a>\n"
+            "  <header>\n"
             "    <h1>" + esc(recipe["name"]) + "</h1>\n"
             "    <div class=\"meta\">" + protein_chip + veg_badge + time_chip +
             f'<span class="chip">serves {recipe["servings"]}</span></div>\n'
@@ -108,7 +117,8 @@ def render(recipe):
             "  <h2>Ingredients</h2>\n  <ul class=\"ing\">" + ing_html + "</ul>\n"
             "  <h2>Instructions</h2>\n  <ol class=\"steps\">" + steps_html + "</ol>\n"
             + notes_html +
-            "\n  <footer>" + source_html + "</footer>\n</main>\n</body>\n</html>\n")
+            "\n  <footer><a href=\"../index.html\">&larr; This week&rsquo;s plan</a>" + source_html +
+            "</footer>\n</main>\n</body>\n</html>\n")
 
 
 def main():

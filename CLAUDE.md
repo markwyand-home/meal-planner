@@ -86,7 +86,8 @@ Sunday, and every step is idempotent for a given week.
    user explicitly authorized it for this task; it does not extend to other edits
    in this project or repo. Only stage the paths listed above, never `git add -A`,
    so unrelated in-progress local edits aren't swept into the weekly commit.
-7. Email the plan to mark.wyand@gmail.com and eringolden1@gmail.com (subject
+7. Email the plan to the addresses listed in `~/.meal-planner/recipients.txt` (one
+   per line, outside this public repo — read it at run time; subject
    "Dinner plan — week of <Monday's date>"): the 4 meals with links, times and
    protein, any veg-substitution notes, average per-serving nutrition, a line
    confirming groceries are in AnyList, and the dashboard link. If no mail tool

@@ -53,6 +53,20 @@ ANYLIST_LIST=Current Grocery List
 `ANYLIST_LIST` must exactly match a list that already exists in your AnyList app.
 Create and edit this file yourself; the scripts read it and never print its values.
 
+## 4b. Email recipients
+
+Create `~/.meal-planner/recipients.txt` with one email address per line — whoever
+should receive the weekly plan:
+
+```
+you@example.com
+someone-else@example.com
+```
+
+This lives outside the project for the same reason the credentials do: the repo is
+public, and addresses committed to it get scraped. Weekly workflow step 7 reads this
+file at run time.
+
 ## 5. First run
 
 ```bash

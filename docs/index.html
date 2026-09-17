@@ -3,91 +3,136 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#FAF7F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161B17" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%232F6540%22%2F%3E%3Cpath%20d%3D%22M8.5%2023.5c0-8.5%205.5-13.5%2015-14.5%201%209.5-4.5%2015-12%2015z%22%20fill%3D%22%23FAF7F0%22%2F%3E%3Cpath%20d%3D%22M8.5%2023.5c3.2-3.4%206.6-5.6%2011-7.2%22%20fill%3D%22none%22%20stroke%3D%22%232F6540%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
 <title>Wyand Dinner Plan — Week of August 31 – September 3</title>
 <style>
   :root {
-    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
-    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2;
-    --honey:#B58A2E; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#636B61; --line:#E4DFD3;
+    --leaf:#2F6540; --leaf-soft:#EAF2EC; --tomato:#95401F; --tomato-soft:#F6E9E2;
+    --honey:#8A6714; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
     --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
   }
   @media (prefers-color-scheme: dark) { :root {
     --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
-    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#E09A78; --tomato-soft:#3A2A22; --honey:#D3AC58;
   } }
-  :root[data-theme="dark"] {
-    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
-    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#D98B66; --tomato-soft:#3A2A22; --honey:#D3AC58;
-  }
-  :root[data-theme="light"] {
-    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#6B7369; --line:#E4DFD3;
-    --leaf:#3E7B4F; --leaf-soft:#EAF2EC; --tomato:#B0512E; --tomato-soft:#F6E9E2; --honey:#B58A2E;
-  }
-  html { background:var(--paper); }
+  html { background:var(--paper); scrollbar-color:var(--line) var(--paper); }
   body { font-family:var(--sans); color:var(--ink); margin:0; padding:0 16px 64px;
          -webkit-font-smoothing:antialiased; }
+  ::selection { background:var(--leaf-soft); color:var(--ink); }
   main { max-width:720px; margin:0 auto; }
-  header.week { padding:40px 0 8px; border-bottom:2px solid var(--ink); margin-bottom:24px; }
-  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--leaf); font-weight:600; }
-  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(28px,6vw,40px); margin:6px 0 4px; text-wrap:balance; }
-  .tagline { color:var(--muted); margin:0 0 16px; font-size:14px; }
-  h2 { font-family:var(--serif); font-weight:500; font-size:22px; margin:40px 0 14px; }
+  a { color:var(--leaf); text-underline-offset:3px; }
+  :focus-visible { outline:2px solid var(--leaf); outline-offset:3px; border-radius:2px; }
+  .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden;
+             clip:rect(0 0 0 0); white-space:nowrap; border:0; }
+
+  header.week { padding:40px 0 8px; border-bottom:2px solid var(--ink); margin-bottom:20px; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(28px,6vw,40px); margin:0 0 6px; text-wrap:balance; }
+  .tagline { color:var(--ink); margin:0 0 12px; font-size:15px; max-width:60ch; }
+  .stamp { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; margin:0 0 16px;
+           font-size:12.5px; color:var(--muted); }
+  .stamp time { font-variant-numeric:tabular-nums; }
+  .jump { color:var(--leaf); font-weight:600; text-decoration:none; border-bottom:1px solid var(--line); }
+  .jump:hover { border-bottom-color:var(--leaf); }
+
+  .notice { border:1px solid var(--tomato); background:var(--tomato-soft); color:var(--tomato);
+            border-radius:6px; padding:12px 14px; margin:0 0 16px; font-size:14px; max-width:62ch; }
+  .notice strong { display:block; font-weight:700; margin-bottom:2px; }
+  .notice p { margin:0; color:var(--ink); }
+
+  h2 { font-family:var(--serif); font-weight:500; font-size:24px; margin:36px 0 14px; scroll-margin-top:16px; }
+  h2:first-of-type { margin-top:0; }
+  .h2count { font-size:14px; color:var(--muted); font-family:var(--sans); font-variant-numeric:tabular-nums; }
+
   .meal { display:flex; gap:16px; background:var(--card); border:1px solid var(--line);
           border-radius:6px; padding:16px; margin-bottom:12px; }
-  .dayrail { display:flex; flex-direction:column; align-items:center; min-width:44px;
+  .meal.tonight { border-color:var(--leaf); box-shadow:0 2px 10px -4px rgba(47,101,64,.35); }
+  .dayrail { display:flex; flex-direction:column; align-items:center; min-width:46px;
              border-right:1px solid var(--line); padding-right:14px; }
   .dow { font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--leaf); font-weight:700; }
   .dom { font-size:13px; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .tonight .dow, .tonight .dom { color:var(--leaf); font-weight:700; }
   .mealbody { flex:1; min-width:0; }
-  .meal h3 { font-family:var(--serif); font-size:19px; font-weight:500; margin:0 0 8px; text-wrap:balance; }
+  .meal h3 { font-family:var(--serif); font-size:20px; font-weight:500; margin:0 0 8px; text-wrap:balance; }
   .meal h3 a { color:var(--ink); text-decoration:none; border-bottom:1px solid var(--line); }
-  .meal h3 a:hover, .meal h3 a:focus { border-bottom-color:var(--leaf); color:var(--leaf); outline:none; }
+  .meal h3 a:hover { border-bottom-color:var(--leaf); color:var(--leaf); }
   .rating { color:var(--honey); font-size:14px; margin-left:8px; }
   .chips { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:6px; }
   .chip { font-size:12px; padding:2px 9px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .chip-tonight { font-size:12px; font-weight:700; letter-spacing:.04em; padding:2px 9px;
+                  border-radius:999px; background:var(--leaf); color:var(--card); border-color:transparent; }
   .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
   .chip-veg { color:var(--leaf); border-color:var(--leaf); }
   .chip-meat { background:var(--tomato-soft); color:var(--tomato); border-color:transparent; font-weight:600; }
-  .subnote { font-size:13px; color:var(--tomato); margin:4px 0 6px; }
+  .subnote { font-size:13px; color:var(--tomato); margin:4px 0 6px; max-width:62ch; }
   dl.nut { display:flex; gap:22px; margin:10px 0 0; padding-top:10px; border-top:1px dashed var(--line); }
   dl.nut div { display:flex; flex-direction:column; }
   dl.nut dt { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
   dl.nut dd { margin:0; font-variant-numeric:tabular-nums; font-size:15px; }
-  .est { font-size:10px; color:var(--muted); font-style:italic; }
-  .summary { display:flex; gap:0; background:var(--leaf-soft); border-radius:6px; padding:14px 6px; margin:18px 0 0; }
-  .summary div { flex:1; text-align:center; }
-  .summary dt { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--leaf); }
-  .summary dd { margin:2px 0 0; font-family:var(--serif); font-size:20px; font-variant-numeric:tabular-nums; }
+  .est { font-size:11px; color:var(--muted); font-style:italic; }
+
+  .summary { border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+             padding:12px 0 14px; margin:18px 0 0; }
+  .summary-label { font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+                   color:var(--muted); margin-bottom:8px; }
+  .summary dl { display:flex; gap:0; margin:0; }
+  .summary dl div { flex:1; }
+  .summary dt { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  .summary dd { margin:2px 0 0; font-family:var(--serif); font-size:19px; font-variant-numeric:tabular-nums; }
+
   details { background:var(--card); border:1px solid var(--line); border-radius:6px; margin-bottom:10px; padding:0 16px; }
   summary { font-weight:600; padding:12px 0; cursor:pointer; }
-  summary .count { color:var(--muted); font-weight:400; font-size:13px; margin-left:6px; }
+  summary .count { color:var(--muted); font-weight:400; font-size:13px; margin-left:6px;
+                   font-variant-numeric:tabular-nums; }
   details ul { list-style:none; margin:0 0 12px; padding:0; }
   details li { border-top:1px solid var(--line); }
-  details label { display:flex; align-items:baseline; gap:10px; padding:8px 0; cursor:pointer; }
-  details label em { margin-left:auto; font-style:normal; font-size:11px; color:var(--muted); text-align:right; max-width:45%; }
-  details input[type=checkbox] { accent-color:var(--leaf); }
-  details input[type=checkbox]:checked ~ span { text-decoration:line-through; color:var(--muted); }
+  details label { display:flex; align-items:flex-start; gap:12px; padding:10px 0; cursor:pointer; }
+  details input[type=checkbox] { accent-color:var(--leaf); width:18px; height:18px; flex:none; margin:1px 0 0; }
+  .gtext { min-width:0; }
+  .gitem { display:block; font-size:15px; line-height:1.35; }
+  .gfor { display:block; font-size:11.5px; color:var(--muted); margin-top:2px; }
+  .tag { display:inline-block; font-size:11px; letter-spacing:.04em; text-transform:uppercase;
+         font-weight:700; border-radius:3px; padding:1px 6px; margin-left:8px; vertical-align:1px; }
+  .tag-off { border:1px solid var(--line); color:var(--muted); }
+  .tag-buy { background:var(--leaf-soft); color:var(--leaf); }
+  details input[type=checkbox]:checked ~ .gtext .gitem { text-decoration:line-through; color:var(--muted); }
+  details input[type=checkbox]:checked ~ .gtext { opacity:.55; }
+  .gtext, .gitem { transition:opacity .22s cubic-bezier(.2,.7,.3,1), color .22s cubic-bezier(.2,.7,.3,1); }
+  @media (prefers-reduced-motion:reduce) { .gtext, .gitem { transition:none; } }
+
   table.hist { width:100%; border-collapse:collapse; font-size:14px; }
   table.hist td { padding:8px 10px 8px 0; border-top:1px solid var(--line); vertical-align:top; }
   td.wkdate { color:var(--muted); white-space:nowrap; font-variant-numeric:tabular-nums; }
   .muted { color:var(--muted); }
-  footer { margin-top:48px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; }
+  .note { font-size:13px; color:var(--muted); max-width:62ch; }
+  footer { margin-top:48px; font-size:13px; color:var(--muted); border-top:1px solid var(--line);
+           padding-top:14px; max-width:62ch; }
   footer strong { color:var(--ink); }
+
+  @media (max-width:420px) {
+    .summary dl { flex-wrap:wrap; gap:10px 0; }
+    .summary dl div { flex:0 0 50%; }
+  }
 </style>
 </head>
 <body>
-<main>
+<main data-week="2026-08-30">
   <header class="week">
-    <div class="eyebrow">Wyand dinner plan</div>
     <h1>Week of August 31 – September 3</h1>
-    <p class="tagline">Four dinners &middot; vegetarian-first &middot; no protein repeated</p>
+    <p class="tagline">Two dinners &middot; 1 of 2 vegetarian &middot; no protein repeated</p>
+    <p class="stamp"><time datetime="2026-09-17T14:12">Generated Thu Sep 17, 2:12 PM</time><a class="jump" href="#groceries">Grocery list &mdash; 15 of 19 in AnyList</a></p>
   </header>
-
-      <article class="meal">
+  <div class="notice" id="stale-notice" role="status" data-plan-end="2026-09-05"><strong>This is not the current week.</strong><p>The plan below ran for the week of August 31. Sunday's run has not replaced it yet.</p></div>
+  <div class="notice"><strong>Partial plan.</strong><p>This week has 2 dinners, not the usual 4 — the Sunday run may not have finished.</p></div>
+  <h2>Dinners</h2>
+      <article class="meal" data-date="2026-08-31">
         <div class="dayrail"><span class="dow">Mon</span><span class="dom">8/31</span></div>
         <div class="mealbody">
-          <h3><a href="https://markwyand-home.github.io/meal-planner/recipes/dan-dan-noodles.html" target="_blank" rel="noopener">Better Than Takeout Dan Dan Noodles</a></h3>
+          <h3><a href="recipes/dan-dan-noodles.html">Better Than Takeout Dan Dan Noodles</a></h3>
           <div class="chips">
+            <span class="chip chip-tonight" data-tonight hidden>Tonight</span>
             <span class="chip chip-protein">Meat</span>
             <span class="chip chip-meat">Contains meat</span><span class="chip">30 min</span>
             <span class="chip">serves 6</span>
@@ -99,11 +144,12 @@
             <div><dt>Fat</dt><dd>31 g</dd></div></dl>
         </div>
       </article>
-      <article class="meal">
+      <article class="meal" data-date="2026-09-01">
         <div class="dayrail"><span class="dow">Tue</span><span class="dom">9/01</span></div>
         <div class="mealbody">
-          <h3><a href="https://markwyand-home.github.io/meal-planner/recipes/sheet-pan-ratatouille-tofu.html" target="_blank" rel="noopener">Sheet Pan Ratatouille with Crispy Baked Tofu</a></h3>
+          <h3><a href="recipes/sheet-pan-ratatouille-tofu.html">Sheet Pan Ratatouille with Crispy Baked Tofu</a></h3>
           <div class="chips">
+            <span class="chip chip-tonight" data-tonight hidden>Tonight</span>
             <span class="chip chip-protein">Tofu</span>
             <span class="chip chip-veg">Vegetarian</span><span class="chip">45 min</span>
             <span class="chip">serves 4</span>
@@ -115,23 +161,72 @@
             <div><dt>Fat</dt><dd>29.5 g</dd></div></dl>
         </div>
       </article>
-  <dl class="summary">
-    <div><dt>Avg cal / serv</dt><dd>474</dd></div>
-    <div><dt>Protein</dt><dd>19.4 g</dd></div>
-    <div><dt>Carbs</dt><dd>34.9 g</dd></div>
-    <div><dt>Fat</dt><dd>30.2 g</dd></div>
-  </dl>
+  <section class="summary">
+    <div class="summary-label">Average per serving</div>
+    <dl>
+      <div><dt>Cal</dt><dd>474</dd></div>
+      <div><dt>Protein</dt><dd>19.4 g</dd></div>
+      <div><dt>Carbs</dt><dd>34.9 g</dd></div>
+      <div><dt>Fat</dt><dd>30.2 g</dd></div>
+    </dl>
+  </section>
 
-  <h2>Grocery list <span class="count muted" style="font-size:14px">(19 items — also pushed to AnyList)</span></h2>
-<details open><summary>Produce <span class="count">10</span></summary><ul><li><label><input type="checkbox"><span>2 cup baby spinach</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>1 cup cherry tomatoes</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li><li><label><input type="checkbox"><span>1 eggplant</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li><li><label><input type="checkbox"><span>6 garlic</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>4 green onions</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>2 cup mixed mushrooms</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>0.5 red bell pepper</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li><li><label><input type="checkbox"><span>0.5 red onion</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li><li><label><input type="checkbox"><span>1 shallot</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>1 zucchini</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li></ul></details><details open><summary>Pantry <span class="count">5</span></summary><ul><li><label><input type="checkbox"><span>8 oz chinese egg noodles or rice noodles</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>0.25 cup hoisin sauce</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>2.5 cup low sodium chicken broth</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>pasta, polenta, or grain of choice</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li><li><label><input type="checkbox"><span>0.46 cup sesame oil</span><em>Better Than Takeout Dan Dan Noodles</em></label></li></ul></details><details open><summary>Spices <span class="count">1</span></summary><ul><li><label><input type="checkbox"><span>1 tbsp dried italian herbs</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li></ul></details><details open><summary>Other <span class="count">3</span></summary><ul><li><label><input type="checkbox"><span>14 oz firm tofu</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li><li><label><input type="checkbox"><span>0.5 lb ground chicken or pork</span><em>Better Than Takeout Dan Dan Noodles</em></label></li><li><label><input type="checkbox"><span>1 vegan pesto sauce</span><em>Sheet Pan Ratatouille with Crispy Baked Tofu</em></label></li></ul></details>
-  <p class="muted" style="font-size:13px">Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them.</p>
+  <h2 id="groceries">Grocery list <span class="h2count">(15 of 19 pushed to AnyList)</span></h2>
+<details open><summary>Produce <span class="count">10 of 10 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="2 cup baby spinach" aria-label="2 cup baby spinach"><span class="gtext"><span class="gitem">2 cup baby spinach<span class="tag tag-buy">buy 1 bag baby spinach</span></span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="1 cup cherry tomatoes" aria-label="1 cup cherry tomatoes"><span class="gtext"><span class="gitem">1 cup cherry tomatoes<span class="tag tag-buy">buy 1 pint cherry tomatoes</span></span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li><li><label><input type="checkbox" data-key="1 eggplant" aria-label="1 eggplant"><span class="gtext"><span class="gitem">1 eggplant</span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li><li><label><input type="checkbox" data-key="6 garlic" aria-label="6 garlic"><span class="gtext"><span class="gitem">6 garlic</span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="4 green onions" aria-label="4 green onions"><span class="gtext"><span class="gitem">4 green onions</span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="2 cup mixed mushrooms" aria-label="2 cup mixed mushrooms"><span class="gtext"><span class="gitem">2 cup mixed mushrooms<span class="tag tag-buy">buy 1 package mixed mushrooms</span></span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="0.5 red bell pepper" aria-label="0.5 red bell pepper"><span class="gtext"><span class="gitem">0.5 red bell pepper</span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li><li><label><input type="checkbox" data-key="0.5 red onion" aria-label="0.5 red onion"><span class="gtext"><span class="gitem">0.5 red onion</span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li><li><label><input type="checkbox" data-key="1 shallot" aria-label="1 shallot"><span class="gtext"><span class="gitem">1 shallot</span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="1 zucchini" aria-label="1 zucchini"><span class="gtext"><span class="gitem">1 zucchini</span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li></ul></details><details open><summary>Pantry <span class="count">2 of 5 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="8 oz chinese egg noodles or rice noodles" aria-label="8 oz chinese egg noodles or rice noodles"><span class="gtext"><span class="gitem">8 oz chinese egg noodles or rice noodles</span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="0.25 cup hoisin sauce" aria-label="0.25 cup hoisin sauce"><span class="gtext"><span class="gitem">0.25 cup hoisin sauce<span class="tag tag-off">not in AnyList</span></span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="2.5 cup low sodium chicken broth" aria-label="2.5 cup low sodium chicken broth"><span class="gtext"><span class="gitem">2.5 cup low sodium chicken broth<span class="tag tag-off">not in AnyList</span></span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="pasta, polenta, or grain of choice" aria-label="pasta, polenta, or grain of choice"><span class="gtext"><span class="gitem">pasta, polenta, or grain of choice</span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li><li><label><input type="checkbox" data-key="0.46 cup sesame oil" aria-label="0.46 cup sesame oil"><span class="gtext"><span class="gitem">0.46 cup sesame oil<span class="tag tag-off">not in AnyList</span></span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li></ul></details><details open><summary>Spices <span class="count">0 of 1 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="1 tbsp dried italian herbs" aria-label="1 tbsp dried italian herbs"><span class="gtext"><span class="gitem">1 tbsp dried italian herbs<span class="tag tag-off">not in AnyList</span></span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li></ul></details><details open><summary>Other <span class="count">3 of 3 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="14 oz firm tofu" aria-label="14 oz firm tofu"><span class="gtext"><span class="gitem">14 oz firm tofu</span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li><li><label><input type="checkbox" data-key="0.5 lb ground chicken or pork" aria-label="0.5 lb ground chicken or pork"><span class="gtext"><span class="gitem">0.5 lb ground chicken or pork</span><span class="gfor">Better Than Takeout Dan Dan Noodles</span></span></label></li><li><label><input type="checkbox" data-key="1 vegan pesto sauce" aria-label="1 vegan pesto sauce"><span class="gtext"><span class="gitem">1 vegan pesto sauce</span><span class="gfor">Sheet Pan Ratatouille with Crispy Baked Tofu</span></span></label></li></ul></details>
+  <p class="note">Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them.</p>
 
   <h2>Recent weeks</h2>
-<table class='hist'><tbody><tr><td class="wkdate">2026-08-30</td><td>Better Than Takeout Dan Dan Noodles · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Spicy-Tangy-Smoky Pinto Bean Bowls · Roasted Broccoli and Tofu Bowls with Peanut Sauce · Creamy Coconut-Lime Rice With Peanuts</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Crispy Gnocchi With Sausage and Broccoli · Meyer Lemon Romanesco Glow Salad · Artichoke Tacos (Vegan Fish Tacos)</td></tr><tr><td class="wkdate">2026-08-16</td><td>Chickpea Salad Sandwich · Sweet Chile Grain Bowl With Tofu · French Onion Baked Lentils and Farro · Big Green Fried Rice</td></tr><tr><td class="wkdate">2026-08-09</td><td>One-Pot Beans, Greens and Grains · Easy Lentil and Halloumi Curry · Charred Cauliflower Pitas with Halloumi and Harissa · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-07-26</td><td>Artichoke Tacos (Vegan Fish Tacos) · Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon · Creamy Coconut-Lime Rice With Peanuts · 25 Minute Banh Mi Rice Bowls</td></tr></tbody></table>
+<table class='hist'><tbody><tr><td class="wkdate">2026-09-13</td><td>Chickpea Salad Sandwich · Charred Cauliflower Pitas with Halloumi and Harissa</td></tr><tr><td class="wkdate">2026-08-30</td><td>Better Than Takeout Dan Dan Noodles · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Spicy-Tangy-Smoky Pinto Bean Bowls · Roasted Broccoli and Tofu Bowls with Peanut Sauce · Creamy Coconut-Lime Rice With Peanuts</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Crispy Gnocchi With Sausage and Broccoli · Meyer Lemon Romanesco Glow Salad · Artichoke Tacos (Vegan Fish Tacos)</td></tr><tr><td class="wkdate">2026-08-16</td><td>Chickpea Salad Sandwich · Sweet Chile Grain Bowl With Tofu · French Onion Baked Lentils and Farro · Big Green Fried Rice</td></tr><tr><td class="wkdate">2026-08-09</td><td>One-Pot Beans, Greens and Grains · Easy Lentil and Halloumi Curry · Charred Cauliflower Pitas with Halloumi and Harissa · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-07-26</td><td>Artichoke Tacos (Vegan Fish Tacos) · Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon · Creamy Coconut-Lime Rice With Peanuts · 25 Minute Banh Mi Rice Bowls</td></tr></tbody></table>
   <footer>
     <strong>Rate a meal:</strong> tell Claude — e.g. “we loved the ratatouille, the tacos were just ok” —
-    and it updates the preferences that steer future weeks. Checkboxes above are for in-store use and don’t sync back.
+    and it updates the preferences that steer future weeks. Checkboxes stay on this device and don’t sync to AnyList.
   </footer>
 </main>
+<script>
+(function () {
+  var root = document.querySelector('main');
+  if (!root) return;
+  var today = new Date();
+  var iso = today.getFullYear() + '-' +
+    String(today.getMonth() + 1).padStart(2, '0') + '-' +
+    String(today.getDate()).padStart(2, '0');
+
+  // Mark tonight's dinner at view time, not build time. The badge is real text
+  // so it reaches the accessible name, not a CSS ::before a screen reader misses.
+  var cards = root.querySelectorAll('.meal[data-date]');
+  for (var i = 0; i < cards.length; i++) {
+    var isTonight = cards[i].getAttribute('data-date') === iso;
+    cards[i].classList.toggle('tonight', isTonight);
+    var badge = cards[i].querySelector('[data-tonight]');
+    if (badge) badge.hidden = !isTonight;
+  }
+
+  // Say so when the page is showing a week that has already passed.
+  var stale = document.getElementById('stale-notice');
+  if (stale) {
+    var end = stale.getAttribute('data-plan-end');
+    stale.hidden = !(end && iso > end);
+  }
+
+  // Keep checkboxes across a trip to AnyList and back.
+  var week = root.getAttribute('data-week') || 'week';
+  var key = 'meal-planner:groceries:' + week;
+  var boxes = root.querySelectorAll('input[type=checkbox][data-key]');
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(key) || '{}') || {}; } catch (e) { saved = {}; }
+  for (var j = 0; j < boxes.length; j++) {
+    if (saved[boxes[j].getAttribute('data-key')]) boxes[j].checked = true;
+  }
+  root.addEventListener('change', function (ev) {
+    var box = ev.target;
+    if (!box || box.type !== 'checkbox' || !box.hasAttribute('data-key')) return;
+    var state = {};
+    for (var k = 0; k < boxes.length; k++) {
+      if (boxes[k].checked) state[boxes[k].getAttribute('data-key')] = 1;
+    }
+    try { localStorage.setItem(key, JSON.stringify(state)); } catch (e) { /* private mode */ }
+  });
+})();
+</script>
 </body>
 </html>
