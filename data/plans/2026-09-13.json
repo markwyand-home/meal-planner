@@ -1,0 +1,63 @@
+{
+  "week_of": "2026-09-13",
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "chickpea-salad-sandwich",
+      "name": "Chickpea Salad Sandwich",
+      "protein": "chickpeas",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 25,
+      "servings": 4,
+      "source_url": "https://www.loveandlemons.com/chickpea-salad-sandwich/",
+      "nutrition_per_serving": {
+        "calories": 365,
+        "protein_g": 11,
+        "carbs_g": 50,
+        "fat_g": 13,
+        "fiber_g": 6,
+        "sodium_mg": 650,
+        "source": "estimated"
+      },
+      "tags": [
+        "sandwich",
+        "quick",
+        "make-ahead",
+        "light"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "charred-cauliflower-halloumi-pitas",
+      "name": "Charred Cauliflower Pitas with Halloumi and Harissa",
+      "protein": "halloumi",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 30,
+      "servings": 4,
+      "source_url": "https://parentscanada.com/food/charred-cauliflower-pitas-with-halloumi-and-harissa-recipe/",
+      "nutrition_per_serving": {
+        "calories": 288,
+        "protein_g": 17,
+        "carbs_g": 24,
+        "fat_g": 19,
+        "fiber_g": null,
+        "sodium_mg": null,
+        "source": "site"
+      },
+      "tags": [
+        "sandwich",
+        "sheet-pan",
+        "hearty",
+        "quick"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 326,
+    "protein_g": 14.0,
+    "carbs_g": 37.0,
+    "fat_g": 16.0
+  }
+}

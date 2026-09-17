@@ -1,0 +1,198 @@
+{
+  "week_of": "2026-09-13",
+  "meals": [
+    "Chickpea Salad Sandwich",
+    "Charred Cauliflower Pitas with Halloumi and Harissa"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "arugula",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 cup arugula"
+      },
+      {
+        "item": "basil",
+        "quantity": 6.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "6 basil"
+      },
+      {
+        "item": "cauliflower",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "1 cauliflower"
+      },
+      {
+        "item": "cilantro",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "2 tbsp cilantro"
+      },
+      {
+        "item": "english cucumber",
+        "quantity": 0.25,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "0.25 english cucumber"
+      },
+      {
+        "item": "garlic",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "0.5 garlic"
+      },
+      {
+        "item": "green beans",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "green beans"
+      },
+      {
+        "item": "green onion",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 green onion"
+      },
+      {
+        "item": "lemon juice",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "2 tbsp lemon juice"
+      },
+      {
+        "item": "radish",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 radish"
+      },
+      {
+        "item": "red onion",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "red onion"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "halloumi cheese",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "8 oz halloumi cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "baguette",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 baguette"
+      },
+      {
+        "item": "pita bread",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 pita bread"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "capers",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1 tsp capers"
+      },
+      {
+        "item": "chickpeas",
+        "quantity": 1.5,
+        "unit": "cup",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "1.5 cup chickpeas"
+      },
+      {
+        "item": "harissa",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "0.5 cup harissa"
+      },
+      {
+        "item": "kalamata olives",
+        "quantity": 8.0,
+        "unit": "count",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "8 kalamata olives"
+      },
+      {
+        "item": "tahini",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "2 tbsp tahini"
+      },
+      {
+        "item": "vegan mayo",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Chickpea Salad Sandwich"
+        ],
+        "display": "vegan mayo"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

@@ -962,7 +962,14 @@
         "quick"
       ],
       "notes": "Uses broiler for cauliflower and halloumi. Store-bought harissa works. Serve with extra harissa on the side. Roughly 30 min total.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Preheat the broiler and line one large baking sheet and one small baking sheet with foil.",
+        "Rub the cauliflower slabs with olive oil, salt, and pepper on both sides and arrange them on the large baking sheet. Broil until very charred and tender, turning once (about 13 minutes on one side, 5 on the other, but time varies by broiler).",
+        "Place the halloumi slices on the smaller baking sheet and broil for 4 minutes per side, or until dark brown around the edges.",
+        "Turn off the broiler and warm the pitas in the oven for 1 minute. Slice the pitas in half and assemble with a generous slather of harissa, the arugula, the broiled halloumi, and the charred cauliflower. Serve with extra harissa on the side."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/charred-cauliflower-halloumi-pitas.html"
     },
     {
       "id": "chickpea-salad-sandwich",
