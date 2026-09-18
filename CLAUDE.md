@@ -17,8 +17,8 @@ first run — the AnyList push and the dashboard both need one-time configuratio
   `"pantry_staple": false` in `data/recipes.json` so it always lands on the grocery
   list and gets pushed to AnyList. Only dried garlic (powder/salt) stays a staple.
   (Decided 2026-08-30, after garlic was missing from a shopping list.)
-- **Noodles/pasta and tofu always get pushed to AnyList.** `data/anylist_rules.json`'s
-  `include_keywords_regex` (`noodles?|pasta|tofu`) overrides every exclude rule for
+- **Noodles/pasta, tofu and gnocchi always get pushed to AnyList.** `data/anylist_rules.json`'s
+  `include_keywords_regex` (`noodles?|pasta|tofu|gnocchi`) overrides every exclude rule for
   these — needed because some ingredient names are "X noodles or rice noodles" /
   "pasta, polenta, or grain of choice" style either/or compounds that also contain
   an excluded staple word (rice, polenta, grain) and would otherwise get dropped.

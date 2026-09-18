@@ -11,10 +11,10 @@
   ],
 
   "include_keywords_regex": [
-    "\\b(noodles?|pasta|tofu)\\b"
+    "\\b(noodles?|pasta|tofu|gnocchi)\\b"
   ],
 
-  "_include_note": "include_keywords_regex overrides every other exclude rule below (category, exact-item, and keyword) — always added to the AnyList push, never treated as a pantry staple. Added 2026-08-30 after fresh garlic, then noodles/pasta and tofu, were found missing from the pushed list; noodles/pasta needed this override specifically because several ingredient names are 'X noodles or rice noodles' / 'pasta, polenta, or grain of choice' style either/or compounds that also contain an excluded staple word.",
+  "_include_note": "include_keywords_regex overrides every other exclude rule below (category, exact-item, and keyword) — always added to the AnyList push, never treated as a pantry staple. Added 2026-08-30 after fresh garlic, then noodles/pasta and tofu, were found missing from the pushed list; noodles/pasta needed this override specifically because several ingredient names are 'X noodles or rice noodles' / 'pasta, polenta, or grain of choice' style either/or compounds that also contain an excluded staple word. Gnocchi added 2026-09-17: it had been listed in exclude_items, so the main component of that week's Monday dinner never reached the shopping list. The household does not keep it stocked.",
 
   "exclude_items": [
     "fish sauce", "hoisin sauce", "chili paste", "chile crisp", "sambal oelek",
@@ -22,7 +22,7 @@
     "vegan mayonnaise", "spicy mayo", "natural peanut butter", "raw cashew butter",
     "maple syrup", "dry sherry, vermouth, or white wine",
     "nutritional yeast", "seaweed flakes (nori or dulse)",
-    "arrowroot powder", "chickpea flour", "shelf-stable potato gnocchi"
+    "arrowroot powder", "chickpea flour"
   ],
 
   "_kept_ambiguous_note": "User explicitly chose to KEEP (not exclude) these groups when asked: nuts & seeds (sliced/toasted almonds, walnut halves, roasted peanuts, sunflower/sesame seeds), non-lentil legumes (chickpeas, kidney beans, canned beans, canned artichoke hearts), briny/pickled condiments (capers, caper brine, kalamata olives, pickled ginger), and coconut milk (2026-08-23: household doesn't keep it on hand, so it must always be pushed).",
@@ -71,6 +71,7 @@
     "kalamata olives": "condiments-oils-and-salad-dressings",
     "pickled ginger": "condiments-oils-and-salad-dressings",
     "vegan pesto sauce": "condiments-oils-and-salad-dressings",
+    "shelf-stable potato gnocchi": "grains-pasta-and-side-dishes",
     "roasted salted peanuts": "snacks-cookies-and-candy",
     "sesame seeds and peanuts": "cooking-and-baking",
     "sliced almonds": "cooking-and-baking",
