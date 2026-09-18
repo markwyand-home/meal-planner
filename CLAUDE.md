@@ -101,6 +101,21 @@ Sunday, and every step is idempotent for a given week.
    `body` with a plain-text version of the same content — never markup in `body`.
    If the available mail tool has no HTML field, send plain text only: no tags.
 
+   **Keep the HTML minimal — no inline CSS.** Allowed: `<h2>`, `<p>`, `<strong>`,
+   `<em>`, `<a href>`, `<br>`, `<ul>/<li>`, `<hr>`. No `style=` attributes, no
+   `<div>` nesting, no wrapper element around the whole message. Gmail renders
+   that fine, and the household is two people who need the meals, links and times
+   — not a designed email.
+
+   This is a reliability rule, not a taste one. A large styled HTML document is
+   the single densest thing this workflow puts inside a tool parameter, and on
+   2026-09-17 the send was rejected twice with "failed to produce a valid tool
+   call" before a third attempt went through. Nothing reached Gmail on the failed
+   attempts; the payload never serialized. A small tag set keeps the parameter
+   small enough that the send works first time, without a human noticing and
+   asking for a retry. If a send is ever rejected that way, shrink the HTML —
+   do not just retry the same payload.
+
 **Hosting**: the dashboard and recipe pages are served by GitHub Pages from the
 public `markwyand-home/meal-planner` repo (`main` branch, `/docs` folder) at
 `https://markwyand-home.github.io/meal-planner/` — a fixed URL that updates
