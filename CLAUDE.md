@@ -94,6 +94,13 @@ Sunday, and every step is idempotent for a given week.
    is connected in the session, say so in the summary instead of silently
    skipping.
 
+   **HTML goes in the mail tool's HTML field, never its plain-text body.** Gmail's
+   `send_message` has both `htmlBody` (rich) and `body` (plain-text alternative);
+   putting markup in `body` delivers a wall of visible `<p>` tags, which is what
+   happened on 2026-09-17. Send `htmlBody` with the formatted version **and**
+   `body` with a plain-text version of the same content — never markup in `body`.
+   If the available mail tool has no HTML field, send plain text only: no tags.
+
 **Hosting**: the dashboard and recipe pages are served by GitHub Pages from the
 public `markwyand-home/meal-planner` repo (`main` branch, `/docs` folder) at
 `https://markwyand-home.github.io/meal-planner/` — a fixed URL that updates

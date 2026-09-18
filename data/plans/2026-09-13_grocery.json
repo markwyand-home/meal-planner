@@ -13,16 +13,16 @@
         "for": [
           "Charred Cauliflower Pitas with Halloumi and Harissa"
         ],
-        "display": "2 cup arugula"
+        "display": "2 cups arugula"
       },
       {
         "item": "basil",
         "quantity": 6.0,
-        "unit": "count",
+        "unit": "leaf",
         "for": [
           "Chickpea Salad Sandwich"
         ],
-        "display": "6 basil"
+        "display": "6 basil leaves"
       },
       {
         "item": "cauliflower",
@@ -49,16 +49,16 @@
         "for": [
           "Chickpea Salad Sandwich"
         ],
-        "display": "0.25 english cucumber"
+        "display": "\u00bc english cucumber"
       },
       {
         "item": "garlic",
         "quantity": 0.5,
-        "unit": "count",
+        "unit": "clove",
         "for": [
           "Chickpea Salad Sandwich"
         ],
-        "display": "0.5 garlic"
+        "display": "\u00bd clove garlic"
       },
       {
         "item": "green beans",
@@ -67,7 +67,7 @@
         "for": [
           "Chickpea Salad Sandwich"
         ],
-        "display": "green beans"
+        "display": "green beans, a handful"
       },
       {
         "item": "green onion",
@@ -103,7 +103,7 @@
         "for": [
           "Chickpea Salad Sandwich"
         ],
-        "display": "red onion"
+        "display": "red onion, to taste"
       }
     ],
     "dairy-eggs": [
@@ -128,13 +128,13 @@
         "display": "1 baguette"
       },
       {
-        "item": "pita bread",
+        "item": "pita",
         "quantity": 2.0,
         "unit": "count",
         "for": [
           "Charred Cauliflower Pitas with Halloumi and Harissa"
         ],
-        "display": "2 pita bread"
+        "display": "2 pitas"
       }
     ],
     "pantry": [
@@ -154,7 +154,7 @@
         "for": [
           "Chickpea Salad Sandwich"
         ],
-        "display": "1.5 cup chickpeas"
+        "display": "1\u00bd cups chickpeas"
       },
       {
         "item": "harissa",
@@ -163,7 +163,7 @@
         "for": [
           "Charred Cauliflower Pitas with Halloumi and Harissa"
         ],
-        "display": "0.5 cup harissa"
+        "display": "\u00bd cup harissa"
       },
       {
         "item": "kalamata olives",
@@ -190,7 +190,7 @@
         "for": [
           "Chickpea Salad Sandwich"
         ],
-        "display": "vegan mayo"
+        "display": "vegan mayo, for spreading"
       }
     ]
   },

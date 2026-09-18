@@ -89,7 +89,7 @@
         },
         {
           "raw": "2 shallots, chopped",
-          "item": "shallots",
+          "item": "shallot",
           "quantity": 2,
           "unit": "count",
           "category": "produce",
@@ -99,7 +99,7 @@
           "raw": "4 cloves garlic, chopped",
           "item": "garlic",
           "quantity": 4,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -165,7 +165,8 @@
           "quantity": null,
           "unit": null,
           "category": "other",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "for serving"
         }
       ],
       "nutrition_per_serving": {
@@ -204,7 +205,7 @@
           "raw": "1 can artichoke hearts, halved",
           "item": "canned artichoke hearts",
           "quantity": 1,
-          "unit": "count",
+          "unit": "can",
           "category": "pantry",
           "pantry_staple": false
         },
@@ -276,7 +277,7 @@
           "raw": "1/4 head red cabbage, thinly sliced",
           "item": "red cabbage",
           "quantity": 0.25,
-          "unit": "count",
+          "unit": "head",
           "category": "produce",
           "pantry_staple": false
         },
@@ -314,7 +315,7 @@
         },
         {
           "raw": "2 green onions, sliced",
-          "item": "green onions",
+          "item": "green onion",
           "quantity": 2,
           "unit": "count",
           "category": "produce",
@@ -340,7 +341,7 @@
           "raw": "2 sprigs dill, chopped",
           "item": "fresh dill",
           "quantity": 2,
-          "unit": "count",
+          "unit": "sprig",
           "category": "produce",
           "pantry_staple": false
         },
@@ -413,7 +414,7 @@
           "raw": "6 cloves garlic, thinly sliced or smashed",
           "item": "garlic",
           "quantity": 6,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -523,7 +524,7 @@
         },
         {
           "raw": "4 green onions, chopped",
-          "item": "green onions",
+          "item": "green onion",
           "quantity": 4,
           "unit": "count",
           "category": "produce",
@@ -582,7 +583,7 @@
         },
         {
           "raw": "4 green onions, white and green parts, chopped",
-          "item": "green onions",
+          "item": "green onion",
           "quantity": 4,
           "unit": "count",
           "category": "produce",
@@ -600,7 +601,7 @@
           "raw": "2 cloves garlic, minced",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -650,7 +651,8 @@
           "quantity": null,
           "unit": null,
           "category": "pantry",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "for serving"
         }
       ],
       "nutrition_per_serving": {
@@ -731,7 +733,7 @@
           "raw": "2 cloves garlic, grated with a microplane grater",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -771,7 +773,7 @@
           "raw": "1 bunch broccoli, cut into florets",
           "item": "broccoli",
           "quantity": 1,
-          "unit": "count",
+          "unit": "bunch",
           "category": "produce",
           "pantry_staple": false
         },
@@ -923,7 +925,7 @@
         },
         {
           "raw": "2 large or 4 smaller pitas",
-          "item": "pita bread",
+          "item": "pita",
           "quantity": 2,
           "unit": "count",
           "category": "bakery",
@@ -1014,7 +1016,7 @@
           "raw": "1/2 garlic clove",
           "item": "garlic",
           "quantity": 0.5,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -1064,7 +1066,8 @@
           "quantity": null,
           "unit": null,
           "category": "produce",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "a handful"
         },
         {
           "raw": "1 soft baguette, sliced in half",
@@ -1088,7 +1091,8 @@
           "quantity": null,
           "unit": null,
           "category": "produce",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "to taste"
         },
         {
           "raw": "vegan mayo (or regular mayo), for spreading",
@@ -1096,7 +1100,8 @@
           "quantity": null,
           "unit": null,
           "category": "pantry",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "for spreading"
         },
         {
           "raw": "1/4 English cucumber, thinly sliced",
@@ -1118,7 +1123,7 @@
           "raw": "6 to 8 fresh basil leaves",
           "item": "basil",
           "quantity": 6,
-          "unit": "count",
+          "unit": "leaf",
           "category": "produce",
           "pantry_staple": false
         }
@@ -1174,7 +1179,7 @@
           "raw": "1 (13- to 14-ounce) can coconut milk",
           "item": "coconut milk",
           "quantity": 1,
-          "unit": "count",
+          "unit": "can",
           "category": "pantry",
           "pantry_staple": false
         },
@@ -1198,13 +1203,13 @@
           "raw": "2 large garlic cloves",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
         {
           "raw": "2 limes",
-          "item": "limes",
+          "item": "lime",
           "quantity": 2,
           "unit": "count",
           "category": "produce",
@@ -1311,7 +1316,7 @@
           "raw": "1 large head broccoli (about 1 pound), florets cut into 1 1/2- to 2-inch pieces, stems thinly sliced",
           "item": "broccoli",
           "quantity": 1,
-          "unit": "count",
+          "unit": "head",
           "category": "produce",
           "pantry_staple": false
         },
@@ -1327,7 +1332,7 @@
           "raw": "2 garlic cloves, finely grated",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -1449,7 +1454,7 @@
           "raw": "2 cloves garlic, minced",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -1587,7 +1592,7 @@
           "raw": "2 cloves garlic, minced",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -1613,7 +1618,8 @@
           "quantity": null,
           "unit": null,
           "category": "produce",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "a few sprigs"
         },
         {
           "raw": "6 cups (1.4 liters) vegetable broth + splashes more, if needed",
@@ -1686,7 +1692,7 @@
           "raw": "2 cloves garlic, peeled (dressing)",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -1796,7 +1802,7 @@
         },
         {
           "raw": "2 medium sweet potatoes (about 500 grams), peeled and diced",
-          "item": "sweet potatoes",
+          "item": "sweet potato",
           "quantity": 2,
           "unit": "count",
           "category": "produce",
@@ -1963,7 +1969,7 @@
           "raw": "1 small garlic clove",
           "item": "garlic",
           "quantity": 1,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -1979,7 +1985,7 @@
           "raw": "1 bunch collard greens, kale, spinach or other hearty dark leafy green",
           "item": "collard greens, kale, or other dark leafy greens",
           "quantity": 1,
-          "unit": "count",
+          "unit": "bunch",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2071,7 +2077,7 @@
           "raw": "1 clove garlic, minced (marinade)",
           "item": "garlic",
           "quantity": 1,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2127,7 +2133,7 @@
           "raw": "1 clove garlic, minced (sauce)",
           "item": "garlic",
           "quantity": 1,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2267,7 +2273,7 @@
           "raw": "1 medium head Romanesco broccoli (or cauliflower), broken up into florets",
           "item": "romanesco broccoli or cauliflower",
           "quantity": 1,
-          "unit": "count",
+          "unit": "head",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2283,7 +2289,7 @@
           "raw": "1 stalk celery, small dice",
           "item": "celery",
           "quantity": 1,
-          "unit": "count",
+          "unit": "stalk",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2297,7 +2303,7 @@
         },
         {
           "raw": "3 green onions, thinly sliced",
-          "item": "green onions",
+          "item": "green onion",
           "quantity": 3,
           "unit": "count",
           "category": "produce",
@@ -2439,7 +2445,8 @@
           "quantity": null,
           "unit": null,
           "category": "pantry",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "optional"
         }
       ],
       "nutrition_per_serving": {
@@ -2488,7 +2495,7 @@
           "raw": "1 bunch broccolini, ends trimmed, or broccoli",
           "item": "broccolini",
           "quantity": 1,
-          "unit": "count",
+          "unit": "bunch",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2554,7 +2561,8 @@
           "quantity": null,
           "unit": null,
           "category": "pantry",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "for serving"
         },
         {
           "raw": "1/2 cup fresh basil or cilantro leaves, roughly chopped (optional)",
@@ -2617,7 +2625,7 @@
           "raw": "2 garlic cloves, grated or minced",
           "item": "garlic",
           "quantity": 2,
-          "unit": "count",
+          "unit": "clove",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2681,7 +2689,7 @@
           "raw": "1 bunch scallions, thinly sliced",
           "item": "scallions",
           "quantity": 1,
-          "unit": "count",
+          "unit": "bunch",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2707,7 +2715,8 @@
           "quantity": null,
           "unit": null,
           "category": "produce",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "for serving"
         }
       ],
       "nutrition_per_serving": {
@@ -2759,7 +2768,8 @@
           "quantity": null,
           "unit": null,
           "category": "produce",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "a few handfuls"
         },
         {
           "raw": "Handful of cherry tomatoes, halved",
@@ -2767,7 +2777,8 @@
           "quantity": null,
           "unit": null,
           "category": "produce",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "a handful"
         },
         {
           "raw": "3/4 c kidney beans",
@@ -2789,7 +2800,7 @@
           "raw": "1 celery stalk, thinly sliced",
           "item": "celery",
           "quantity": 1,
-          "unit": "count",
+          "unit": "stalk",
           "category": "produce",
           "pantry_staple": false
         },
@@ -2807,7 +2818,8 @@
           "quantity": null,
           "unit": null,
           "category": "bakery",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "a big handful"
         },
         {
           "raw": "1/4 c tahini",
@@ -3258,7 +3270,8 @@
           "quantity": null,
           "unit": null,
           "category": "produce",
-          "pantry_staple": false
+          "pantry_staple": false,
+          "qualifier": "to finish"
         }
       ],
       "nutrition_per_serving": {

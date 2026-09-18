@@ -98,37 +98,6 @@ def anylist_display(item, section, rules):
     return (qty + " " + name).strip()
 
 
-VULGAR = {0.125: "&frac18;", 0.25: "&frac14;", 0.375: "&#8533;", 0.5: "&frac12;",
-          0.625: "&#8541;", 0.75: "&frac34;", 0.875: "&#8542;"}
-PLURAL_UNITS = {"cup": "cups", "bag": "bags", "pint": "pints", "package": "packages",
-                "bunch": "bunches", "piece": "pieces", "clove": "cloves", "can": "cans",
-                "head": "heads", "stalk": "stalks", "sprig": "sprigs", "slice": "slices"}
-
-
-def human_qty(quantity, unit, name):
-    """Kitchen-register quantity: "0.46 cup" -> "1/2 cup", "2 cup" -> "2 cups".
-
-    Consolidation arithmetic produces values like 0.46; rounding to the nearest
-    eighth is how a person would read the measuring cup anyway.
-    """
-    if quantity is None:
-        return None
-    eighths = round(quantity * 8)
-    whole, rem = divmod(eighths, 8)
-    frac = VULGAR.get(rem / 8, "")
-    if whole and frac:
-        qty = str(whole) + frac
-    elif frac:
-        qty = frac
-    else:
-        qty = str(whole)
-    plural = whole > 1 or (whole == 1 and rem)
-    if unit and unit != "count":
-        unit_word = PLURAL_UNITS.get(unit, unit) if plural else unit
-        return (qty + " " + unit_word + " " + name).strip()
-    return (qty + " " + name).strip()
-
-
 def recipe_href(meal, recipes):
     """Same-tab relative link for our own recipe pages; source_url otherwise."""
     page_url = recipes.get(meal["id"], {}).get("page_url") or ""
@@ -477,7 +446,7 @@ def main():
                 section_pushed += 1
             # In the aisle the buy is what matters, so it leads; the recipe
             # measurement stays on the line below, where it can be checked.
-            measure = human_qty(it.get("quantity"), it.get("unit"), it["item"]) or it["display"]
+            measure = it["display"]
             if pushed and buys and buys != it["display"]:
                 primary, secondary = esc(buys), "for " + esc(", ".join(it["for"])) + " &middot; " + esc(measure)
             else:

@@ -9,6 +9,7 @@ Run: MEAL_PLANNER_HOME="<project dir>" cat scripts/grocery.py | python - [YYYY-M
 
 import json
 import os
+import re
 import sys
 from datetime import date, timedelta
 from pathlib import Path
@@ -30,14 +31,58 @@ def week_sunday(argdate=None):
     return today + timedelta(days=(6 - today.weekday()) % 7)
 
 
+# Units whose noun reads naturally after the ingredient ("6 basil leaves"), versus
+# the majority that read before it ("4 cloves garlic", "1 can coconut milk").
+SUFFIX_UNITS = {"leaf", "sprig"}
+PLURAL = {"cup": "cups", "bag": "bags", "pint": "pints", "package": "packages",
+          "bunch": "bunches", "piece": "pieces", "clove": "cloves", "can": "cans",
+          "head": "heads", "stalk": "stalks", "slice": "slices", "leaf": "leaves",
+          "sprig": "sprigs", "ear": "ears"}
+VULGAR = {1: "⅛", 2: "¼", 3: "⅜", 4: "½",
+          5: "⅝", 6: "¾", 7: "⅞"}
+
+
 def fmt_qty(q, unit):
+    """Quantity in kitchen register: 0.46 -> 1/2, and units pluralized."""
     if q is None:
         return ""
-    q = round(q + 1e-9, 2)
-    q = int(q) if abs(q - int(q)) < 0.01 else q
-    if unit == "count" or unit is None:
-        return f"{q}"
-    return f"{q} {unit}"
+    whole, rem = divmod(round(q * 8), 8)
+    qty = (str(whole) if whole else "") + VULGAR.get(rem, "")
+    qty = qty or "0"
+    if unit in (None, "count"):
+        return qty
+    plural = whole > 1 or (whole == 1 and rem)
+    return f"{qty} {PLURAL[unit] if plural and unit in PLURAL else unit}"
+
+
+# Items are stored singular so two recipes' "lime" and "limes" consolidate into one
+# line; the plural is produced here instead. Names that are already plural or mass
+# nouns ("chickpeas", "capers") are left alone.
+IRREGULAR_ITEM = {"sweet potato": "sweet potatoes", "potato": "potatoes",
+                  "tomato": "tomatoes", "avocado": "avocados"}
+
+
+def plural_item(name):
+    if name in IRREGULAR_ITEM:
+        return IRREGULAR_ITEM[name]
+    if not re.fullmatch(r"[a-z][a-z \-']*", name) or name.endswith("s"):
+        return name
+    if re.search(r"(ch|sh|x|z)$", name):
+        return name + "es"
+    if re.search(r"[^aeiou]y$", name):
+        return name[:-1] + "ies"
+    return name + "s"
+
+
+def fmt_display(item, q, unit, qualifier=None):
+    if q is None:
+        return f"{item}, {qualifier}" if qualifier else item
+    if unit in SUFFIX_UNITS:
+        noun = PLURAL[unit] if (q > 1 and unit in PLURAL) else unit
+        return f"{fmt_qty(q, None)} {item} {noun}"
+    if unit in (None, "count") and q > 1:
+        item = plural_item(item)
+    return (fmt_qty(q, unit) + " " + item).strip()
 
 
 def main():
@@ -53,7 +98,10 @@ def main():
                 continue
             key = (ing["item"], ing["unit"])
             e = merged.setdefault(key, {"item": ing["item"], "unit": ing["unit"], "quantity": 0.0,
-                                        "has_qty": False, "category": ing["category"], "sources": []})
+                                        "has_qty": False, "category": ing["category"], "sources": [],
+                                        "qualifier": ing.get("qualifier")})
+            if not e["qualifier"] and ing.get("qualifier"):
+                e["qualifier"] = ing["qualifier"]
             if ing["quantity"] is not None:
                 e["quantity"] += ing["quantity"]
                 e["has_qty"] = True
@@ -65,7 +113,7 @@ def main():
         qty = e["quantity"] if e["has_qty"] else None
         sections.setdefault(e["category"], []).append({
             "item": e["item"], "quantity": qty, "unit": e["unit"], "for": e["sources"],
-            "display": (fmt_qty(qty, e["unit"]) + " " + e["item"]).strip(),
+            "display": fmt_display(e["item"], qty, e["unit"], e["qualifier"]),
         })
     for items in sections.values():
         items.sort(key=lambda x: x["item"])
