@@ -62,11 +62,16 @@ function loadEnv(file) {
   return env;
 }
 
+// Formatted from local date parts, never toISOString(): that converts to UTC, so
+// from ~8pm US Eastern onward it rolls to the next calendar day and this returns
+// the Sunday after the intended one. The Python scripts all use a local date, and
+// this has to agree with them or it reads a different week's grocery file.
 function weekSunday(arg) {
   if (arg) return arg;
   const d = new Date();
   d.setDate(d.getDate() + ((7 - d.getDay()) % 7));
-  return d.toISOString().slice(0, 10);
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
 function loadRules() {
@@ -156,6 +161,12 @@ function categoryFor(it, section, rules) {
 
   const week = weekSunday(process.argv[2]);
   const groceryPath = path.join(BASE, "data", "plans", `${week}_grocery.json`);
+  if (!fs.existsSync(groceryPath)) {
+    console.error(`No grocery list for the week of ${week} (${groceryPath}).\n` +
+      "Run scripts/grocery.py for that week first, or pass the intended Sunday as an argument.");
+    process.exit(5);
+  }
+  console.log(`Pushing the grocery list for the week of ${week}.`);
   const grocery = JSON.parse(fs.readFileSync(groceryPath, "utf-8"));
   const rules = loadRules();
 

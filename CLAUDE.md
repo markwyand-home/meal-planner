@@ -47,6 +47,11 @@ Sunday, and every step is idempotent for a given week.
    named in `~/.meal-planner/anylist.env`. **Exit code 2 means credentials are
    missing and nothing was pushed** — surface that in the run summary rather than
    treating the run as successful. Exit 4 means the `anylist` package isn't installed.
+   Exit 5 means there is no grocery file for the week it resolved to — check the
+   week it names in the error, since that is the one it was about to push.
+   The script prints the week it is pushing; confirm that line matches the week
+   you intend, and pass the Sunday explicitly (`node scripts/anylist_push.js
+   YYYY-MM-DD`) whenever there is any doubt.
    Before pushing, applies `data/anylist_rules.json`: omits ingredients we usually
    have stocked (spices, oils, grains, lentils, and a curated set of condiments/
    broths/etc. — see that file's notes for what's excluded vs. deliberately kept),
