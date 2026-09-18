@@ -1,63 +1,116 @@
 {
   "week_of": "2026-09-13",
+  "meals_requested": 4,
   "meals": [
     {
       "day": "Monday",
-      "id": "chickpea-salad-sandwich",
-      "name": "Chickpea Salad Sandwich",
-      "protein": "chickpeas",
-      "vegetarian": true,
-      "veg_sub_note": null,
-      "total_min": 25,
+      "id": "crispy-gnocchi-sausage-broccoli",
+      "name": "Crispy Gnocchi With Sausage and Broccoli",
+      "protein": "meat",
+      "vegetarian": false,
+      "veg_sub_note": "Italian sausage pinched into meatballs - could sub veggie sausage (a commenter made it vegan with Beyond sausage and vegan parm)",
+      "total_min": 45,
       "servings": 4,
-      "source_url": "https://www.loveandlemons.com/chickpea-salad-sandwich/",
+      "source_url": "https://cooking.nytimes.com/recipes/1025733-crispy-gnocchi-with-sausage-and-broccoli",
       "nutrition_per_serving": {
-        "calories": 365,
-        "protein_g": 11,
-        "carbs_g": 50,
-        "fat_g": 13,
+        "calories": 526,
+        "protein_g": 30,
+        "carbs_g": 44,
+        "fat_g": 27,
         "fiber_g": 6,
-        "sodium_mg": 650,
-        "source": "estimated"
+        "sodium_mg": 999,
+        "source": "site"
       },
       "tags": [
-        "sandwich",
+        "sheet-pan",
         "quick",
-        "make-ahead",
-        "light"
+        "hearty",
+        "kid-friendly"
       ]
     },
     {
       "day": "Tuesday",
-      "id": "charred-cauliflower-halloumi-pitas",
-      "name": "Charred Cauliflower Pitas with Halloumi and Harissa",
-      "protein": "halloumi",
+      "id": "sheet-pan-baked-feta-broccolini",
+      "name": "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+      "protein": "cheese",
       "vegetarian": true,
       "veg_sub_note": null,
-      "total_min": 30,
+      "total_min": 25,
       "servings": 4,
-      "source_url": "https://parentscanada.com/food/charred-cauliflower-pitas-with-halloumi-and-harissa-recipe/",
+      "source_url": "https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon",
       "nutrition_per_serving": {
-        "calories": 288,
-        "protein_g": 17,
-        "carbs_g": 24,
-        "fat_g": 19,
-        "fiber_g": null,
-        "sodium_mg": null,
+        "calories": 548,
+        "protein_g": 24,
+        "carbs_g": 43,
+        "fat_g": 33,
+        "fiber_g": 7,
+        "sodium_mg": 1188,
         "source": "site"
       },
       "tags": [
-        "sandwich",
         "sheet-pan",
+        "quick",
+        "hearty"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "big-green-fried-rice",
+      "name": "Big Green Fried Rice",
+      "protein": "eggs",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": null,
+      "servings": 3,
+      "source_url": "https://livenaturallymagazine.com/recipes/big-green-fried-rice/",
+      "nutrition_per_serving": {
+        "calories": 309,
+        "protein_g": 10,
+        "carbs_g": 42,
+        "fat_g": 11,
+        "fiber_g": 5,
+        "sodium_mg": 393,
+        "source": "site"
+      },
+      "tags": [
+        "quick",
+        "one-pot",
+        "light",
+        "fried-rice",
+        "weeknight"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "lentil-halloumi-curry",
+      "name": "Easy Lentil and Halloumi Curry",
+      "protein": "lentils",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 3,
+      "source_url": "https://www.easycheesyvegetarian.com/lentil-halloumi-curry/",
+      "nutrition_per_serving": {
+        "calories": 451,
+        "protein_g": 27.5,
+        "carbs_g": 35.7,
+        "fat_g": 23.6,
+        "fiber_g": 8.6,
+        "sodium_mg": 764,
+        "source": "site"
+      },
+      "tags": [
+        "curry",
+        "one-pot",
         "hearty",
-        "quick"
+        "make-ahead"
       ]
     }
   ],
   "nutrition_avg_per_serving": {
-    "calories": 326,
-    "protein_g": 14.0,
-    "carbs_g": 37.0,
-    "fat_g": 16.0
+    "calories": 458,
+    "protein_g": 22.9,
+    "carbs_g": 41.2,
+    "fat_g": 23.6
   }
 }

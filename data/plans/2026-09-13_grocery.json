@@ -1,196 +1,276 @@
 {
   "week_of": "2026-09-13",
   "meals": [
-    "Chickpea Salad Sandwich",
-    "Charred Cauliflower Pitas with Halloumi and Harissa"
+    "Crispy Gnocchi With Sausage and Broccoli",
+    "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+    "Big Green Fried Rice",
+    "Easy Lentil and Halloumi Curry"
   ],
   "sections": {
     "produce": [
       {
-        "item": "arugula",
-        "quantity": 2.0,
+        "item": "asparagus or green beans",
+        "quantity": 1.0,
         "unit": "cup",
         "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
+          "Big Green Fried Rice"
         ],
-        "display": "2 cups arugula"
+        "display": "1 cup asparagus or green beans"
       },
       {
-        "item": "basil",
-        "quantity": 6.0,
-        "unit": "leaf",
-        "for": [
-          "Chickpea Salad Sandwich"
-        ],
-        "display": "6 basil leaves"
-      },
-      {
-        "item": "cauliflower",
+        "item": "broccoli",
         "quantity": 1.0,
-        "unit": "count",
+        "unit": "head",
         "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
+          "Crispy Gnocchi With Sausage and Broccoli"
         ],
-        "display": "1 cauliflower"
+        "display": "1 head broccoli"
       },
       {
-        "item": "cilantro",
-        "quantity": 2.0,
+        "item": "broccolini",
+        "quantity": 1.0,
+        "unit": "bunch",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "1 bunch broccolini"
+      },
+      {
+        "item": "fresh basil or cilantro",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "\u00bd cup fresh basil or cilantro"
+      },
+      {
+        "item": "fresh ginger",
+        "quantity": 1.0,
         "unit": "tbsp",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Big Green Fried Rice"
         ],
-        "display": "2 tbsp cilantro"
-      },
-      {
-        "item": "english cucumber",
-        "quantity": 0.25,
-        "unit": "count",
-        "for": [
-          "Chickpea Salad Sandwich"
-        ],
-        "display": "\u00bc english cucumber"
+        "display": "1 tbsp fresh ginger"
       },
       {
         "item": "garlic",
-        "quantity": 0.5,
+        "quantity": 6.0,
         "unit": "clove",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Crispy Gnocchi With Sausage and Broccoli",
+          "Big Green Fried Rice",
+          "Easy Lentil and Halloumi Curry"
         ],
-        "display": "\u00bd clove garlic"
+        "display": "6 cloves garlic"
       },
       {
-        "item": "green beans",
-        "quantity": null,
-        "unit": null,
+        "item": "grape tomatoes",
+        "quantity": 2.0,
+        "unit": "cup",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
         ],
-        "display": "green beans, a handful"
+        "display": "2 cups grape tomatoes"
       },
       {
         "item": "green onion",
-        "quantity": 1.0,
+        "quantity": 4.0,
         "unit": "count",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Big Green Fried Rice"
         ],
-        "display": "1 green onion"
+        "display": "4 green onions"
       },
       {
-        "item": "lemon juice",
+        "item": "kale",
         "quantity": 2.0,
-        "unit": "tbsp",
+        "unit": "cup",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Big Green Fried Rice"
         ],
-        "display": "2 tbsp lemon juice"
+        "display": "2 cups kale"
       },
       {
-        "item": "radish",
+        "item": "lemon",
+        "quantity": 1.5,
+        "unit": "count",
+        "for": [
+          "Crispy Gnocchi With Sausage and Broccoli",
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "1\u00bd lemons"
+      },
+      {
+        "item": "mushrooms",
+        "quantity": 6.0,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "6 mushrooms"
+      },
+      {
+        "item": "onion",
         "quantity": 1.0,
         "unit": "count",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Easy Lentil and Halloumi Curry"
         ],
-        "display": "1 radish"
+        "display": "1 onion"
       },
       {
         "item": "red onion",
-        "quantity": null,
-        "unit": null,
+        "quantity": 1.0,
+        "unit": "count",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
         ],
-        "display": "red onion, to taste"
+        "display": "1 red onion"
+      },
+      {
+        "item": "zucchini",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "\u00bd zucchini"
       }
     ],
     "dairy-eggs": [
       {
-        "item": "halloumi cheese",
-        "quantity": 8.0,
+        "item": "feta cheese",
+        "quantity": 14.0,
         "unit": "oz",
         "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
         ],
-        "display": "8 oz halloumi cheese"
-      }
-    ],
-    "bakery": [
-      {
-        "item": "baguette",
-        "quantity": 1.0,
-        "unit": "count",
-        "for": [
-          "Chickpea Salad Sandwich"
-        ],
-        "display": "1 baguette"
+        "display": "14 oz feta cheese"
       },
       {
-        "item": "pita",
-        "quantity": 2.0,
-        "unit": "count",
+        "item": "grated parmesan",
+        "quantity": 0.25,
+        "unit": "cup",
         "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
+          "Crispy Gnocchi With Sausage and Broccoli"
         ],
-        "display": "2 pitas"
+        "display": "\u00bc cup grated parmesan"
+      },
+      {
+        "item": "halloumi cheese",
+        "quantity": 225.0,
+        "unit": "g",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "225 g halloumi cheese"
       }
     ],
     "pantry": [
       {
-        "item": "capers",
-        "quantity": 1.0,
-        "unit": "tsp",
+        "item": "brown lentils",
+        "quantity": 120.0,
+        "unit": "g",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Easy Lentil and Halloumi Curry"
         ],
-        "display": "1 tsp capers"
+        "display": "120 g brown lentils"
       },
       {
-        "item": "chickpeas",
-        "quantity": 1.5,
-        "unit": "cup",
+        "item": "canned chopped tomatoes",
+        "quantity": 400.0,
+        "unit": "g",
         "for": [
-          "Chickpea Salad Sandwich"
+          "Easy Lentil and Halloumi Curry"
         ],
-        "display": "1\u00bd cups chickpeas"
+        "display": "400 g canned chopped tomatoes"
       },
       {
-        "item": "harissa",
-        "quantity": 0.5,
-        "unit": "cup",
-        "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
-        ],
-        "display": "\u00bd cup harissa"
-      },
-      {
-        "item": "kalamata olives",
-        "quantity": 8.0,
-        "unit": "count",
-        "for": [
-          "Chickpea Salad Sandwich"
-        ],
-        "display": "8 kalamata olives"
-      },
-      {
-        "item": "tahini",
-        "quantity": 2.0,
-        "unit": "tbsp",
-        "for": [
-          "Chickpea Salad Sandwich"
-        ],
-        "display": "2 tbsp tahini"
-      },
-      {
-        "item": "vegan mayo",
+        "item": "chile-sesame oil and lemon zest",
         "quantity": null,
         "unit": null,
         "for": [
-          "Chickpea Salad Sandwich"
+          "Big Green Fried Rice"
         ],
-        "display": "vegan mayo, for spreading"
+        "display": "chile-sesame oil and lemon zest, for serving"
+      },
+      {
+        "item": "orzo or farro",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "orzo or farro, for serving"
+      },
+      {
+        "item": "shelf-stable potato gnocchi",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Crispy Gnocchi With Sausage and Broccoli"
+        ],
+        "display": "1 shelf-stable potato gnocchi"
+      },
+      {
+        "item": "toasted sesame oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "for": [
+          "Big Green Fried Rice"
+        ],
+        "display": "1\u00bd tbsp toasted sesame oil"
+      },
+      {
+        "item": "vegetable stock",
+        "quantity": 375.0,
+        "unit": "ml",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "375 ml vegetable stock"
+      }
+    ],
+    "spices": [
+      {
+        "item": "garam masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 tsp garam masala"
+      },
+      {
+        "item": "ground cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1\u00bd tsp ground cumin"
+      },
+      {
+        "item": "smoked paprika",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 tsp smoked paprika"
+      }
+    ],
+    "other": [
+      {
+        "item": "italian sausage",
+        "quantity": 1.0,
+        "unit": "lb",
+        "for": [
+          "Crispy Gnocchi With Sausage and Broccoli"
+        ],
+        "display": "1 lb italian sausage"
       }
     ]
   },

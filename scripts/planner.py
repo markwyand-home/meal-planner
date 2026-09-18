@@ -1,6 +1,11 @@
 """Weekly meal planner for the Wyand household.
 
-Selects 4 dinners from data/recipes.json following the house rules:
+Selects dinners from data/recipes.json following the house rules. Scheduled
+runs take the default of 4; a manual run can ask for fewer when the week is
+busy:  python scripts/planner.py [YYYY-MM-DD] [count] [--force]
+`--force` replaces an existing plan for that week (and its history row).
+
+House rules:
 - vegetarian-first: at most 1 non-vegetarian meal per week (meat recipes
   carry a scoring penalty; veg subs are noted on the plan)
 - varied proteins: all 4 meals use different primary proteins, so no
@@ -67,7 +72,7 @@ def score(recipe, prefs, weeks_since):
     return s
 
 
-def pick_meals(recipes, prefs, history, rng):
+def pick_meals(recipes, prefs, history, rng, n_meals=MEALS_PER_WEEK):
     served_weeks = {}  # id -> weeks since last served
     for i, week in enumerate(reversed(history.get("weeks", []))):
         for mid in week["meals"]:
@@ -77,7 +82,7 @@ def pick_meals(recipes, prefs, history, rng):
     pool = [r for r in recipes if r["id"] not in excluded]
     recent = {mid for mid, w in served_weeks.items() if w <= RECENT_EXCLUDE_WEEKS}
     fresh_pool = [r for r in pool if r["id"] not in recent]
-    if len(fresh_pool) >= MEALS_PER_WEEK + 2:
+    if len(fresh_pool) >= n_meals + 2:
         pool = fresh_pool
 
     weights = {r["id"]: score(r, prefs, served_weeks.get(r["id"])) for r in pool}
@@ -86,7 +91,7 @@ def pick_meals(recipes, prefs, history, rng):
     for _ in range(200):
         chosen, proteins, meat_count = [], set(), 0
         candidates = pool[:]
-        while candidates and len(chosen) < MEALS_PER_WEEK:
+        while candidates and len(chosen) < n_meals:
             total = sum(weights[r["id"]] for r in candidates)
             if total <= 0:
                 break
@@ -106,13 +111,21 @@ def pick_meals(recipes, prefs, history, rng):
             chosen.append(selected)
             proteins.add(selected["protein_primary"])
             meat_count += 0 if selected["vegetarian"] else 1
-        if len(chosen) == MEALS_PER_WEEK:
+        if len(chosen) == n_meals:
             return chosen
     raise RuntimeError("could not build a valid plan; relax constraints or exclusions")
 
 
 def main():
-    sunday = week_sunday(sys.argv[1] if len(sys.argv) > 1 else None)
+    args = [a for a in sys.argv[1:] if a != "--force"]
+    force = "--force" in sys.argv
+    datearg = next((a for a in args if "-" in a), None)
+    n_meals = next((int(a) for a in args if a.isdigit()), MEALS_PER_WEEK)
+    if not 1 <= n_meals <= len(DAYS):
+        print(f"meal count must be 1-{len(DAYS)} (got {n_meals})")
+        sys.exit(1)
+
+    sunday = week_sunday(datearg)
     recipes = load("recipes.json", {"recipes": []})["recipes"]
     prefs = load("preferences.json", {"ratings": {}, "exclusions": []})
     history = load("history.json", {"weeks": []})
@@ -120,12 +133,16 @@ def main():
     plans_dir = DATA / "plans"
     plans_dir.mkdir(parents=True, exist_ok=True)
     plan_path = plans_dir / f"{sunday.isoformat()}.json"
-    if plan_path.exists():
+    if plan_path.exists() and not force:
         print(f"plan already exists: {plan_path}")
         return
+    if force:
+        # Replacing a week: drop its history entry first, or the append below
+        # adds a second row for the same Sunday.
+        history["weeks"] = [w for w in history.get("weeks", []) if w["week_of"] != sunday.isoformat()]
 
-    rng = random.Random(sunday.isoformat())
-    chosen = pick_meals(recipes, prefs, history, rng)
+    rng = random.Random(sunday.isoformat() + ("" if n_meals == MEALS_PER_WEEK else f"-{n_meals}"))
+    chosen = pick_meals(recipes, prefs, history, rng, n_meals)
     rng.shuffle(chosen)
 
     meals = []
@@ -147,6 +164,9 @@ def main():
     n = [m["nutrition_per_serving"] for m in meals]
     plan = {
         "week_of": sunday.isoformat(),
+        # How many dinners were asked for. A short week is often deliberate, so
+        # downstream reports a shortfall only against this, never against 4.
+        "meals_requested": n_meals,
         "meals": meals,
         "nutrition_avg_per_serving": {
             "calories": round(sum(x["calories"] for x in n) / len(n)),

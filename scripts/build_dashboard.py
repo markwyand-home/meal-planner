@@ -161,7 +161,7 @@ CSS = """
 
   .meal { display:flex; gap:16px; background:var(--card); border:1px solid var(--line);
           border-radius:6px; padding:16px; margin-bottom:12px; }
-  .meal.tonight { border-color:var(--leaf); box-shadow:0 2px 10px -4px rgba(47,101,64,.35); }
+  .meal.tonight { border-color:var(--leaf); }
   .dayrail { display:flex; flex-direction:column; align-items:center; min-width:46px;
              border-right:1px solid var(--line); padding-right:14px; }
   .dow { font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--leaf); font-weight:700; }
@@ -475,12 +475,15 @@ def main():
 
     # One notice, not a stack: staleness is decided at view time and a short plan
     # at build time, but two filled red blocks for one broken run reads as alarm.
-    partial = n_meals != EXPECTED_DINNERS
+    # A short week is usually deliberate, so only a shortfall against what was
+    # actually asked for counts as a failed run.
+    requested = plan.get("meals_requested", EXPECTED_DINNERS)
+    partial = n_meals < requested
     stale_p = ('<p data-stale' + ("" if stale_now else " hidden") + ">This is last week&rsquo;s plan, for "
                + esc(fmt_day(first_day)) + " &ndash; " + esc(fmt_day(last_day))
                + ". Sunday&rsquo;s run has not replaced it yet.</p>")
-    partial_p = ("<p data-partial>Only " + str(n_meals) + " of the usual " + str(EXPECTED_DINNERS)
-                 + " dinners were planned, so the run may not have finished.</p>") if partial else ""
+    partial_p = ("<p data-partial>Only " + str(n_meals) + " of the " + str(requested)
+                 + " dinners asked for were planned, so the run may not have finished.</p>") if partial else ""
     notices = ('<div class="notice" id="plan-notice" role="status" data-plan-end="' + plan_end.isoformat()
                + '"' + ("" if (stale_now or partial) else " hidden") + ">" + stale_p + partial_p
                + '<p class="notice-fix">Ask Claude to run the meal plan to rebuild this week.</p>'

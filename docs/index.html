@@ -60,7 +60,7 @@
 
   .meal { display:flex; gap:16px; background:var(--card); border:1px solid var(--line);
           border-radius:6px; padding:16px; margin-bottom:12px; }
-  .meal.tonight { border-color:var(--leaf); box-shadow:0 2px 10px -4px rgba(47,101,64,.35); }
+  .meal.tonight { border-color:var(--leaf); }
   .dayrail { display:flex; flex-direction:column; align-items:center; min-width:46px;
              border-right:1px solid var(--line); padding-right:14px; }
   .dow { font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--leaf); font-weight:700; }
@@ -139,64 +139,98 @@
 <main id="top" data-week="2026-09-13">
   <header class="week">
     <h1>Week of September 14 – September 17</h1>
-    <p class="tagline">Two dinners &middot; all vegetarian &middot; no protein repeated</p>
-    <p class="stamp"><time datetime="2026-09-17T20:53">Generated Thu Sep 17, 8:53 PM</time><a class="jump" href="#groceries">Grocery list &mdash; 17 of 20 in AnyList</a></p>
+    <p class="tagline">Four dinners &middot; 3 of 4 vegetarian &middot; no protein repeated</p>
+    <p class="stamp"><time datetime="2026-09-17T21:06">Generated Thu Sep 17, 9:06 PM</time><a class="jump" href="#groceries">Grocery list &mdash; 19 of 28 in AnyList</a></p>
   </header>
-  <div class="notice" id="plan-notice" role="status" data-plan-end="2026-09-19"><p data-stale hidden>This is last week&rsquo;s plan, for September 14 &ndash; September 17. Sunday&rsquo;s run has not replaced it yet.</p><p data-partial>Only 2 of the usual 4 dinners were planned, so the run may not have finished.</p><p class="notice-fix">Ask Claude to run the meal plan to rebuild this week.</p></div>
+  <div class="notice" id="plan-notice" role="status" data-plan-end="2026-09-19" hidden><p data-stale hidden>This is last week&rsquo;s plan, for September 14 &ndash; September 17. Sunday&rsquo;s run has not replaced it yet.</p><p class="notice-fix">Ask Claude to run the meal plan to rebuild this week.</p></div>
   <p class="tonight-line" id="tonight-line" hidden><span class="tonight-label">Tonight</span> <a data-tonight-link href="#"></a><span data-tonight-min class="tonight-min"></span></p>
   <p class="tonight-line tonight-none" id="tonight-none" hidden>No dinner planned for tonight.</p>
   <h2>Dinners</h2>
-      <article class="meal" data-date="2026-09-14" data-name="Chickpea Salad Sandwich"
-               data-href="recipes/chickpea-salad-sandwich.html" data-min="25">
+      <article class="meal" data-date="2026-09-14" data-name="Crispy Gnocchi With Sausage and Broccoli"
+               data-href="recipes/crispy-gnocchi-sausage-broccoli.html" data-min="45">
         <div class="dayrail"><span class="dow">Mon</span><span class="dom">9/14</span></div>
         <div class="mealbody">
-          <h3><a href="recipes/chickpea-salad-sandwich.html">Chickpea Salad Sandwich</a></h3>
+          <h3><a href="recipes/crispy-gnocchi-sausage-broccoli.html">Crispy Gnocchi With Sausage and Broccoli</a></h3>
           <div class="chips">
             <span class="chip chip-tonight" data-tonight hidden>Tonight</span>
-            <span class="chip chip-protein">Chickpeas</span><span class="chip chip-veg">Vegetarian</span><span class="chip">25 min</span>
+            <span class="chip chip-meat">Contains meat</span><span class="chip">45 min</span>
             <span class="chip">serves 4</span>
           </div>
-          
-          <dl class="nut"><div><dt>Cal</dt><dd>365 <span class="est">est.</span></dd></div>
-            <div><dt>Protein</dt><dd>11 g</dd></div>
-            <div><dt>Carbs</dt><dd>50 g</dd></div>
-            <div><dt>Fat</dt><dd>13 g</dd></div></dl>
+          <p class="subnote"><strong>Veg option:</strong> Italian sausage pinched into meatballs - could sub veggie sausage (a commenter made it vegan with Beyond sausage and vegan parm)</p>
+          <dl class="nut"><div><dt>Cal</dt><dd>526</dd></div>
+            <div><dt>Protein</dt><dd>30 g</dd></div>
+            <div><dt>Carbs</dt><dd>44 g</dd></div>
+            <div><dt>Fat</dt><dd>27 g</dd></div></dl>
         </div>
       </article>
-      <article class="meal" data-date="2026-09-15" data-name="Charred Cauliflower Pitas with Halloumi and Harissa"
-               data-href="recipes/charred-cauliflower-halloumi-pitas.html" data-min="30">
+      <article class="meal" data-date="2026-09-15" data-name="Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+               data-href="recipes/sheet-pan-baked-feta-broccolini.html" data-min="25">
         <div class="dayrail"><span class="dow">Tue</span><span class="dom">9/15</span></div>
         <div class="mealbody">
-          <h3><a href="recipes/charred-cauliflower-halloumi-pitas.html">Charred Cauliflower Pitas with Halloumi and Harissa</a></h3>
+          <h3><a href="recipes/sheet-pan-baked-feta-broccolini.html">Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon</a></h3>
           <div class="chips">
             <span class="chip chip-tonight" data-tonight hidden>Tonight</span>
-            <span class="chip chip-protein">Halloumi</span><span class="chip chip-veg">Vegetarian</span><span class="chip">30 min</span>
+            <span class="chip chip-protein">Cheese</span><span class="chip chip-veg">Vegetarian</span><span class="chip">25 min</span>
             <span class="chip">serves 4</span>
           </div>
           
-          <dl class="nut"><div><dt>Cal</dt><dd>288</dd></div>
-            <div><dt>Protein</dt><dd>17 g</dd></div>
-            <div><dt>Carbs</dt><dd>24 g</dd></div>
-            <div><dt>Fat</dt><dd>19 g</dd></div></dl>
+          <dl class="nut"><div><dt>Cal</dt><dd>548</dd></div>
+            <div><dt>Protein</dt><dd>24 g</dd></div>
+            <div><dt>Carbs</dt><dd>43 g</dd></div>
+            <div><dt>Fat</dt><dd>33 g</dd></div></dl>
+        </div>
+      </article>
+      <article class="meal" data-date="2026-09-16" data-name="Big Green Fried Rice"
+               data-href="recipes/big-green-fried-rice.html" data-min="">
+        <div class="dayrail"><span class="dow">Wed</span><span class="dom">9/16</span></div>
+        <div class="mealbody">
+          <h3><a href="recipes/big-green-fried-rice.html">Big Green Fried Rice</a></h3>
+          <div class="chips">
+            <span class="chip chip-tonight" data-tonight hidden>Tonight</span>
+            <span class="chip chip-protein">Eggs</span><span class="chip chip-veg">Vegetarian</span>
+            <span class="chip">serves 3</span>
+          </div>
+          
+          <dl class="nut"><div><dt>Cal</dt><dd>309</dd></div>
+            <div><dt>Protein</dt><dd>10 g</dd></div>
+            <div><dt>Carbs</dt><dd>42 g</dd></div>
+            <div><dt>Fat</dt><dd>11 g</dd></div></dl>
+        </div>
+      </article>
+      <article class="meal tonight" data-date="2026-09-17" data-name="Easy Lentil and Halloumi Curry"
+               data-href="recipes/lentil-halloumi-curry.html" data-min="45">
+        <div class="dayrail"><span class="dow">Thu</span><span class="dom">9/17</span></div>
+        <div class="mealbody">
+          <h3><a href="recipes/lentil-halloumi-curry.html">Easy Lentil and Halloumi Curry</a></h3>
+          <div class="chips">
+            <span class="chip chip-tonight" data-tonight hidden>Tonight</span>
+            <span class="chip chip-protein">Lentils</span><span class="chip chip-veg">Vegetarian</span><span class="chip">45 min</span>
+            <span class="chip">serves 3</span>
+          </div>
+          
+          <dl class="nut"><div><dt>Cal</dt><dd>451</dd></div>
+            <div><dt>Protein</dt><dd>27.5 g</dd></div>
+            <div><dt>Carbs</dt><dd>35.7 g</dd></div>
+            <div><dt>Fat</dt><dd>23.6 g</dd></div></dl>
         </div>
       </article>
   <section class="summary">
     <div class="summary-label">Average per serving</div>
     <dl>
-      <div><dt>Cal</dt><dd>326</dd></div>
-      <div><dt>Protein</dt><dd>14.0 g</dd></div>
-      <div><dt>Carbs</dt><dd>37.0 g</dd></div>
-      <div><dt>Fat</dt><dd>16.0 g</dd></div>
+      <div><dt>Cal</dt><dd>458</dd></div>
+      <div><dt>Protein</dt><dd>22.9 g</dd></div>
+      <div><dt>Carbs</dt><dd>41.2 g</dd></div>
+      <div><dt>Fat</dt><dd>23.6 g</dd></div>
     </dl>
   </section>
 
-  <h2 id="groceries">Grocery list <span class="h2count">(17 of 20 pushed to AnyList)</span></h2>
-<details open><summary>Produce <span class="count">11 of 11 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="2 cups arugula" aria-label="1 bag arugula"><span class="gtext"><span class="gitem">1 bag arugula</span><span class="gfor">for Charred Cauliflower Pitas with Halloumi and Harissa &middot; 2 cups arugula</span></span></label></li><li><label><input type="checkbox" data-key="6 basil leaves" aria-label="6 basil leaves"><span class="gtext"><span class="gitem">6 basil leaves</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="1 cauliflower" aria-label="1 cauliflower"><span class="gtext"><span class="gitem">1 cauliflower</span><span class="gfor">for Charred Cauliflower Pitas with Halloumi and Harissa</span></span></label></li><li><label><input type="checkbox" data-key="2 tbsp cilantro" aria-label="1 bunch cilantro"><span class="gtext"><span class="gitem">1 bunch cilantro</span><span class="gfor">for Chickpea Salad Sandwich &middot; 2 tbsp cilantro</span></span></label></li><li><label><input type="checkbox" data-key="¼ english cucumber" aria-label="¼ english cucumber"><span class="gtext"><span class="gitem">¼ english cucumber</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="½ clove garlic" aria-label="½ clove garlic"><span class="gtext"><span class="gitem">½ clove garlic</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="green beans, a handful" aria-label="green beans, a handful"><span class="gtext"><span class="gitem">green beans, a handful</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="1 green onion" aria-label="1 green onion"><span class="gtext"><span class="gitem">1 green onion</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="2 tbsp lemon juice" aria-label="1 lemon"><span class="gtext"><span class="gitem">1 lemon</span><span class="gfor">for Chickpea Salad Sandwich &middot; 2 tbsp lemon juice</span></span></label></li><li><label><input type="checkbox" data-key="1 radish" aria-label="1 radish"><span class="gtext"><span class="gitem">1 radish</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="red onion, to taste" aria-label="red onion, to taste"><span class="gtext"><span class="gitem">red onion, to taste</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li></ul></details><details open><summary>Dairy & Eggs <span class="count">1 of 1 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="8 oz halloumi cheese" aria-label="8 oz halloumi cheese"><span class="gtext"><span class="gitem">8 oz halloumi cheese</span><span class="gfor">for Charred Cauliflower Pitas with Halloumi and Harissa</span></span></label></li></ul></details><details open><summary>Bakery <span class="count">2 of 2 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="1 baguette" aria-label="1 baguette"><span class="gtext"><span class="gitem">1 baguette</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="2 pitas" aria-label="2 pitas"><span class="gtext"><span class="gitem">2 pitas</span><span class="gfor">for Charred Cauliflower Pitas with Halloumi and Harissa</span></span></label></li></ul></details><details open><summary>Pantry <span class="count">3 of 6 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="1 tsp capers" aria-label="1 tsp capers"><span class="gtext"><span class="gitem">1 tsp capers</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="1½ cups chickpeas" aria-label="1½ cups chickpeas"><span class="gtext"><span class="gitem">1½ cups chickpeas</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="½ cup harissa" aria-label="½ cup harissa"><span class="gtext"><span class="gitem">½ cup harissa<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Charred Cauliflower Pitas with Halloumi and Harissa</span></span></label></li><li><label><input type="checkbox" data-key="8 kalamata olives" aria-label="8 kalamata olives"><span class="gtext"><span class="gitem">8 kalamata olives</span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="2 tbsp tahini" aria-label="2 tbsp tahini"><span class="gtext"><span class="gitem">2 tbsp tahini<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li><li><label><input type="checkbox" data-key="vegan mayo, for spreading" aria-label="vegan mayo, for spreading"><span class="gtext"><span class="gitem">vegan mayo, for spreading<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Chickpea Salad Sandwich</span></span></label></li></ul></details>
+  <h2 id="groceries">Grocery list <span class="h2count">(19 of 28 pushed to AnyList)</span></h2>
+<details open><summary>Produce <span class="count">14 of 14 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="1 cup asparagus or green beans" aria-label="1 cup asparagus or green beans"><span class="gtext"><span class="gitem">1 cup asparagus or green beans</span><span class="gfor">for Big Green Fried Rice</span></span></label></li><li><label><input type="checkbox" data-key="1 head broccoli" aria-label="1 head broccoli"><span class="gtext"><span class="gitem">1 head broccoli</span><span class="gfor">for Crispy Gnocchi With Sausage and Broccoli</span></span></label></li><li><label><input type="checkbox" data-key="1 bunch broccolini" aria-label="1 bunch broccolini"><span class="gtext"><span class="gitem">1 bunch broccolini</span><span class="gfor">for Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon</span></span></label></li><li><label><input type="checkbox" data-key="½ cup fresh basil or cilantro" aria-label="½ cup fresh basil or cilantro"><span class="gtext"><span class="gitem">½ cup fresh basil or cilantro</span><span class="gfor">for Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon</span></span></label></li><li><label><input type="checkbox" data-key="1 tbsp fresh ginger" aria-label="1 piece fresh ginger"><span class="gtext"><span class="gitem">1 piece fresh ginger</span><span class="gfor">for Big Green Fried Rice &middot; 1 tbsp fresh ginger</span></span></label></li><li><label><input type="checkbox" data-key="6 cloves garlic" aria-label="6 cloves garlic"><span class="gtext"><span class="gitem">6 cloves garlic</span><span class="gfor">for Crispy Gnocchi With Sausage and Broccoli, Big Green Fried Rice, Easy Lentil and Halloumi Curry</span></span></label></li><li><label><input type="checkbox" data-key="2 cups grape tomatoes" aria-label="1 pint grape tomatoes"><span class="gtext"><span class="gitem">1 pint grape tomatoes</span><span class="gfor">for Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon &middot; 2 cups grape tomatoes</span></span></label></li><li><label><input type="checkbox" data-key="4 green onions" aria-label="4 green onions"><span class="gtext"><span class="gitem">4 green onions</span><span class="gfor">for Big Green Fried Rice</span></span></label></li><li><label><input type="checkbox" data-key="2 cups kale" aria-label="1 bunch kale"><span class="gtext"><span class="gitem">1 bunch kale</span><span class="gfor">for Big Green Fried Rice &middot; 2 cups kale</span></span></label></li><li><label><input type="checkbox" data-key="1½ lemons" aria-label="1½ lemons"><span class="gtext"><span class="gitem">1½ lemons</span><span class="gfor">for Crispy Gnocchi With Sausage and Broccoli, Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon</span></span></label></li><li><label><input type="checkbox" data-key="6 mushrooms" aria-label="6 mushrooms"><span class="gtext"><span class="gitem">6 mushrooms</span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li><li><label><input type="checkbox" data-key="1 onion" aria-label="1 onion"><span class="gtext"><span class="gitem">1 onion</span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li><li><label><input type="checkbox" data-key="1 red onion" aria-label="1 red onion"><span class="gtext"><span class="gitem">1 red onion</span><span class="gfor">for Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon</span></span></label></li><li><label><input type="checkbox" data-key="½ zucchini" aria-label="½ zucchini"><span class="gtext"><span class="gitem">½ zucchini</span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li></ul></details><details open><summary>Dairy & Eggs <span class="count">3 of 3 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="14 oz feta cheese" aria-label="14 oz feta cheese"><span class="gtext"><span class="gitem">14 oz feta cheese</span><span class="gfor">for Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon</span></span></label></li><li><label><input type="checkbox" data-key="¼ cup grated parmesan" aria-label="¼ cup grated parmesan"><span class="gtext"><span class="gitem">¼ cup grated parmesan</span><span class="gfor">for Crispy Gnocchi With Sausage and Broccoli</span></span></label></li><li><label><input type="checkbox" data-key="225 g halloumi cheese" aria-label="225 g halloumi cheese"><span class="gtext"><span class="gitem">225 g halloumi cheese</span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li></ul></details><details open><summary>Pantry <span class="count">1 of 7 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="120 g brown lentils" aria-label="120 g brown lentils"><span class="gtext"><span class="gitem">120 g brown lentils<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li><li><label><input type="checkbox" data-key="400 g canned chopped tomatoes" aria-label="400 g canned chopped tomatoes"><span class="gtext"><span class="gitem">400 g canned chopped tomatoes</span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li><li><label><input type="checkbox" data-key="chile-sesame oil and lemon zest, for serving" aria-label="chile-sesame oil and lemon zest, for serving"><span class="gtext"><span class="gitem">chile-sesame oil and lemon zest, for serving<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Big Green Fried Rice</span></span></label></li><li><label><input type="checkbox" data-key="orzo or farro, for serving" aria-label="orzo or farro, for serving"><span class="gtext"><span class="gitem">orzo or farro, for serving<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon</span></span></label></li><li><label><input type="checkbox" data-key="1 shelf-stable potato gnocchi" aria-label="1 shelf-stable potato gnocchi"><span class="gtext"><span class="gitem">1 shelf-stable potato gnocchi<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Crispy Gnocchi With Sausage and Broccoli</span></span></label></li><li><label><input type="checkbox" data-key="1½ tbsp toasted sesame oil" aria-label="1½ tbsp toasted sesame oil"><span class="gtext"><span class="gitem">1½ tbsp toasted sesame oil<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Big Green Fried Rice</span></span></label></li><li><label><input type="checkbox" data-key="375 ml vegetable stock" aria-label="375 ml vegetable stock"><span class="gtext"><span class="gitem">375 ml vegetable stock<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li></ul></details><details open><summary>Spices <span class="count">0 of 3 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="1 tsp garam masala" aria-label="1 tsp garam masala"><span class="gtext"><span class="gitem">1 tsp garam masala<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li><li><label><input type="checkbox" data-key="1½ tsp ground cumin" aria-label="1½ tsp ground cumin"><span class="gtext"><span class="gitem">1½ tsp ground cumin<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon, Easy Lentil and Halloumi Curry</span></span></label></li><li><label><input type="checkbox" data-key="1 tsp smoked paprika" aria-label="1 tsp smoked paprika"><span class="gtext"><span class="gitem">1 tsp smoked paprika<span class="tag tag-off">not in AnyList</span></span><span class="gfor">for Easy Lentil and Halloumi Curry</span></span></label></li></ul></details><details open><summary>Other <span class="count">1 of 1 in AnyList</span></summary><ul><li><label><input type="checkbox" data-key="1 lb italian sausage" aria-label="1 lb italian sausage"><span class="gtext"><span class="gitem">1 lb italian sausage</span><span class="gfor">for Crispy Gnocchi With Sausage and Broccoli</span></span></label></li></ul></details>
   <p class="note">Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them.</p>
   <p class="totop"><a href="#top">Back to top</a></p>
 
   <h2>Recent weeks</h2>
-<table class='hist'><tbody><tr><td class="wkdate">2026-09-13</td><td>Chickpea Salad Sandwich · Charred Cauliflower Pitas with Halloumi and Harissa</td></tr><tr><td class="wkdate">2026-08-30</td><td>Better Than Takeout Dan Dan Noodles · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Spicy-Tangy-Smoky Pinto Bean Bowls · Roasted Broccoli and Tofu Bowls with Peanut Sauce · Creamy Coconut-Lime Rice With Peanuts</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Crispy Gnocchi With Sausage and Broccoli · Meyer Lemon Romanesco Glow Salad · Artichoke Tacos (Vegan Fish Tacos)</td></tr><tr><td class="wkdate">2026-08-16</td><td>Chickpea Salad Sandwich · Sweet Chile Grain Bowl With Tofu · French Onion Baked Lentils and Farro · Big Green Fried Rice</td></tr><tr><td class="wkdate">2026-08-09</td><td>One-Pot Beans, Greens and Grains · Easy Lentil and Halloumi Curry · Charred Cauliflower Pitas with Halloumi and Harissa · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-07-26</td><td>Artichoke Tacos (Vegan Fish Tacos) · Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon · Creamy Coconut-Lime Rice With Peanuts · 25 Minute Banh Mi Rice Bowls</td></tr></tbody></table>
+<table class='hist'><tbody><tr><td class="wkdate">2026-09-13</td><td>Crispy Gnocchi With Sausage and Broccoli · Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon · Big Green Fried Rice · Easy Lentil and Halloumi Curry</td></tr><tr><td class="wkdate">2026-08-30</td><td>Better Than Takeout Dan Dan Noodles · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Spicy-Tangy-Smoky Pinto Bean Bowls · Roasted Broccoli and Tofu Bowls with Peanut Sauce · Creamy Coconut-Lime Rice With Peanuts</td></tr><tr><td class="wkdate">2026-08-23</td><td>A Farrotto for All Seasons · Crispy Gnocchi With Sausage and Broccoli · Meyer Lemon Romanesco Glow Salad · Artichoke Tacos (Vegan Fish Tacos)</td></tr><tr><td class="wkdate">2026-08-16</td><td>Chickpea Salad Sandwich · Sweet Chile Grain Bowl With Tofu · French Onion Baked Lentils and Farro · Big Green Fried Rice</td></tr><tr><td class="wkdate">2026-08-09</td><td>One-Pot Beans, Greens and Grains · Easy Lentil and Halloumi Curry · Charred Cauliflower Pitas with Halloumi and Harissa · Sheet Pan Ratatouille with Crispy Baked Tofu</td></tr><tr><td class="wkdate">2026-07-26</td><td>Artichoke Tacos (Vegan Fish Tacos) · Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon · Creamy Coconut-Lime Rice With Peanuts · 25 Minute Banh Mi Rice Bowls</td></tr></tbody></table>
   <footer>
     <p><strong>Rate a meal:</strong> tell Claude — e.g. “we loved the ratatouille, the tacos were just ok” —
     and it updates the preferences that steer future weeks. Checkboxes stay on this device and don’t sync to AnyList.</p>
