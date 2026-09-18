@@ -98,6 +98,37 @@ def anylist_display(item, section, rules):
     return (qty + " " + name).strip()
 
 
+VULGAR = {0.125: "&frac18;", 0.25: "&frac14;", 0.375: "&#8533;", 0.5: "&frac12;",
+          0.625: "&#8541;", 0.75: "&frac34;", 0.875: "&#8542;"}
+PLURAL_UNITS = {"cup": "cups", "bag": "bags", "pint": "pints", "package": "packages",
+                "bunch": "bunches", "piece": "pieces", "clove": "cloves", "can": "cans",
+                "head": "heads", "stalk": "stalks", "sprig": "sprigs", "slice": "slices"}
+
+
+def human_qty(quantity, unit, name):
+    """Kitchen-register quantity: "0.46 cup" -> "1/2 cup", "2 cup" -> "2 cups".
+
+    Consolidation arithmetic produces values like 0.46; rounding to the nearest
+    eighth is how a person would read the measuring cup anyway.
+    """
+    if quantity is None:
+        return None
+    eighths = round(quantity * 8)
+    whole, rem = divmod(eighths, 8)
+    frac = VULGAR.get(rem / 8, "")
+    if whole and frac:
+        qty = str(whole) + frac
+    elif frac:
+        qty = frac
+    else:
+        qty = str(whole)
+    plural = whole > 1 or (whole == 1 and rem)
+    if unit and unit != "count":
+        unit_word = PLURAL_UNITS.get(unit, unit) if plural else unit
+        return (qty + " " + unit_word + " " + name).strip()
+    return (qty + " " + name).strip()
+
+
 def recipe_href(meal, recipes):
     """Same-tab relative link for our own recipe pages; source_url otherwise."""
     page_url = recipes.get(meal["id"], {}).get("page_url") or ""
@@ -135,13 +166,25 @@ CSS = """
   .stamp { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; margin:0 0 16px;
            font-size:12.5px; color:var(--muted); }
   .stamp time { font-variant-numeric:tabular-nums; }
-  .jump { color:var(--leaf); font-weight:600; text-decoration:none; border-bottom:1px solid var(--line); }
-  .jump:hover { border-bottom-color:var(--leaf); }
+  .jump { color:var(--leaf); font-weight:600; text-decoration:none; background:var(--leaf-soft);
+          border-radius:6px; padding:11px 14px; display:inline-block; min-height:22px; }
+  .jump:hover { background:var(--leaf); color:var(--card); }
 
-  .notice { border:1px solid var(--tomato); background:var(--tomato-soft); color:var(--tomato);
-            border-radius:6px; padding:12px 14px; margin:0 0 16px; font-size:14px; max-width:62ch; }
-  .notice strong { display:block; font-weight:700; margin-bottom:2px; }
-  .notice p { margin:0; color:var(--ink); }
+  .notice { border:1px solid var(--tomato); background:var(--tomato-soft); border-radius:6px;
+            padding:12px 14px; margin:0 0 18px; font-size:14px; max-width:62ch; }
+  .notice p { margin:0 0 6px; color:var(--ink); }
+  .notice p:last-child { margin-bottom:0; }
+  .notice-fix { color:var(--tomato); font-weight:600; }
+
+  .tonight-line { margin:0 0 20px; font-size:16px; display:flex; flex-wrap:wrap;
+                  align-items:baseline; gap:4px 10px; }
+  .tonight-label { font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+                   color:var(--card); background:var(--leaf); border-radius:3px; padding:3px 7px; }
+  .tonight-line a { font-family:var(--serif); font-size:20px; color:var(--ink);
+                    text-decoration:none; border-bottom:1px solid var(--leaf); }
+  .tonight-line a:hover { color:var(--leaf); }
+  .tonight-min { font-size:13px; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .tonight-none { color:var(--muted); font-size:14px; }
 
   h2 { font-family:var(--serif); font-weight:500; font-size:24px; margin:36px 0 14px; scroll-margin-top:16px; }
   h2:first-of-type { margin-top:0; }
@@ -167,11 +210,13 @@ CSS = """
   .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
   .chip-veg { color:var(--leaf); border-color:var(--leaf); }
   .chip-meat { background:var(--tomato-soft); color:var(--tomato); border-color:transparent; font-weight:600; }
-  .subnote { font-size:13px; color:var(--tomato); margin:4px 0 6px; max-width:62ch; }
-  dl.nut { display:flex; gap:22px; margin:10px 0 0; padding-top:10px; border-top:1px dashed var(--line); }
+  .subnote { font-size:14px; color:var(--ink); margin:8px 0 4px; max-width:62ch; line-height:1.45;
+             background:var(--tomato-soft); border:1px solid var(--line); border-radius:5px; padding:9px 11px; }
+  .subnote strong { color:var(--tomato); }
+  dl.nut { display:flex; gap:20px; margin:10px 0 0; padding-top:9px; border-top:1px dashed var(--line); }
   dl.nut div { display:flex; flex-direction:column; }
   dl.nut dt { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
-  dl.nut dd { margin:0; font-variant-numeric:tabular-nums; font-size:15px; }
+  dl.nut dd { margin:0; font-variant-numeric:tabular-nums; font-size:13px; color:var(--muted); }
   .est { font-size:11px; color:var(--muted); font-style:italic; }
 
   .summary { border-top:1px solid var(--line); border-bottom:1px solid var(--line);
@@ -181,7 +226,12 @@ CSS = """
   .summary dl { display:flex; gap:0; margin:0; }
   .summary dl div { flex:1; }
   .summary dt { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
-  .summary dd { margin:2px 0 0; font-family:var(--serif); font-size:19px; font-variant-numeric:tabular-nums; }
+  .summary dd { margin:2px 0 0; font-family:var(--serif); font-size:17px; font-variant-numeric:tabular-nums; }
+  .totop { margin:14px 0 0; font-size:13px; }
+  .totop a { color:var(--muted); text-decoration:none; border-bottom:1px solid var(--line); }
+  .totop a:hover { color:var(--leaf); border-bottom-color:var(--leaf); }
+  .legend { margin:10px 0 0; font-size:12.5px; color:var(--muted); }
+  .legend .rating { color:var(--honey); }
 
   details { background:var(--card); border:1px solid var(--line); border-radius:6px; margin-bottom:10px; padding:0 16px; }
   summary { font-weight:600; padding:12px 0; cursor:pointer; }
@@ -197,7 +247,6 @@ CSS = """
   .tag { display:inline-block; font-size:11px; letter-spacing:.04em; text-transform:uppercase;
          font-weight:700; border-radius:3px; padding:1px 6px; margin-left:8px; vertical-align:1px; }
   .tag-off { border:1px solid var(--line); color:var(--muted); }
-  .tag-buy { background:var(--leaf-soft); color:var(--leaf); }
   details input[type=checkbox]:checked ~ .gtext .gitem { text-decoration:line-through; color:var(--muted); }
   details input[type=checkbox]:checked ~ .gtext { opacity:.55; }
   .gtext, .gitem { transition:opacity .22s cubic-bezier(.2,.7,.3,1), color .22s cubic-bezier(.2,.7,.3,1); }
@@ -206,10 +255,10 @@ CSS = """
   table.hist { width:100%; border-collapse:collapse; font-size:14px; }
   table.hist td { padding:8px 10px 8px 0; border-top:1px solid var(--line); vertical-align:top; }
   td.wkdate { color:var(--muted); white-space:nowrap; font-variant-numeric:tabular-nums; }
-  .muted { color:var(--muted); }
   .note { font-size:13px; color:var(--muted); max-width:62ch; }
   footer { margin-top:48px; font-size:13px; color:var(--muted); border-top:1px solid var(--line);
            padding-top:14px; max-width:62ch; }
+  footer p { margin:0; }
   footer strong { color:var(--ink); }
 
   @media (max-width:420px) {
@@ -230,18 +279,40 @@ SCRIPT = """
   // Mark tonight's dinner at view time, not build time. The badge is real text
   // so it reaches the accessible name, not a CSS ::before a screen reader misses.
   var cards = root.querySelectorAll('.meal[data-date]');
+  var tonightCard = null;
   for (var i = 0; i < cards.length; i++) {
     var isTonight = cards[i].getAttribute('data-date') === iso;
+    if (isTonight) tonightCard = cards[i];
     cards[i].classList.toggle('tonight', isTonight);
     var badge = cards[i].querySelector('[data-tonight]');
     if (badge) badge.hidden = !isTonight;
   }
 
+  // Answer the weeknight question above the fold instead of making them scroll.
+  var line = document.getElementById('tonight-line');
+  var none = document.getElementById('tonight-none');
+  if (line && none) {
+    if (tonightCard) {
+      var link = line.querySelector('[data-tonight-link]');
+      link.textContent = tonightCard.getAttribute('data-name');
+      link.setAttribute('href', tonightCard.getAttribute('data-href'));
+      var min = tonightCard.getAttribute('data-min');
+      line.querySelector('[data-tonight-min]').textContent = min ? '\\u00b7 ' + min + ' min' : '';
+      line.hidden = false;
+    } else {
+      none.hidden = false;
+    }
+  }
+
   // Say so when the page is showing a week that has already passed.
-  var stale = document.getElementById('stale-notice');
-  if (stale) {
-    var end = stale.getAttribute('data-plan-end');
-    stale.hidden = !(end && iso > end);
+  var notice = document.getElementById('plan-notice');
+  if (notice) {
+    var end = notice.getAttribute('data-plan-end');
+    if (end && iso > end) {
+      var staleP = notice.querySelector('[data-stale]');
+      if (staleP) staleP.hidden = false;
+      notice.hidden = false;
+    }
   }
 
   // Keep checkboxes across a trip to AnyList and back.
@@ -249,7 +320,14 @@ SCRIPT = """
   var key = 'meal-planner:groceries:' + week;
   var boxes = root.querySelectorAll('input[type=checkbox][data-key]');
   var saved = {};
-  try { saved = JSON.parse(localStorage.getItem(key) || '{}') || {}; } catch (e) { saved = {}; }
+  try {
+    saved = JSON.parse(localStorage.getItem(key) || '{}') || {};
+    // Last week's ticks are dead weight; keep only the week on screen.
+    for (var s = localStorage.length - 1; s >= 0; s--) {
+      var k = localStorage.key(s);
+      if (k && k.indexOf('meal-planner:groceries:') === 0 && k !== key) localStorage.removeItem(k);
+    }
+  } catch (e) { saved = {}; }
   for (var j = 0; j < boxes.length; j++) {
     if (saved[boxes[j].getAttribute('data-key')]) boxes[j].checked = true;
   }
@@ -350,7 +428,12 @@ def main():
         est = ' <span class="est">est.</span>' if n.get("source") == "estimated" else ""
         veg_badge = ('<span class="chip chip-veg">Vegetarian</span>' if m["vegetarian"]
                      else '<span class="chip chip-meat">Contains meat</span>')
-        sub = '<p class="subnote">Veg option: ' + esc(m["veg_sub_note"]) + '</p>' if m.get("veg_sub_note") else ""
+        # "Contains meat" already carries it; a "Meat" protein chip beside it says it twice.
+        protein_chip = ("" if m["protein"] == "meat" else
+                        '<span class="chip chip-protein">'
+                        + esc(PROTEIN_LABEL.get(m["protein"], m["protein"])) + "</span>")
+        sub = ('<p class="subnote"><strong>Veg option:</strong> ' + esc(m["veg_sub_note"]) + '</p>'
+               if m.get("veg_sub_note") else "")
         time_chip = '<span class="chip">' + str(m["total_min"]) + ' min</span>' if m.get("total_min") else ""
         rating = prefs.get("ratings", {}).get(m["id"], {}).get("rating")
         rating_html = ""
@@ -361,14 +444,14 @@ def main():
         target = ' target="_blank" rel="noopener"' if external else ""
         tonight = " tonight" if d == generated.date() else ""
         meal_cards.append(f"""
-      <article class="meal{tonight}" data-date="{d.isoformat()}">
-        <div class="dayrail"><span class="dow">{m["day"][:3]}</span><span class="dom">{d.strftime('%m/%d').lstrip('0')}</span></div>
+      <article class="meal{tonight}" data-date="{d.isoformat()}" data-name="{esc(m["name"])}"
+               data-href="{esc(href)}" data-min="{m.get("total_min") or ""}">
+        <div class="dayrail"><span class="dow">{m["day"][:3]}</span><span class="dom">{d.month}/{d.day}</span></div>
         <div class="mealbody">
           <h3><a href="{esc(href)}"{target}>{esc(m["name"])}</a>{rating_html}</h3>
           <div class="chips">
             <span class="chip chip-tonight" data-tonight hidden>Tonight</span>
-            <span class="chip chip-protein">{PROTEIN_LABEL.get(m["protein"], m["protein"])}</span>
-            {veg_badge}{time_chip}
+            {protein_chip}{veg_badge}{time_chip}
             <span class="chip">serves {m["servings"]}</span>
           </div>
           {sub}
@@ -392,16 +475,18 @@ def main():
             buys = anylist_display(it, key, rules) if pushed else ""
             if pushed:
                 section_pushed += 1
-            if not pushed:
-                tag = '<span class="tag tag-off">not in AnyList</span>'
-            elif buys and buys != it["display"]:
-                tag = '<span class="tag tag-buy">buy ' + esc(buys) + '</span>'
+            # In the aisle the buy is what matters, so it leads; the recipe
+            # measurement stays on the line below, where it can be checked.
+            measure = human_qty(it.get("quantity"), it.get("unit"), it["item"]) or it["display"]
+            if pushed and buys and buys != it["display"]:
+                primary, secondary = esc(buys), "for " + esc(", ".join(it["for"])) + " &middot; " + esc(measure)
             else:
-                tag = ""
+                primary, secondary = esc(measure), "for " + esc(", ".join(it["for"]))
+            tag = '<span class="tag tag-off">not in AnyList</span>' if not pushed else ""
             rows.append('<li><label><input type="checkbox" data-key="' + esc(it["display"]) +
-                        '" aria-label="' + esc(it["display"]) + '">'
-                        '<span class="gtext"><span class="gitem">' + esc(it["display"]) + tag + '</span>'
-                        '<span class="gfor">' + esc(", ".join(it["for"])) + '</span></span></label></li>')
+                        '" aria-label="' + primary + '">'
+                        '<span class="gtext"><span class="gitem">' + primary + tag + '</span>'
+                        '<span class="gfor">' + secondary + '</span></span></label></li>')
         n_items += len(items)
         n_pushed += section_pushed
         grocery_html.append('<details open><summary>' + SECTION_LABEL.get(key, key) +
@@ -419,19 +504,27 @@ def main():
     plan_end = sunday + timedelta(days=6)
     stale_now = date.today() > plan_end
 
-    notices = ('<div class="notice" id="stale-notice" role="status" data-plan-end="' + plan_end.isoformat() + '"'
-               + ("" if stale_now else " hidden") + '>'
-               '<strong>This is not the current week.</strong>'
-               "<p>The plan below ran for the week of " + esc(fmt_day(first_day)) +
-               ". Sunday's run has not replaced it yet.</p></div>\n")
-    if n_meals != EXPECTED_DINNERS:
-        notices += ('  <div class="notice"><strong>Partial plan.</strong>'
-                    "<p>This week has " + str(n_meals) + " dinner" + ("s" if n_meals != 1 else "") +
-                    ", not the usual " + str(EXPECTED_DINNERS) +
-                    " — the Sunday run may not have finished.</p></div>\n")
+    # One notice, not a stack: staleness is decided at view time and a short plan
+    # at build time, but two filled red blocks for one broken run reads as alarm.
+    partial = n_meals != EXPECTED_DINNERS
+    stale_p = ('<p data-stale' + ("" if stale_now else " hidden") + ">This is last week&rsquo;s plan, for "
+               + esc(fmt_day(first_day)) + " &ndash; " + esc(fmt_day(last_day))
+               + ". Sunday&rsquo;s run has not replaced it yet.</p>")
+    partial_p = ("<p data-partial>Only " + str(n_meals) + " of the usual " + str(EXPECTED_DINNERS)
+                 + " dinners were planned, so the run may not have finished.</p>") if partial else ""
+    notices = ('<div class="notice" id="plan-notice" role="status" data-plan-end="' + plan_end.isoformat()
+               + '"' + ("" if (stale_now or partial) else " hidden") + ">" + stale_p + partial_p
+               + '<p class="notice-fix">Ask Claude to run the meal plan to rebuild this week.</p>'
+               + "</div>\n")
+
+    tonight_line = ('  <p class="tonight-line" id="tonight-line" hidden>'
+                    '<span class="tonight-label">Tonight</span> <a data-tonight-link href="#"></a>'
+                    '<span data-tonight-min class="tonight-min"></span></p>\n'
+                    '  <p class="tonight-line tonight-none" id="tonight-none" hidden>'
+                    "No dinner planned for tonight.</p>\n")
 
     page = (head("Wyand Dinner Plan — Week of " + span)
-            + '<main data-week="' + esc(wk) + '">\n  <header class="week">\n'
+            + '<main id="top" data-week="' + esc(wk) + '">\n  <header class="week">\n'
             + "    <h1>Week of " + esc(span) + "</h1>\n"
             + '    <p class="tagline">' + tagline + "</p>\n"
             + '    <p class="stamp"><time datetime="' + esc(generated.isoformat(timespec="minutes")) + '">Generated '
@@ -440,6 +533,7 @@ def main():
                + " in AnyList</a>" if n_items else "")
             + "</p>\n  </header>\n  "
             + notices
+            + tonight_line
             + "  <h2>Dinners</h2>"
             + "".join(meal_cards)
             + '\n  <section class="summary">\n    <div class="summary-label">Average per serving</div>\n    <dl>\n'
@@ -452,9 +546,14 @@ def main():
             + str(n_items) + " pushed to AnyList)</span></h2>\n"
             + "".join(grocery_html)
             + ('\n  <p class="note">' + esc(grocery.get("note", "")) + "</p>\n" if grocery.get("note") else "\n")
+            + '  <p class="totop"><a href="#top">Back to top</a></p>\n'
             + "\n  <h2>Recent weeks</h2>\n" + hist_html + "\n"
-            + "  <footer>\n    <strong>Rate a meal:</strong> tell Claude — e.g. “we loved the ratatouille, the tacos were just ok” —\n"
-            + "    and it updates the preferences that steer future weeks. Checkboxes stay on this device and don’t sync to AnyList.\n"
+            + "  <footer>\n    <p><strong>Rate a meal:</strong> tell Claude — e.g. “we loved the ratatouille, the tacos were just ok” —\n"
+            + "    and it updates the preferences that steer future weeks. Checkboxes stay on this device and don’t sync to AnyList.</p>\n"
+            + '    <p class="legend">Ratings: '
+            + " &middot; ".join('<span class="rating">' + RATING_GLYPH[r] + "</span> "
+                                + RATING_WORD[r].lower() for r in ("loved", "liked", "ok", "disliked"))
+            + "</p>\n"
             + "  </footer>\n</main>\n<script>" + SCRIPT + "</script>\n</body>\n</html>\n")
 
     out.write_text(page, encoding="utf-8")
