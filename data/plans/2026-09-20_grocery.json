@@ -1,0 +1,375 @@
+{
+  "week_of": "2026-09-20",
+  "meals": [
+    "Rigatoni with Honeynut Squash, Chard & Hazelnuts",
+    "Meyer Lemon Romanesco Glow Salad",
+    "French Onion Baked Lentils and Farro",
+    "Artichoke Tacos (Vegan Fish Tacos)"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "avocado",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 avocado"
+      },
+      {
+        "item": "celery",
+        "quantity": 1.0,
+        "unit": "stalk",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "1 stalk celery"
+      },
+      {
+        "item": "fresh dill",
+        "quantity": 2.0,
+        "unit": "sprig",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "2 fresh dill sprigs"
+      },
+      {
+        "item": "fresh sage",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "2 tsp fresh sage"
+      },
+      {
+        "item": "fresh thyme",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "fresh thyme, a few sprigs"
+      },
+      {
+        "item": "garlic",
+        "quantity": 3.0,
+        "unit": "clove",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts",
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "3 cloves garlic"
+      },
+      {
+        "item": "green onion",
+        "quantity": 5.0,
+        "unit": "count",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad",
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "5 green onions"
+      },
+      {
+        "item": "honeynut squash",
+        "quantity": 3.0,
+        "unit": "lb",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "3 lb honeynut squash"
+      },
+      {
+        "item": "lemon",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 lemon"
+      },
+      {
+        "item": "lemon juice",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tbsp lemon juice"
+      },
+      {
+        "item": "meyer lemon juice",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "1 tbsp meyer lemon juice"
+      },
+      {
+        "item": "meyer lemon zest",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "\u00bc tsp meyer lemon zest"
+      },
+      {
+        "item": "onion",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "1 onion"
+      },
+      {
+        "item": "red cabbage",
+        "quantity": 0.25,
+        "unit": "head",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "\u00bc head red cabbage"
+      },
+      {
+        "item": "romanesco broccoli or cauliflower",
+        "quantity": 1.0,
+        "unit": "head",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "1 head romanesco broccoli or cauliflower"
+      },
+      {
+        "item": "seedless grapes",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "1 cup seedless grapes"
+      },
+      {
+        "item": "sweet apple",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "1 sweet apple"
+      },
+      {
+        "item": "swiss chard",
+        "quantity": 5.0,
+        "unit": "cup",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "5 cups swiss chard"
+      },
+      {
+        "item": "tomatoes",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "2 tomatoes"
+      },
+      {
+        "item": "yellow onions",
+        "quantity": 2.0,
+        "unit": "lb",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "2 lb yellow onions"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "almond milk",
+        "quantity": 125.0,
+        "unit": "ml",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "125 ml almond milk"
+      },
+      {
+        "item": "gruyere cheese",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "8 oz gruyere cheese"
+      },
+      {
+        "item": "parmesan cheese",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "\u00bd cup parmesan cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "soft taco shells (wheat or corn tortillas)",
+        "quantity": 4.0,
+        "unit": "count",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "4 soft taco shells (wheat or corn tortillas)"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "canned artichoke hearts",
+        "quantity": 1.0,
+        "unit": "can",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 can canned artichoke hearts"
+      },
+      {
+        "item": "caper brine",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "2 tbsp caper brine"
+      },
+      {
+        "item": "capers",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tbsp capers"
+      },
+      {
+        "item": "chickpea flour",
+        "quantity": 100.0,
+        "unit": "g",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "100 g chickpea flour"
+      },
+      {
+        "item": "dried farro",
+        "quantity": 1.5,
+        "unit": "cup",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "1\u00bd cups dried farro"
+      },
+      {
+        "item": "dried lentils",
+        "quantity": 0.75,
+        "unit": "cup",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "\u00be cup dried lentils"
+      },
+      {
+        "item": "dry sherry, vermouth, or white wine",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "2 tbsp dry sherry, vermouth, or white wine"
+      },
+      {
+        "item": "panko breadcrumbs",
+        "quantity": 60.0,
+        "unit": "g",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "60 g panko breadcrumbs"
+      },
+      {
+        "item": "rigatoni pasta",
+        "quantity": 1.0,
+        "unit": "lb",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "1 lb rigatoni pasta"
+      },
+      {
+        "item": "seaweed flakes (nori or dulse)",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tbsp seaweed flakes (nori or dulse)"
+      },
+      {
+        "item": "toasted hazelnuts",
+        "quantity": 0.333,
+        "unit": "cup",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "\u215c cup toasted hazelnuts"
+      },
+      {
+        "item": "vegan mayonnaise",
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "4 tbsp vegan mayonnaise"
+      },
+      {
+        "item": "vegetable broth",
+        "quantity": 6.0,
+        "unit": "cup",
+        "for": [
+          "French Onion Baked Lentils and Farro"
+        ],
+        "display": "6 cups vegetable broth"
+      },
+      {
+        "item": "walnut halves",
+        "quantity": 0.33,
+        "unit": "cup",
+        "for": [
+          "Meyer Lemon Romanesco Glow Salad"
+        ],
+        "display": "\u215c cup walnut halves"
+      }
+    ],
+    "spices": [
+      {
+        "item": "old bay seasoning",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Artichoke Tacos (Vegan Fish Tacos)"
+        ],
+        "display": "1 tsp old bay seasoning"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

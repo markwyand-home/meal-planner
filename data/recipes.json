@@ -385,7 +385,19 @@
         "vegan"
       ],
       "notes": "Serving unit is per taco (makes 4 tacos). Use plain canned/frozen artichokes, not marinated. Gluten-free option: corn tortillas + GF panko. Air fryer 7-8 min works per comments.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Preheat the oven to 200C/390F.",
+        "Make the marinade of almond milk, 30g (1/4 cup) chickpea flour, caper brine and lemon zest and juice. Make a loose paste with the flour and a little milk first, then gradually add the rest of the milk, followed by the caper brine and lemon juice, so the flour doesn't clump.",
+        "Leave the artichokes to marinate for 10 minutes or more for a more pronounced flavor, or batter immediately.",
+        "Set up a plate of 70g (1/2 cup) chickpea flour and another plate of panko breadcrumbs mixed with the seaweed flakes, mixed herbs and old bay seasoning.",
+        "One at a time, lift the artichokes out of the marinade, roll them in the flour, then dip them back in the marinade. Tap off any excess batter, then roll them in the panko mix until coated.",
+        "Lay the breaded artichoke hearts on a baking sheet and spray them lightly with cooking oil. Bake in the preheated oven for 30 minutes.",
+        "Mix the sliced cabbage with the apple cider vinegar and a pinch of salt and sugar. Stir well and set aside to quick-pickle.",
+        "For the sauce, spoon the vegan mayonnaise into a bowl and stir through the chopped capers, dill, and lemon juice until combined.",
+        "When the artichokes are ready, heat a small skillet over medium heat and warm the taco shells one at a time. To serve, add 3 artichoke halves to each taco, followed by the pickled cabbage, tomato, avocado, green onion, and dill mayo. Finish with a squeeze of fresh lemon juice."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/artichoke-vegan-fish-tacos.html"
     },
     {
       "id": "dan-dan-noodles",

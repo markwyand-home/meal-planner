@@ -1,0 +1,117 @@
+{
+  "week_of": "2026-09-20",
+  "meals_requested": 4,
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "rigatoni-honeynut-squash-chard",
+      "name": "Rigatoni with Honeynut Squash, Chard & Hazelnuts",
+      "protein": "cheese",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 580,
+        "protein_g": 17,
+        "carbs_g": 78,
+        "fat_g": 21,
+        "fiber_g": 6,
+        "sodium_mg": 480,
+        "source": "estimated"
+      },
+      "tags": [
+        "pasta",
+        "roasted",
+        "weeknight",
+        "hearty"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "romanesco-glow-salad",
+      "name": "Meyer Lemon Romanesco Glow Salad",
+      "protein": "nuts-seeds",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 20,
+      "servings": 4,
+      "source_url": "https://www.lunayoga.ca/blog/romanesco-glow-salad",
+      "nutrition_per_serving": {
+        "calories": 190,
+        "protein_g": 4,
+        "carbs_g": 17,
+        "fat_g": 13,
+        "fiber_g": 4,
+        "sodium_mg": 100,
+        "source": "estimated"
+      },
+      "tags": [
+        "salad",
+        "light",
+        "no-cook",
+        "quick",
+        "make-ahead"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "french-onion-baked-lentils-farro",
+      "name": "French Onion Baked Lentils and Farro",
+      "protein": "lentils",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 105,
+      "servings": 6,
+      "source_url": "https://smittenkitchen.com/2024/01/french-onion-baked-lentils-and-farro/",
+      "nutrition_per_serving": {
+        "calories": 535,
+        "protein_g": 24,
+        "carbs_g": 63,
+        "fat_g": 18,
+        "fiber_g": 10,
+        "sodium_mg": 1200,
+        "source": "estimated"
+      },
+      "tags": [
+        "one-pot",
+        "hearty",
+        "make-ahead",
+        "casserole",
+        "cozy"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "artichoke-vegan-fish-tacos",
+      "name": "Artichoke Tacos (Vegan Fish Tacos)",
+      "protein": "none",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": "https://forkfulofplants.com/artichoke-tacos-vegan-fish-tacos/",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 10,
+        "carbs_g": 52,
+        "fat_g": 21,
+        "fiber_g": 9,
+        "sodium_mg": 750,
+        "source": "estimated"
+      },
+      "tags": [
+        "tacos",
+        "light",
+        "vegan"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 434,
+    "protein_g": 13.8,
+    "carbs_g": 52.5,
+    "fat_g": 18.2
+  }
+}

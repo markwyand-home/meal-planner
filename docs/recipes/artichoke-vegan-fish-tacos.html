@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#FAF7F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161B17" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%232F6540%22%2F%3E%3Cpath%20d%3D%22M8.5%2023.5c0-8.5%205.5-13.5%2015-14.5%201%209.5-4.5%2015-12%2015z%22%20fill%3D%22%23FAF7F0%22%2F%3E%3Cpath%20d%3D%22M8.5%2023.5c3.2-3.4%206.6-5.6%2011-7.2%22%20fill%3D%22none%22%20stroke%3D%22%232F6540%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+<title>Artichoke Tacos (Vegan Fish Tacos)</title>
+<style>
+  :root {
+    --paper:#FAF7F0; --card:#FFFFFF; --ink:#242D26; --muted:#636B61; --line:#E4DFD3;
+    --leaf:#2F6540; --leaf-soft:#EAF2EC; --tomato:#95401F; --tomato-soft:#F6E9E2;
+    --honey:#8A6714; --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root {
+    --paper:#161B17; --card:#1F2620; --ink:#E7E9E3; --muted:#9AA398; --line:#333B34;
+    --leaf:#8CC29B; --leaf-soft:#24322A; --tomato:#E09A78; --tomato-soft:#3A2A22; --honey:#D3AC58;
+  } }
+  html { background:var(--paper); scrollbar-color:var(--line) var(--paper); }
+  body { font-family:var(--sans); color:var(--ink); margin:0; padding:0 20px 56px;
+         -webkit-font-smoothing:antialiased; }
+  ::selection { background:var(--leaf-soft); color:var(--ink); }
+  :focus-visible { outline:2px solid var(--leaf); outline-offset:3px; border-radius:2px; }
+  main { max-width:640px; margin:0 auto; }
+  .back { display:inline-block; margin:28px 0 0; font-size:13px; font-weight:600; color:var(--leaf);
+          text-decoration:none; border-bottom:1px solid var(--line); }
+  .back:hover { border-bottom-color:var(--leaf); }
+  header { padding:16px 0; border-bottom:2px solid var(--ink); margin-bottom:24px; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:clamp(26px,7vw,36px); margin:0 0 12px; text-wrap:balance; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { font-size:12px; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
+  .chip-protein { background:var(--leaf-soft); color:var(--leaf); border-color:transparent; font-weight:600; }
+  .chip-veg { color:var(--leaf); border-color:var(--leaf); }
+  .chip-meat { background:var(--tomato-soft); color:var(--tomato); border-color:transparent; font-weight:600; }
+  h2 { font-family:var(--serif); font-weight:500; font-size:20px; margin:32px 0 12px; }
+  ul.ing { list-style:none; margin:0; padding:0; }
+  ul.ing li { padding:9px 0; border-top:1px solid var(--line); font-size:16px; line-height:1.4; }
+  ul.ing li:last-child { padding-bottom:0; }
+  ol.steps { margin:0; padding:0; list-style:none; counter-reset:step; }
+  ol.steps li { counter-increment:step; display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line); }
+  ol.steps li:last-child { padding-bottom:0; }
+  ol.steps li::before {
+    content:counter(step); flex:none; width:28px; height:28px; border-radius:50%;
+    background:var(--leaf-soft); color:var(--leaf); font-weight:700; font-size:14px;
+    display:flex; align-items:center; justify-content:center;
+  }
+  ol.steps p { margin:0; font-size:17px; line-height:1.55; padding-top:2px; }
+  .notes { margin-top:32px; padding:14px 16px; background:var(--leaf-soft); border-radius:6px;
+           font-size:14px; color:var(--ink); }
+  .notes strong { color:var(--leaf); }
+  footer { margin-top:40px; font-size:13px; color:var(--muted); border-top:1px solid var(--line);
+           padding-top:14px; display:flex; flex-wrap:wrap; gap:8px 20px; }
+  footer a { color:var(--muted); text-underline-offset:3px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">&larr; This week&rsquo;s plan</a>
+  <header>
+    <h1>Artichoke Tacos (Vegan Fish Tacos)</h1>
+    <div class="meta"><span class="chip chip-protein">Veg-forward</span><span class="chip chip-veg">Vegetarian</span><span class="chip">45 min</span><span class="chip">serves 4</span></div>
+  </header>
+  <h2>Ingredients</h2>
+  <ul class="ing"><li>1 can artichoke hearts, halved</li><li>125 ml almond milk (1/2 cup)</li><li>100 g chickpea flour, split (3/4 cup)</li><li>2 tbsp caper brine</li><li>1 lemon, zested and juiced</li><li>60 g panko breadcrumbs (2/3 cup)</li><li>1 tbsp seaweed flakes</li><li>1 tsp mixed herbs</li><li>1 tsp old bay seasoning or all purpose seasoning</li><li>1/4 head red cabbage, thinly sliced</li><li>60 ml apple cider vinegar (1/4 cup)</li><li>pinch salt and sugar</li><li>2 medium tomatoes, chopped</li><li>1 avocado, sliced</li><li>2 green onions, sliced</li><li>4 tbsp vegan mayonnaise</li><li>1 tbsp capers, finely chopped</li><li>2 sprigs dill, chopped</li><li>1 tbsp lemon juice</li><li>4 soft shell tacos</li><li>cooking oil spray (optional, for crispier coating)</li></ul>
+  <h2>Instructions</h2>
+  <ol class="steps"><li><p>Preheat the oven to 200C/390F.</p></li><li><p>Make the marinade of almond milk, 30g (1/4 cup) chickpea flour, caper brine and lemon zest and juice. Make a loose paste with the flour and a little milk first, then gradually add the rest of the milk, followed by the caper brine and lemon juice, so the flour doesn&#x27;t clump.</p></li><li><p>Leave the artichokes to marinate for 10 minutes or more for a more pronounced flavor, or batter immediately.</p></li><li><p>Set up a plate of 70g (1/2 cup) chickpea flour and another plate of panko breadcrumbs mixed with the seaweed flakes, mixed herbs and old bay seasoning.</p></li><li><p>One at a time, lift the artichokes out of the marinade, roll them in the flour, then dip them back in the marinade. Tap off any excess batter, then roll them in the panko mix until coated.</p></li><li><p>Lay the breaded artichoke hearts on a baking sheet and spray them lightly with cooking oil. Bake in the preheated oven for 30 minutes.</p></li><li><p>Mix the sliced cabbage with the apple cider vinegar and a pinch of salt and sugar. Stir well and set aside to quick-pickle.</p></li><li><p>For the sauce, spoon the vegan mayonnaise into a bowl and stir through the chopped capers, dill, and lemon juice until combined.</p></li><li><p>When the artichokes are ready, heat a small skillet over medium heat and warm the taco shells one at a time. To serve, add 3 artichoke halves to each taco, followed by the pickled cabbage, tomato, avocado, green onion, and dill mayo. Finish with a squeeze of fresh lemon juice.</p></li></ol>
+<div class="notes"><strong>Notes:</strong> Serving unit is per taco (makes 4 tacos). Use plain canned/frozen artichokes, not marinated. Gluten-free option: corn tortillas + GF panko. Air fryer 7-8 min works per comments.</div>
+  <footer><a href="../index.html">&larr; This week&rsquo;s plan</a><a href="https://forkfulofplants.com/artichoke-tacos-vegan-fish-tacos/" target="_blank" rel="noopener">Original recipe &rarr;</a></footer>
+</main>
+</body>
+</html>

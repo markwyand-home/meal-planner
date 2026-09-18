@@ -51,6 +51,15 @@
         "big-green-fried-rice",
         "lentil-halloumi-curry"
       ]
+    },
+    {
+      "week_of": "2026-09-20",
+      "meals": [
+        "rigatoni-honeynut-squash-chard",
+        "romanesco-glow-salad",
+        "french-onion-baked-lentils-farro",
+        "artichoke-vegan-fish-tacos"
+      ]
     }
   ]
 }
