@@ -60,6 +60,15 @@
         "french-onion-baked-lentils-farro",
         "artichoke-vegan-fish-tacos"
       ]
+    },
+    {
+      "week_of": "2026-09-27",
+      "meals": [
+        "charred-cauliflower-halloumi-pitas",
+        "barley-bowls-chickpeas-avocado",
+        "spicy-tangy-smoky-pinto-bean-bowls",
+        "sheet-pan-ratatouille-tofu"
+      ]
     }
   ]
 }

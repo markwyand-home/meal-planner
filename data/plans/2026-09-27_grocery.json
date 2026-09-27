@@ -1,0 +1,268 @@
+{
+  "week_of": "2026-09-27",
+  "meals": [
+    "Charred Cauliflower Pitas with Halloumi and Harissa",
+    "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing",
+    "Spicy-Tangy-Smoky Pinto Bean Bowls",
+    "Sheet Pan Ratatouille with Crispy Baked Tofu"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "arugula",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 cups arugula"
+      },
+      {
+        "item": "avocado",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing"
+        ],
+        "display": "1 avocado"
+      },
+      {
+        "item": "broccoli florets",
+        "quantity": 12.0,
+        "unit": "oz",
+        "for": [
+          "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing"
+        ],
+        "display": "12 oz broccoli florets"
+      },
+      {
+        "item": "brussels sprouts",
+        "quantity": 12.0,
+        "unit": "oz",
+        "for": [
+          "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing"
+        ],
+        "display": "12 oz brussels sprouts"
+      },
+      {
+        "item": "cauliflower",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "1 cauliflower"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 cup cherry tomatoes"
+      },
+      {
+        "item": "eggplant",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 eggplant"
+      },
+      {
+        "item": "garlic",
+        "quantity": 1.0,
+        "unit": "clove",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "1 clove garlic"
+      },
+      {
+        "item": "lemon juice",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing"
+        ],
+        "display": "2 tbsp lemon juice"
+      },
+      {
+        "item": "onion",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "\u00bd onion"
+      },
+      {
+        "item": "red bell pepper",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "\u00bd red bell pepper"
+      },
+      {
+        "item": "red onion",
+        "quantity": 1.5,
+        "unit": "count",
+        "for": [
+          "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing",
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1\u00bd red onions"
+      },
+      {
+        "item": "zucchini",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 zucchini"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "halloumi cheese",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "8 oz halloumi cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "pita",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 pitas"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "chickpeas",
+        "quantity": 3.0,
+        "unit": "cup",
+        "for": [
+          "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing"
+        ],
+        "display": "3 cups chickpeas"
+      },
+      {
+        "item": "cooked rice",
+        "quantity": 4.0,
+        "unit": "cup",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "4 cups cooked rice"
+      },
+      {
+        "item": "harissa",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "\u00bd cup harissa"
+      },
+      {
+        "item": "pasta, polenta, or grain of choice",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "pasta, polenta, or grain of choice, optional"
+      },
+      {
+        "item": "pearled barley",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing"
+        ],
+        "display": "1 cup pearled barley"
+      },
+      {
+        "item": "pinto beans",
+        "quantity": 2.0,
+        "unit": "(15 oz) can",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "2 (15 oz) can pinto beans"
+      },
+      {
+        "item": "tomato paste",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "2 tsp tomato paste"
+      }
+    ],
+    "spices": [
+      {
+        "item": "dried italian herbs",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 tbsp dried italian herbs"
+      },
+      {
+        "item": "smoked paprika",
+        "quantity": 4.0,
+        "unit": "tsp",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "4 tsp smoked paprika"
+      }
+    ],
+    "other": [
+      {
+        "item": "firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "14 oz firm tofu"
+      },
+      {
+        "item": "optional toppings",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "optional toppings"
+      },
+      {
+        "item": "vegan pesto sauce",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 vegan pesto sauce"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

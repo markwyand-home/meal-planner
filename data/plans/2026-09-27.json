@@ -1,0 +1,117 @@
+{
+  "week_of": "2026-09-27",
+  "meals_requested": 4,
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "charred-cauliflower-halloumi-pitas",
+      "name": "Charred Cauliflower Pitas with Halloumi and Harissa",
+      "protein": "halloumi",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 30,
+      "servings": 4,
+      "source_url": "https://parentscanada.com/food/charred-cauliflower-pitas-with-halloumi-and-harissa-recipe/",
+      "nutrition_per_serving": {
+        "calories": 288,
+        "protein_g": 17,
+        "carbs_g": 24,
+        "fat_g": 19,
+        "fiber_g": null,
+        "sodium_mg": null,
+        "source": "site"
+      },
+      "tags": [
+        "sandwich",
+        "sheet-pan",
+        "hearty",
+        "quick"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "barley-bowls-chickpeas-avocado",
+      "name": "Barley Bowls with Chickpeas, Roasted Vegetables & Avocado Dressing",
+      "protein": "chickpeas",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 520,
+        "protein_g": 16,
+        "carbs_g": 68,
+        "fat_g": 20,
+        "fiber_g": 12,
+        "sodium_mg": 550,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "vegan",
+        "roasted",
+        "make-ahead",
+        "hearty"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "spicy-tangy-smoky-pinto-bean-bowls",
+      "name": "Spicy-Tangy-Smoky Pinto Bean Bowls",
+      "protein": "beans",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 25,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 15,
+        "carbs_g": 60,
+        "fat_g": 12,
+        "fiber_g": 12,
+        "sodium_mg": 580,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "mexican-inspired",
+        "quick",
+        "vegan"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "sheet-pan-ratatouille-tofu",
+      "name": "Sheet Pan Ratatouille with Crispy Baked Tofu",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": "https://minimalistbaker.com/sheet-pan-ratatouille-with-crispy-baked-tofu/",
+      "nutrition_per_serving": {
+        "calories": 399,
+        "protein_g": 18.8,
+        "carbs_g": 21.7,
+        "fat_g": 29.5,
+        "fiber_g": 7.6,
+        "sodium_mg": 1131,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "hearty",
+        "make-ahead",
+        "gluten-free"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 407,
+    "protein_g": 16.7,
+    "carbs_g": 43.4,
+    "fat_g": 20.1
+  }
+}
