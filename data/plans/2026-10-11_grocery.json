@@ -1,0 +1,321 @@
+{
+  "week_of": "2026-10-11",
+  "meals": [
+    "Telegraph Rainbow Salad",
+    "Easy Lentil and Halloumi Curry",
+    "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "baby romaine or little gem lettuce",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "baby romaine or little gem lettuce, a few handfuls"
+      },
+      {
+        "item": "broccoli",
+        "quantity": 1.0,
+        "unit": "lb",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 lb broccoli"
+      },
+      {
+        "item": "carrot",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "1 carrot"
+      },
+      {
+        "item": "carrots or zucchini",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 cup carrots or zucchini"
+      },
+      {
+        "item": "celery",
+        "quantity": 1.0,
+        "unit": "stalk",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "1 stalk celery"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "cherry tomatoes, a handful"
+      },
+      {
+        "item": "fresh ginger",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 tbsp fresh ginger"
+      },
+      {
+        "item": "garlic",
+        "quantity": 4.0,
+        "unit": "clove",
+        "for": [
+          "Easy Lentil and Halloumi Curry",
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "4 cloves garlic"
+      },
+      {
+        "item": "mushrooms",
+        "quantity": 6.0,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "6 mushrooms"
+      },
+      {
+        "item": "onion",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 onion"
+      },
+      {
+        "item": "orange juice",
+        "quantity": 0.33,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u215c cup orange juice"
+      },
+      {
+        "item": "red bell pepper",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 red bell pepper"
+      },
+      {
+        "item": "sweet potato",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 sweet potato"
+      },
+      {
+        "item": "zucchini",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "\u00bd zucchini"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "halloumi cheese",
+        "quantity": 225.0,
+        "unit": "g",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "225 g halloumi cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "whole grain croutons or pita chips",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "whole grain croutons or pita chips, a big handful"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "brown lentils",
+        "quantity": 120.0,
+        "unit": "g",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "120 g brown lentils"
+      },
+      {
+        "item": "canned chopped tomatoes",
+        "quantity": 400.0,
+        "unit": "g",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "400 g canned chopped tomatoes"
+      },
+      {
+        "item": "chickpeas",
+        "quantity": 0.75,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u00be cup chickpeas"
+      },
+      {
+        "item": "kidney beans",
+        "quantity": 0.75,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u00be cup kidney beans"
+      },
+      {
+        "item": "maple syrup",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 tbsp maple syrup"
+      },
+      {
+        "item": "natural peanut butter",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "\u00bc cup natural peanut butter"
+      },
+      {
+        "item": "ponzu or tamari",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "2 tbsp ponzu or tamari"
+      },
+      {
+        "item": "sesame oil",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "1 tbsp sesame oil"
+      },
+      {
+        "item": "sesame oil",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "2 tsp sesame oil"
+      },
+      {
+        "item": "tahini",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u00bc cup tahini"
+      },
+      {
+        "item": "toasted sunflower seeds",
+        "quantity": 0.33,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u215c cup toasted sunflower seeds"
+      },
+      {
+        "item": "vegetable stock",
+        "quantity": 375.0,
+        "unit": "ml",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "375 ml vegetable stock"
+      }
+    ],
+    "spices": [
+      {
+        "item": "garam masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 tsp garam masala"
+      },
+      {
+        "item": "ground cumin",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "\u00bd tsp ground cumin"
+      },
+      {
+        "item": "smoked paprika",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Easy Lentil and Halloumi Curry"
+        ],
+        "display": "1 tsp smoked paprika"
+      }
+    ],
+    "other": [
+      {
+        "item": "extra-firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "14 oz extra-firm tofu"
+      },
+      {
+        "item": "garnishes (peanuts, cilantro, sesame seeds, green onions)",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Roasted Broccoli and Tofu Bowls with Peanut Sauce"
+        ],
+        "display": "garnishes (peanuts, cilantro, sesame seeds, green onions)"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}

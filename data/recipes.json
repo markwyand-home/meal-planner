@@ -2907,7 +2907,14 @@
         "no-cook"
       ],
       "notes": "Meal-size loaded salad with orange-tahini-ponzu dressing (leftover dressing keeps 5 days refrigerated). Sub maple syrup for honey to veganize.",
-      "role": "main"
+      "role": "main",
+      "instructions": [
+        "Shred the lettuce (or leave the leaves whole) and place it in a large bowl. Add the halved cherry tomatoes, kidney beans, chickpeas, celery, carrot coins and croutons.",
+        "In a small bowl, whisk together the tahini, orange juice, ponzu (or tamari) and honey.",
+        "Toss the salad well with as much of the dressing as you like; leftover dressing keeps in an airtight container in the fridge for up to 5 days.",
+        "Serve family-style, topped with the toasted sunflower seeds."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/telegraph-rainbow-salad.html"
     },
     {
       "id": "barley-bowls-chickpeas-avocado",
