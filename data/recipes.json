@@ -4246,6 +4246,137 @@
         "Just before serving, stir in the crispy chickpeas and more parsley and cilantro, drizzle with a little more oil, and sprinkle with flaky sea salt."
       ],
       "page_url": "https://markwyand-home.github.io/meal-planner/recipes/farro-crispy-spiced-chickpeas.html"
+    },
+    {
+      "id": "sun-dried-tomato-fettuccine-alfredo-spinach",
+      "name": "Sun-Dried Tomato Fettuccine Alfredo with Spinach",
+      "source_url": null,
+      "cuisine": "italian",
+      "protein_primary": "nuts-seeds",
+      "protein_notes": "A cashew-based sauce, whole-wheat pasta and a little Parmesan carry the protein; no meat to substitute.",
+      "vegetarian": true,
+      "vegan": false,
+      "servings": 4,
+      "prep_min": 10,
+      "cook_min": 20,
+      "total_min": 30,
+      "ingredients": [
+        {
+          "raw": "1/2 pound whole wheat fettuccine or linguine",
+          "item": "whole wheat fettuccine or linguine pasta",
+          "quantity": 8,
+          "unit": "oz",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons extra-virgin olive oil",
+          "item": "extra-virgin olive oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "pantry",
+          "pantry_staple": true
+        },
+        {
+          "raw": "4 cloves garlic, pressed or minced",
+          "item": "garlic",
+          "quantity": 4,
+          "unit": "clove",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Fine sea salt",
+          "item": "fine sea salt",
+          "quantity": null,
+          "unit": null,
+          "category": "spices",
+          "pantry_staple": true
+        },
+        {
+          "raw": "5 to 6 ounces baby spinach (5 to 6 packed cups)",
+          "item": "baby spinach",
+          "quantity": 5.5,
+          "unit": "oz",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2/3 cup raw cashews (soaked for at least 4 hours if you do not have a high-powered blender)",
+          "item": "raw cashews",
+          "quantity": 0.667,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "2 tablespoons lemon juice",
+          "item": "lemon juice",
+          "quantity": 2,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/2 cup oil-packed sun-dried tomatoes, drained and chopped",
+          "item": "oil-packed sun-dried tomatoes",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "pantry",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1/3 cup grated Parmesan cheese (about 2/3 ounce)",
+          "item": "parmesan cheese",
+          "quantity": 0.333,
+          "unit": "cup",
+          "category": "dairy-eggs",
+          "pantry_staple": false
+        },
+        {
+          "raw": "1 tablespoon chopped fresh basil",
+          "item": "fresh basil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "category": "produce",
+          "pantry_staple": false
+        },
+        {
+          "raw": "Pinch of red pepper flakes (optional)",
+          "item": "red pepper flakes",
+          "quantity": 1,
+          "unit": "pinch",
+          "category": "spices",
+          "pantry_staple": true,
+          "qualifier": "optional"
+        }
+      ],
+      "nutrition_per_serving": {
+        "calories": 460,
+        "protein_g": 15,
+        "carbs_g": 53,
+        "fat_g": 21,
+        "fiber_g": 9,
+        "sodium_mg": 600,
+        "source": "estimated"
+      },
+      "tags": [
+        "pasta",
+        "quick",
+        "weeknight",
+        "make-ahead"
+      ],
+      "notes": "From the cookbook Love Real Food, pp.154-156 (photographed pages). Times and nutrition are estimated; the page gives no times. If you don't have a high-powered blender (Vitamix or Blendtec), soak the cashews at least 4 hours ahead. Keeps chilled for 4 days; reheat gently. Book's swaps: gluten-free with gluten-free pasta; dairy-free/vegan with a sprinkle of nutritional yeast instead of the Parmesan (also egg free, soy free).",
+      "role": "main",
+      "instructions": [
+        "Bring a large pot of salted water to a boil. Cook the pasta until al dente, according to package directions. Before draining the pasta, reserve about 1 1/3 cups of the pasta cooking water. Drain the pasta and return it to the pot.",
+        "Meanwhile, in a large skillet, warm the olive oil over medium heat until shimmering. Add the garlic and a pinch of salt and cook, stirring constantly, until fragrant but not browned, about 20 seconds. Add several handfuls of spinach and stir until wilted, then repeat with additional handfuls until all of the spinach has wilted. Remove the pan from the heat and set aside.",
+        "If you soaked the cashews, drain and rinse them. In a blender, combine the cashews with 2/3 cup of the reserved pasta cooking water, the lemon juice, and 1/2 teaspoon salt. Blend until the \"Alfredo\" sauce is completely smooth. If the mixture is too thick to blend, add up to 1/3 cup more pasta cooking water to help.",
+        "In a large serving bowl, combine the cooked pasta, spinach mixture, sun-dried tomatoes, and Alfredo sauce. Gently toss until all of the pasta is lightly coated in sauce. Season to taste with additional salt, if necessary (the book usually adds another 1/4 teaspoon). If the pasta seems dry, add another small splash of pasta cooking water and toss again.",
+        "Portion the pasta into bowls and top with a sprinkle of Parmesan and basil. Add a pinch of red pepper flakes if you'd like some heat. Serve immediately.",
+        "This pasta keeps well, chilled, for 4 days. Gently reheat before serving."
+      ],
+      "page_url": "https://markwyand-home.github.io/meal-planner/recipes/sun-dried-tomato-fettuccine-alfredo-spinach.html"
     }
   ]
 }

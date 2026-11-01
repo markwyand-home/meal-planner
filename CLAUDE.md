@@ -27,12 +27,15 @@ first run — the AnyList push and the dashboard both need one-time configuratio
   `"pantry_staple": false` in `data/recipes.json` so it always lands on the grocery
   list and gets pushed to AnyList. Only dried garlic (powder/salt) stays a staple.
   (Decided 2026-08-30, after garlic was missing from a shopping list.)
-- **Noodles/pasta, tofu and gnocchi always get pushed to AnyList.** `data/anylist_rules.json`'s
-  `include_keywords_regex` (`noodles?|pasta|tofu|gnocchi`) overrides every exclude rule for
+- **Noodles/pasta, tofu, gnocchi and tomatoes always get pushed to AnyList.** `data/anylist_rules.json`'s
+  `include_keywords_regex` (`noodles?|pasta|tofu|gnocchi|tomatoes`) overrides every exclude rule for
   these — needed because some ingredient names are "X noodles or rice noodles" /
   "pasta, polenta, or grain of choice" style either/or compounds that also contain
   an excluded staple word (rice, polenta, grain) and would otherwise get dropped.
-  (Decided 2026-08-30.)
+  (Decided 2026-08-30; tomatoes added 2026-11-01 after the `oil` exclusion was dropping
+  oil-packed sun-dried tomatoes. That rule now ignores "oil-packed".) Raw cashews are the
+  opposite case: the household keeps them stocked, so they are in `exclude_items` and
+  left off the AnyList push.
 - **Universe of meals = `Recipes/` folder only.** Never add outside recipes without
   asking first. New saved .mhtml files dropped into `Recipes/` need to be extracted
   and added to `data/recipes.json` — `scripts/extract_recipes.py` pulls the raw
