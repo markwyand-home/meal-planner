@@ -1,0 +1,91 @@
+{
+  "week_of": "2026-11-01",
+  "meals_requested": 3,
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "charred-cauliflower-halloumi-pitas",
+      "name": "Charred Cauliflower Pitas with Halloumi and Harissa",
+      "protein": "halloumi",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 30,
+      "servings": 4,
+      "source_url": "https://parentscanada.com/food/charred-cauliflower-pitas-with-halloumi-and-harissa-recipe/",
+      "nutrition_per_serving": {
+        "calories": 288,
+        "protein_g": 17,
+        "carbs_g": 24,
+        "fat_g": 19,
+        "fiber_g": null,
+        "sodium_mg": null,
+        "source": "site"
+      },
+      "tags": [
+        "sandwich",
+        "sheet-pan",
+        "hearty",
+        "quick"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "kale-power-salad-spicy-almond",
+      "name": "Kale Power Salad with Spicy Almond Dressing",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 55,
+      "servings": 4,
+      "source_url": "https://thefirstmess.com/2022/02/02/kale-power-salad-vegan-spicy-almond-dressing/",
+      "nutrition_per_serving": {
+        "calories": 570,
+        "protein_g": 15,
+        "carbs_g": 45,
+        "fat_g": 38,
+        "fiber_g": 10,
+        "sodium_mg": 450,
+        "source": "estimated"
+      },
+      "tags": [
+        "salad",
+        "sheet-pan",
+        "hearty",
+        "bowl",
+        "gluten-free"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "spicy-tangy-smoky-pinto-bean-bowls",
+      "name": "Spicy-Tangy-Smoky Pinto Bean Bowls",
+      "protein": "beans",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 25,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 15,
+        "carbs_g": 60,
+        "fat_g": 12,
+        "fiber_g": 12,
+        "sodium_mg": 580,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "mexican-inspired",
+        "quick",
+        "vegan"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 426,
+    "protein_g": 15.7,
+    "carbs_g": 43.0,
+    "fat_g": 23.0
+  }
+}

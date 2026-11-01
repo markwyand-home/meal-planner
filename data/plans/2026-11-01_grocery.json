@@ -1,0 +1,258 @@
+{
+  "week_of": "2026-11-01",
+  "meals": [
+    "Charred Cauliflower Pitas with Halloumi and Harissa",
+    "Kale Power Salad with Spicy Almond Dressing",
+    "Spicy-Tangy-Smoky Pinto Bean Bowls"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "arugula",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 cups arugula"
+      },
+      {
+        "item": "avocado",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "1 avocado"
+      },
+      {
+        "item": "cauliflower",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "1 cauliflower"
+      },
+      {
+        "item": "garlic",
+        "quantity": 3.0,
+        "unit": "clove",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing",
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "3 cloves garlic"
+      },
+      {
+        "item": "kale",
+        "quantity": 6.0,
+        "unit": "cup",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "6 cups kale"
+      },
+      {
+        "item": "lime juice",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "2 tbsp lime juice"
+      },
+      {
+        "item": "onion",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "\u00bd onion"
+      },
+      {
+        "item": "red onion",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "1 red onion"
+      },
+      {
+        "item": "sweet potato",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "2 sweet potatoes"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "halloumi cheese",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "8 oz halloumi cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "pita",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "2 pitas"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "arrowroot powder",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "2 tbsp arrowroot powder"
+      },
+      {
+        "item": "cooked rice",
+        "quantity": 4.0,
+        "unit": "cup",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "4 cups cooked rice"
+      },
+      {
+        "item": "cornmeal",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "2 tbsp cornmeal"
+      },
+      {
+        "item": "harissa",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Charred Cauliflower Pitas with Halloumi and Harissa"
+        ],
+        "display": "\u00bd cup harissa"
+      },
+      {
+        "item": "hot sauce",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "1 tsp hot sauce"
+      },
+      {
+        "item": "maple syrup",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "2 tsp maple syrup"
+      },
+      {
+        "item": "nutritional yeast",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "1 tbsp nutritional yeast"
+      },
+      {
+        "item": "nutritional yeast",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "2 tsp nutritional yeast"
+      },
+      {
+        "item": "pinto beans",
+        "quantity": 2.0,
+        "unit": "(15 oz) can",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "2 (15 oz) can pinto beans"
+      },
+      {
+        "item": "sliced almonds",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "\u00bd cup sliced almonds"
+      },
+      {
+        "item": "toasted sliced almonds",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "\u00bc cup toasted sliced almonds"
+      },
+      {
+        "item": "tomato paste",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "2 tsp tomato paste"
+      }
+    ],
+    "spices": [
+      {
+        "item": "smoked paprika",
+        "quantity": 4.0,
+        "unit": "tsp",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "4 tsp smoked paprika"
+      }
+    ],
+    "other": [
+      {
+        "item": "firm or extra-firm tofu",
+        "quantity": 350.0,
+        "unit": "g",
+        "for": [
+          "Kale Power Salad with Spicy Almond Dressing"
+        ],
+        "display": "350 g firm or extra-firm tofu"
+      },
+      {
+        "item": "optional toppings",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "optional toppings"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}
