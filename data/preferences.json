@@ -17,5 +17,13 @@
       "notes": "Removed from rotation at user's request 2026-09-26."
     }
   },
-  "exclusions": []
+  "exclusions": [],
+  "recurring": [
+    {
+      "id": "kale-power-salad-spicy-almond",
+      "every_n_weeks": 2,
+      "anchor": "2026-11-01",
+      "notes": "Household favorite - on the plan every other week. Anchored to 2026-11-01 (it was also on 2026-10-18)."
+    }
+  ]
 }

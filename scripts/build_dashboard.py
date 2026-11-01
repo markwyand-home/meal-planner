@@ -21,6 +21,9 @@ BASE = Path(os.environ.get("MEAL_PLANNER_HOME") or Path(__file__).resolve().pare
 DATA = BASE / "data"
 
 EXPECTED_DINNERS = 4
+# A night's date is the plan Sunday plus its weekday (Sunday = the plan Sunday itself).
+DAY_OFFSET = {"Sunday": 0, "Monday": 1, "Tuesday": 2, "Wednesday": 3,
+              "Thursday": 4, "Friday": 5, "Saturday": 6}
 PAGES_RECIPE_PREFIX = "https://markwyand-home.github.io/meal-planner/recipes/"
 
 SECTION_LABEL = {"produce": "Produce", "dairy-eggs": "Dairy & Eggs", "bakery": "Bakery",
@@ -368,10 +371,10 @@ def main():
 
     meals = plan["meals"]
     n_meals = len(meals)
-    first_day = sunday + timedelta(days=1)
-    # The span names the week the plan is for, not how many meals landed in it;
-    # a short week is reported by the partial-plan notice instead.
-    last_day = sunday + timedelta(days=max(EXPECTED_DINNERS, n_meals))
+    # Each meal's date follows its own weekday, so a plan for odd nights (say
+    # Mon/Wed/Fri) lands on the right days; position in the list never decides it.
+    meal_dates = [sunday + timedelta(days=DAY_OFFSET.get(m.get("day"), 1 + i)) for i, m in enumerate(meals)]
+    first_day, last_day = min(meal_dates), max(meal_dates)
     span = fmt_day(first_day) + " – " + fmt_day(last_day)
 
     veg = sum(1 for m in meals if m["vegetarian"])
@@ -392,7 +395,7 @@ def main():
 
     meal_cards = []
     for i, m in enumerate(meals):
-        d = sunday + timedelta(days=1 + i)
+        d = meal_dates[i]
         n = m["nutrition_per_serving"]
         est = ' <span class="est">est.</span>' if n.get("source") == "estimated" else ""
         veg_badge = ('<span class="chip chip-veg">Vegetarian</span>' if m["vegetarian"]

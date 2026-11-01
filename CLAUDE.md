@@ -1,8 +1,11 @@
 # Meal Planner — household dinners
 
-Weekly dinner planner: builds a 4-dinner plan from the saved recipes, produces a
-grocery list, pushes it to AnyList, updates a dashboard page, and emails the plan.
-Runs every Sunday morning (scheduled task) or on demand ("run the meal plan").
+Weekly dinner planner: builds a dinner plan from the saved recipes (the household
+chooses how many dinners and which nights each week), produces a grocery list,
+pushes it to AnyList, updates a dashboard page, and emails the plan. The scheduled
+task fires **every Saturday at 3 pm**: it asks how many dinners and which nights
+first (step 0), then runs the workflow for the coming week (the Sunday that
+starts tomorrow). Also runs on demand ("run the meal plan").
 
 First-time setup on a new machine: see [SETUP.md](SETUP.md). Do that before the
 first run — the AnyList push and the dashboard both need one-time configuration.
@@ -10,8 +13,15 @@ first run — the AnyList push and the dashboard both need one-time configuratio
 ## House rules
 - **Vegetarian-first**: at most 1 non-vegetarian dinner per week, and rarely; always
   include the veg substitution note for meat recipes.
-- **Varied proteins**: all 4 meals must use different primary proteins (never repeat
-  on consecutive nights).
+- **Protein cap: at most 2 dinners per week share a primary protein.** The planner
+  used to require all-different proteins; on 2026-11-01 that became a cap of 2
+  (`MAX_PER_PROTEIN` in `scripts/planner.py`), so a week can have two tofu dinners
+  but not three. The other per-week limit is at most 1 non-vegetarian.
+- **The Kale Power Salad is on the plan every other week.** It's a `"recurring"` entry
+  in `data/preferences.json` (`id`, `every_n_weeks: 2`, `anchor: 2026-11-01`), so it
+  lands on the Sunday weeks 11-01, 11-15, 11-29, … and counts as one of that week's
+  dinners. Decided 2026-11-01. To change the schedule or add another recurring
+  recipe, edit that list; no code change needed.
 - **Fresh garlic is never a pantry staple.** Any garlic that isn't garlic powder or
   garlic salt (cloves, minced, grated, etc.) must be recorded as
   `"pantry_staple": false` in `data/recipes.json` so it always lands on the grocery
@@ -37,11 +47,22 @@ first run — the AnyList push and the dashboard both need one-time configuratio
 
 ## Weekly workflow
 Run in order. The date argument is optional — it defaults to the current or next
-Sunday, and every step is idempotent for a given week.
+Sunday (on a Saturday that is tomorrow), and every step is idempotent for a given
+week.
 
-1. `python scripts/planner.py [YYYY-MM-DD]` — picks the 4 dinners, writes
+0. **Ask first, before running anything.** Ask the household how many dinners they
+   want for the coming week and for which nights (Sunday through Saturday; the
+   plan's Sunday itself counts as a night), and wait for the answer. Only skip the
+   question if the request already states both the count and the nights. If nobody
+   can answer (an unattended session, or no way to ask), run nothing and say so
+   plainly in the summary; never fall back to a default week silently. The
+   scheduled run does this every Saturday at 3 pm.
+1. `python scripts/planner.py [YYYY-MM-DD] --nights Mon,Wed,Thu` — picks one dinner
+   per night asked for (the count follows from the nights; a bare count like `3`
+   uses the first N of Mon–Sat, and with neither it defaults to 4, Mon–Thu), writes
    `data/plans/<sunday>.json`, appends `data/history.json`. "Plan already exists"
-   is a normal, successful result for a re-run.
+   is a normal, successful result for a re-run; `--force` replaces the week's plan.
+   Night dates are the plan's Sunday plus the weekday, so Monday is the day after.
 2. `python scripts/grocery.py [YYYY-MM-DD]` — writes `data/plans/<sunday>_grocery.json`.
 3. `node scripts/anylist_push.js [YYYY-MM-DD]` — pushes items to the AnyList list
    named in `~/.meal-planner/anylist.env`. **Exit code 2 means credentials are
@@ -69,7 +90,7 @@ Sunday, and every step is idempotent for a given week.
    (managed in the AnyList app itself, e.g. bananas, eggs, coffee) — every
    week, not just a one-time thing. Same idempotency: skipped if already on
    the list unchecked.
-4. For any of this week's 4 recipes that don't yet have `"instructions"` in
+4. For any of this week's recipes that don't yet have `"instructions"` in
    `data/recipes.json`: read the recipe's page from `Recipes/<file>.mhtml` (see
    `scripts/extract_recipes.py`'s `mhtml_html()` for pulling plain text out of the
    .mhtml, or just read it directly) and add an `instructions` array (clean step
@@ -93,7 +114,7 @@ Sunday, and every step is idempotent for a given week.
    so unrelated in-progress local edits aren't swept into the weekly commit.
 7. Email the plan to the addresses listed in `~/.meal-planner/recipients.txt` (one
    per line, outside this public repo — read it at run time; subject
-   "Dinner plan — week of <Monday's date>"): the 4 meals with links, times and
+   "Dinner plan — week of <Monday's date>"): the meals with links, times and
    protein, any veg-substitution notes, average per-serving nutrition, a line
    confirming groceries are in AnyList, and the dashboard link. If no mail tool
    is connected in the session, say so in the summary instead of silently
@@ -144,6 +165,10 @@ reporting the dashboard link as current.
 - The planner excludes repeats within 2 weeks, down-weights recent and disliked
   recipes, and boosts loved ones. Two recipes are tagged `"role": "light"`
   (side-style salads) and surface less often as mains.
+- `"recurring"` in the same file lists recipes that are always included on a schedule:
+  `[{"id": "<recipe-id>", "every_n_weeks": 2, "anchor": "YYYY-MM-DD"}]`. A week is due
+  when its Sunday is a whole multiple of `every_n_weeks` from the anchor. Excluded or
+  `never`-rated recipes are skipped, and a short week keeps them first.
 
 ## Credentials
 The AnyList login lives in `~/.meal-planner/anylist.env`, deliberately outside this
