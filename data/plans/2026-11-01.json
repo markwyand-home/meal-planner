@@ -4,28 +4,29 @@
   "meals": [
     {
       "day": "Monday",
-      "id": "charred-cauliflower-halloumi-pitas",
-      "name": "Charred Cauliflower Pitas with Halloumi and Harissa",
-      "protein": "halloumi",
+      "id": "coconut-lime-rice-peanuts",
+      "name": "Creamy Coconut-Lime Rice With Peanuts",
+      "protein": "nuts-seeds",
       "vegetarian": true,
       "veg_sub_note": null,
       "total_min": 30,
       "servings": 4,
-      "source_url": "https://parentscanada.com/food/charred-cauliflower-pitas-with-halloumi-and-harissa-recipe/",
+      "source_url": "https://cooking.nytimes.com/recipes/1025612-creamy-coconut-lime-rice-with-peanuts",
       "nutrition_per_serving": {
-        "calories": 288,
-        "protein_g": 17,
-        "carbs_g": 24,
-        "fat_g": 19,
-        "fiber_g": null,
-        "sodium_mg": null,
+        "calories": 582,
+        "protein_g": 14,
+        "carbs_g": 63,
+        "fat_g": 35,
+        "fiber_g": 9,
+        "sodium_mg": 684,
         "source": "site"
       },
       "tags": [
-        "sandwich",
-        "sheet-pan",
-        "hearty",
-        "quick"
+        "bowl",
+        "salad",
+        "quick",
+        "light",
+        "make-ahead"
       ]
     },
     {
@@ -57,35 +58,35 @@
     },
     {
       "day": "Wednesday",
-      "id": "spicy-tangy-smoky-pinto-bean-bowls",
-      "name": "Spicy-Tangy-Smoky Pinto Bean Bowls",
-      "protein": "beans",
+      "id": "rigatoni-honeynut-squash-chard",
+      "name": "Rigatoni with Honeynut Squash, Chard & Hazelnuts",
+      "protein": "cheese",
       "vegetarian": true,
       "veg_sub_note": null,
-      "total_min": 25,
+      "total_min": 45,
       "servings": 4,
       "source_url": null,
       "nutrition_per_serving": {
-        "calories": 420,
-        "protein_g": 15,
-        "carbs_g": 60,
-        "fat_g": 12,
-        "fiber_g": 12,
-        "sodium_mg": 580,
+        "calories": 580,
+        "protein_g": 17,
+        "carbs_g": 78,
+        "fat_g": 21,
+        "fiber_g": 6,
+        "sodium_mg": 480,
         "source": "estimated"
       },
       "tags": [
-        "bowl",
-        "mexican-inspired",
-        "quick",
-        "vegan"
+        "pasta",
+        "roasted",
+        "weeknight",
+        "hearty"
       ]
     }
   ],
   "nutrition_avg_per_serving": {
-    "calories": 426,
-    "protein_g": 15.7,
-    "carbs_g": 43.0,
-    "fat_g": 23.0
+    "calories": 577,
+    "protein_g": 15.3,
+    "carbs_g": 62.0,
+    "fat_g": 31.3
   }
 }

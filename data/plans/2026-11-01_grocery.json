@@ -1,21 +1,12 @@
 {
   "week_of": "2026-11-01",
   "meals": [
-    "Charred Cauliflower Pitas with Halloumi and Harissa",
+    "Creamy Coconut-Lime Rice With Peanuts",
     "Kale Power Salad with Spicy Almond Dressing",
-    "Spicy-Tangy-Smoky Pinto Bean Bowls"
+    "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
   ],
   "sections": {
     "produce": [
-      {
-        "item": "arugula",
-        "quantity": 2.0,
-        "unit": "cup",
-        "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
-        ],
-        "display": "2 cups arugula"
-      },
       {
         "item": "avocado",
         "quantity": 1.0,
@@ -26,23 +17,42 @@
         "display": "1 avocado"
       },
       {
-        "item": "cauliflower",
-        "quantity": 1.0,
-        "unit": "count",
+        "item": "cherry tomatoes",
+        "quantity": 2.0,
+        "unit": "cup",
         "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
+          "Creamy Coconut-Lime Rice With Peanuts"
         ],
-        "display": "1 cauliflower"
+        "display": "2 cups cherry tomatoes"
       },
       {
         "item": "garlic",
-        "quantity": 3.0,
+        "quantity": 5.0,
         "unit": "clove",
         "for": [
+          "Creamy Coconut-Lime Rice With Peanuts",
           "Kale Power Salad with Spicy Almond Dressing",
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
         ],
-        "display": "3 cloves garlic"
+        "display": "5 cloves garlic"
+      },
+      {
+        "item": "ginger",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "1 ginger"
+      },
+      {
+        "item": "honeynut squash",
+        "quantity": 3.0,
+        "unit": "lb",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "3 lb honeynut squash"
       },
       {
         "item": "kale",
@@ -54,6 +64,15 @@
         "display": "6 cups kale"
       },
       {
+        "item": "lime",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "2 limes"
+      },
+      {
         "item": "lime juice",
         "quantity": 2.0,
         "unit": "tbsp",
@@ -63,13 +82,22 @@
         "display": "2 tbsp lime juice"
       },
       {
+        "item": "mixed fresh herbs (dill, cilantro, mint)",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "1 cup mixed fresh herbs (dill, cilantro, mint)"
+      },
+      {
         "item": "onion",
-        "quantity": 0.5,
+        "quantity": 1.0,
         "unit": "count",
         "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
         ],
-        "display": "\u00bd onion"
+        "display": "1 onion"
       },
       {
         "item": "red onion",
@@ -88,28 +116,26 @@
           "Kale Power Salad with Spicy Almond Dressing"
         ],
         "display": "2 sweet potatoes"
+      },
+      {
+        "item": "swiss chard",
+        "quantity": 5.0,
+        "unit": "cup",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "5 cups swiss chard"
       }
     ],
     "dairy-eggs": [
       {
-        "item": "halloumi cheese",
-        "quantity": 8.0,
-        "unit": "oz",
+        "item": "parmesan cheese",
+        "quantity": 0.5,
+        "unit": "cup",
         "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
         ],
-        "display": "8 oz halloumi cheese"
-      }
-    ],
-    "bakery": [
-      {
-        "item": "pita",
-        "quantity": 2.0,
-        "unit": "count",
-        "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
-        ],
-        "display": "2 pitas"
+        "display": "\u00bd cup parmesan cheese"
       }
     ],
     "pantry": [
@@ -123,13 +149,13 @@
         "display": "2 tbsp arrowroot powder"
       },
       {
-        "item": "cooked rice",
-        "quantity": 4.0,
-        "unit": "cup",
+        "item": "coconut milk",
+        "quantity": 1.0,
+        "unit": "can",
         "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Creamy Coconut-Lime Rice With Peanuts"
         ],
-        "display": "4 cups cooked rice"
+        "display": "1 can coconut milk"
       },
       {
         "item": "cornmeal",
@@ -141,15 +167,6 @@
         "display": "2 tbsp cornmeal"
       },
       {
-        "item": "harissa",
-        "quantity": 0.5,
-        "unit": "cup",
-        "for": [
-          "Charred Cauliflower Pitas with Halloumi and Harissa"
-        ],
-        "display": "\u00bd cup harissa"
-      },
-      {
         "item": "hot sauce",
         "quantity": 1.0,
         "unit": "tsp",
@@ -157,6 +174,15 @@
           "Kale Power Salad with Spicy Almond Dressing"
         ],
         "display": "1 tsp hot sauce"
+      },
+      {
+        "item": "jasmine rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "1 cup jasmine rice"
       },
       {
         "item": "maple syrup",
@@ -186,13 +212,31 @@
         "display": "2 tsp nutritional yeast"
       },
       {
-        "item": "pinto beans",
-        "quantity": 2.0,
-        "unit": "(15 oz) can",
+        "item": "rigatoni pasta",
+        "quantity": 1.0,
+        "unit": "lb",
         "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
         ],
-        "display": "2 (15 oz) can pinto beans"
+        "display": "1 lb rigatoni pasta"
+      },
+      {
+        "item": "roasted salted peanuts",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "\u00bd cup roasted salted peanuts"
+      },
+      {
+        "item": "sambal oelek",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Creamy Coconut-Lime Rice With Peanuts"
+        ],
+        "display": "2 tsp sambal oelek"
       },
       {
         "item": "sliced almonds",
@@ -204,6 +248,15 @@
         "display": "\u00bd cup sliced almonds"
       },
       {
+        "item": "toasted hazelnuts",
+        "quantity": 0.333,
+        "unit": "cup",
+        "for": [
+          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+        ],
+        "display": "\u215c cup toasted hazelnuts"
+      },
+      {
         "item": "toasted sliced almonds",
         "quantity": 0.25,
         "unit": "cup",
@@ -211,26 +264,6 @@
           "Kale Power Salad with Spicy Almond Dressing"
         ],
         "display": "\u00bc cup toasted sliced almonds"
-      },
-      {
-        "item": "tomato paste",
-        "quantity": 2.0,
-        "unit": "tsp",
-        "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
-        ],
-        "display": "2 tsp tomato paste"
-      }
-    ],
-    "spices": [
-      {
-        "item": "smoked paprika",
-        "quantity": 4.0,
-        "unit": "tsp",
-        "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
-        ],
-        "display": "4 tsp smoked paprika"
       }
     ],
     "other": [
@@ -242,15 +275,6 @@
           "Kale Power Salad with Spicy Almond Dressing"
         ],
         "display": "350 g firm or extra-firm tofu"
-      },
-      {
-        "item": "optional toppings",
-        "quantity": null,
-        "unit": null,
-        "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
-        ],
-        "display": "optional toppings"
       }
     ]
   },
