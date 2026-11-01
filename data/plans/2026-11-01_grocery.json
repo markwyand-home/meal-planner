@@ -3,7 +3,7 @@
   "meals": [
     "Creamy Coconut-Lime Rice With Peanuts",
     "Kale Power Salad with Spicy Almond Dressing",
-    "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+    "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
   ],
   "sections": {
     "produce": [
@@ -17,6 +17,15 @@
         "display": "1 avocado"
       },
       {
+        "item": "baby spinach",
+        "quantity": 5.5,
+        "unit": "oz",
+        "for": [
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
+        ],
+        "display": "5\u00bd oz baby spinach"
+      },
+      {
         "item": "cherry tomatoes",
         "quantity": 2.0,
         "unit": "cup",
@@ -26,15 +35,24 @@
         "display": "2 cups cherry tomatoes"
       },
       {
+        "item": "fresh basil",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
+        ],
+        "display": "1 tbsp fresh basil"
+      },
+      {
         "item": "garlic",
-        "quantity": 5.0,
+        "quantity": 8.0,
         "unit": "clove",
         "for": [
           "Creamy Coconut-Lime Rice With Peanuts",
           "Kale Power Salad with Spicy Almond Dressing",
-          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
         ],
-        "display": "5 cloves garlic"
+        "display": "8 cloves garlic"
       },
       {
         "item": "ginger",
@@ -46,15 +64,6 @@
         "display": "1 ginger"
       },
       {
-        "item": "honeynut squash",
-        "quantity": 3.0,
-        "unit": "lb",
-        "for": [
-          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
-        ],
-        "display": "3 lb honeynut squash"
-      },
-      {
         "item": "kale",
         "quantity": 6.0,
         "unit": "cup",
@@ -62,6 +71,15 @@
           "Kale Power Salad with Spicy Almond Dressing"
         ],
         "display": "6 cups kale"
+      },
+      {
+        "item": "lemon juice",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
+        ],
+        "display": "2 tbsp lemon juice"
       },
       {
         "item": "lime",
@@ -91,15 +109,6 @@
         "display": "1 cup mixed fresh herbs (dill, cilantro, mint)"
       },
       {
-        "item": "onion",
-        "quantity": 1.0,
-        "unit": "count",
-        "for": [
-          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
-        ],
-        "display": "1 onion"
-      },
-      {
         "item": "red onion",
         "quantity": 1.0,
         "unit": "count",
@@ -116,26 +125,17 @@
           "Kale Power Salad with Spicy Almond Dressing"
         ],
         "display": "2 sweet potatoes"
-      },
-      {
-        "item": "swiss chard",
-        "quantity": 5.0,
-        "unit": "cup",
-        "for": [
-          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
-        ],
-        "display": "5 cups swiss chard"
       }
     ],
     "dairy-eggs": [
       {
         "item": "parmesan cheese",
-        "quantity": 0.5,
+        "quantity": 0.333,
         "unit": "cup",
         "for": [
-          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
         ],
-        "display": "\u00bd cup parmesan cheese"
+        "display": "\u215c cup parmesan cheese"
       }
     ],
     "pantry": [
@@ -212,13 +212,22 @@
         "display": "2 tsp nutritional yeast"
       },
       {
-        "item": "rigatoni pasta",
-        "quantity": 1.0,
-        "unit": "lb",
+        "item": "oil-packed sun-dried tomatoes",
+        "quantity": 0.5,
+        "unit": "cup",
         "for": [
-          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
         ],
-        "display": "1 lb rigatoni pasta"
+        "display": "\u00bd cup oil-packed sun-dried tomatoes"
+      },
+      {
+        "item": "raw cashews",
+        "quantity": 0.667,
+        "unit": "cup",
+        "for": [
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
+        ],
+        "display": "\u215d cup raw cashews"
       },
       {
         "item": "roasted salted peanuts",
@@ -248,15 +257,6 @@
         "display": "\u00bd cup sliced almonds"
       },
       {
-        "item": "toasted hazelnuts",
-        "quantity": 0.333,
-        "unit": "cup",
-        "for": [
-          "Rigatoni with Honeynut Squash, Chard & Hazelnuts"
-        ],
-        "display": "\u215c cup toasted hazelnuts"
-      },
-      {
         "item": "toasted sliced almonds",
         "quantity": 0.25,
         "unit": "cup",
@@ -264,6 +264,15 @@
           "Kale Power Salad with Spicy Almond Dressing"
         ],
         "display": "\u00bc cup toasted sliced almonds"
+      },
+      {
+        "item": "whole wheat fettuccine or linguine pasta",
+        "quantity": 8.0,
+        "unit": "oz",
+        "for": [
+          "Sun-Dried Tomato Fettuccine Alfredo with Spinach"
+        ],
+        "display": "8 oz whole wheat fettuccine or linguine pasta"
       }
     ],
     "other": [

@@ -1,6 +1,11 @@
 {
   "week_of": "2026-11-01",
   "meals_requested": 3,
+  "nights": [
+    "Monday",
+    "Tuesday",
+    "Wednesday"
+  ],
   "meals": [
     {
       "day": "Monday",
@@ -58,35 +63,35 @@
     },
     {
       "day": "Wednesday",
-      "id": "rigatoni-honeynut-squash-chard",
-      "name": "Rigatoni with Honeynut Squash, Chard & Hazelnuts",
-      "protein": "cheese",
+      "id": "sun-dried-tomato-fettuccine-alfredo-spinach",
+      "name": "Sun-Dried Tomato Fettuccine Alfredo with Spinach",
+      "protein": "nuts-seeds",
       "vegetarian": true,
       "veg_sub_note": null,
-      "total_min": 45,
+      "total_min": 30,
       "servings": 4,
       "source_url": null,
       "nutrition_per_serving": {
-        "calories": 580,
-        "protein_g": 17,
-        "carbs_g": 78,
+        "calories": 460,
+        "protein_g": 15,
+        "carbs_g": 53,
         "fat_g": 21,
-        "fiber_g": 6,
-        "sodium_mg": 480,
+        "fiber_g": 9,
+        "sodium_mg": 600,
         "source": "estimated"
       },
       "tags": [
         "pasta",
-        "roasted",
+        "quick",
         "weeknight",
-        "hearty"
+        "make-ahead"
       ]
     }
   ],
   "nutrition_avg_per_serving": {
-    "calories": 577,
-    "protein_g": 15.3,
-    "carbs_g": 62.0,
+    "calories": 537,
+    "protein_g": 14.7,
+    "carbs_g": 53.7,
     "fat_g": 31.3
   }
 }
