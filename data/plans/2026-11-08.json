@@ -1,0 +1,121 @@
+{
+  "week_of": "2026-11-08",
+  "meals_requested": 4,
+  "nights": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+  ],
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "green-shakshuka-avocado-feta",
+      "name": "Green Shakshuka with Avocado, Chile, and Feta",
+      "protein": "eggs",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 35,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 330,
+        "protein_g": 14,
+        "carbs_g": 12,
+        "fat_g": 25,
+        "fiber_g": 5,
+        "sodium_mg": 480,
+        "source": "estimated"
+      },
+      "tags": [
+        "quick",
+        "one-pot",
+        "light",
+        "weeknight"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "telegraph-rainbow-salad",
+      "name": "Telegraph Rainbow Salad",
+      "protein": "beans",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": null,
+      "servings": 4,
+      "source_url": "https://tastecooking.com/recipes/telegraph-rainbow-salad/",
+      "nutrition_per_serving": {
+        "calories": 320,
+        "protein_g": 11,
+        "carbs_g": 32,
+        "fat_g": 16,
+        "fiber_g": 7,
+        "sodium_mg": 350,
+        "source": "estimated"
+      },
+      "tags": [
+        "salad",
+        "quick",
+        "light",
+        "no-cook"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "sheet-pan-baked-feta-broccolini",
+      "name": "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+      "protein": "cheese",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 25,
+      "servings": 4,
+      "source_url": "https://cooking.nytimes.com/recipes/1021277-sheet-pan-baked-feta-with-broccolini-tomatoes-and-lemon",
+      "nutrition_per_serving": {
+        "calories": 548,
+        "protein_g": 24,
+        "carbs_g": 43,
+        "fat_g": 33,
+        "fiber_g": 7,
+        "sodium_mg": 1188,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "quick",
+        "hearty"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "sheet-pan-ratatouille-tofu",
+      "name": "Sheet Pan Ratatouille with Crispy Baked Tofu",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": "https://minimalistbaker.com/sheet-pan-ratatouille-with-crispy-baked-tofu/",
+      "nutrition_per_serving": {
+        "calories": 399,
+        "protein_g": 18.8,
+        "carbs_g": 21.7,
+        "fat_g": 29.5,
+        "fiber_g": 7.6,
+        "sodium_mg": 1131,
+        "source": "site"
+      },
+      "tags": [
+        "sheet-pan",
+        "hearty",
+        "make-ahead",
+        "gluten-free"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 399,
+    "protein_g": 16.9,
+    "carbs_g": 27.2,
+    "fat_g": 25.9
+  }
+}

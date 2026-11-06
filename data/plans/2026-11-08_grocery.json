@@ -1,0 +1,323 @@
+{
+  "week_of": "2026-11-08",
+  "meals": [
+    "Green Shakshuka with Avocado, Chile, and Feta",
+    "Telegraph Rainbow Salad",
+    "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+    "Sheet Pan Ratatouille with Crispy Baked Tofu"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "avocado",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Green Shakshuka with Avocado, Chile, and Feta"
+        ],
+        "display": "avocado, for serving"
+      },
+      {
+        "item": "baby romaine or little gem lettuce",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "baby romaine or little gem lettuce, a few handfuls"
+      },
+      {
+        "item": "broccolini",
+        "quantity": 1.0,
+        "unit": "bunch",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "1 bunch broccolini"
+      },
+      {
+        "item": "carrot",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "1 carrot"
+      },
+      {
+        "item": "celery",
+        "quantity": 1.0,
+        "unit": "stalk",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "1 stalk celery"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "cherry tomatoes, a handful"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 cup cherry tomatoes"
+      },
+      {
+        "item": "eggplant",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 eggplant"
+      },
+      {
+        "item": "fresh basil or cilantro",
+        "quantity": 0.5,
+        "unit": "cup",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "\u00bd cup fresh basil or cilantro"
+      },
+      {
+        "item": "garlic",
+        "quantity": 3.0,
+        "unit": "clove",
+        "for": [
+          "Green Shakshuka with Avocado, Chile, and Feta"
+        ],
+        "display": "3 cloves garlic"
+      },
+      {
+        "item": "grape tomatoes",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "2 cups grape tomatoes"
+      },
+      {
+        "item": "leeks",
+        "quantity": 3.0,
+        "unit": "count",
+        "for": [
+          "Green Shakshuka with Avocado, Chile, and Feta"
+        ],
+        "display": "3 leeks"
+      },
+      {
+        "item": "lemon",
+        "quantity": 2.0,
+        "unit": "count",
+        "for": [
+          "Green Shakshuka with Avocado, Chile, and Feta",
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "2 lemons"
+      },
+      {
+        "item": "orange juice",
+        "quantity": 0.33,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u215c cup orange juice"
+      },
+      {
+        "item": "red bell pepper",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "\u00bd red bell pepper"
+      },
+      {
+        "item": "red onion",
+        "quantity": 1.5,
+        "unit": "count",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon",
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1\u00bd red onions"
+      },
+      {
+        "item": "soft fresh herbs (basil, parsley, cilantro)",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Green Shakshuka with Avocado, Chile, and Feta"
+        ],
+        "display": "1 cup soft fresh herbs (basil, parsley, cilantro)"
+      },
+      {
+        "item": "tender greens (spinach, arugula, baby kale)",
+        "quantity": 10.0,
+        "unit": "oz",
+        "for": [
+          "Green Shakshuka with Avocado, Chile, and Feta"
+        ],
+        "display": "10 oz tender greens (spinach, arugula, baby kale)"
+      },
+      {
+        "item": "zucchini",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 zucchini"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "feta cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Green Shakshuka with Avocado, Chile, and Feta"
+        ],
+        "display": "\u00bc cup feta cheese"
+      },
+      {
+        "item": "feta cheese",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "14 oz feta cheese"
+      }
+    ],
+    "bakery": [
+      {
+        "item": "whole grain croutons or pita chips",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "whole grain croutons or pita chips, a big handful"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "chickpeas",
+        "quantity": 0.75,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u00be cup chickpeas"
+      },
+      {
+        "item": "kidney beans",
+        "quantity": 0.75,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u00be cup kidney beans"
+      },
+      {
+        "item": "orzo or farro",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "orzo or farro, for serving"
+      },
+      {
+        "item": "pasta, polenta, or grain of choice",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "pasta, polenta, or grain of choice, optional"
+      },
+      {
+        "item": "ponzu or tamari",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "2 tbsp ponzu or tamari"
+      },
+      {
+        "item": "tahini",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u00bc cup tahini"
+      },
+      {
+        "item": "toasted sunflower seeds",
+        "quantity": 0.33,
+        "unit": "cup",
+        "for": [
+          "Telegraph Rainbow Salad"
+        ],
+        "display": "\u215c cup toasted sunflower seeds"
+      }
+    ],
+    "spices": [
+      {
+        "item": "dried italian herbs",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 tbsp dried italian herbs"
+      },
+      {
+        "item": "ground cumin",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Sheet-Pan Baked Feta With Broccolini, Tomatoes and Lemon"
+        ],
+        "display": "1 tsp ground cumin"
+      }
+    ],
+    "other": [
+      {
+        "item": "firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "14 oz firm tofu"
+      },
+      {
+        "item": "vegan pesto sauce",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Sheet Pan Ratatouille with Crispy Baked Tofu"
+        ],
+        "display": "1 vegan pesto sauce"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}
