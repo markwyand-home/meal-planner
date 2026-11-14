@@ -1,0 +1,123 @@
+{
+  "week_of": "2026-11-15",
+  "meals_requested": 4,
+  "nights": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday"
+  ],
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "kale-power-salad-spicy-almond",
+      "name": "Kale Power Salad with Spicy Almond Dressing",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 55,
+      "servings": 4,
+      "source_url": "https://thefirstmess.com/2022/02/02/kale-power-salad-vegan-spicy-almond-dressing/",
+      "nutrition_per_serving": {
+        "calories": 570,
+        "protein_g": 15,
+        "carbs_g": 45,
+        "fat_g": 38,
+        "fiber_g": 10,
+        "sodium_mg": 450,
+        "source": "estimated"
+      },
+      "tags": [
+        "salad",
+        "sheet-pan",
+        "hearty",
+        "bowl",
+        "gluten-free"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "easiest-white-bean-soup",
+      "name": "Easiest White Bean Soup with Gigantic Croutons, Kale Pesto, and Broiled Scallions",
+      "protein": "beans",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 35,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 580,
+        "protein_g": 24,
+        "carbs_g": 78,
+        "fat_g": 21,
+        "fiber_g": 17,
+        "sodium_mg": 900,
+        "source": "estimated"
+      },
+      "tags": [
+        "soup",
+        "cozy",
+        "hearty",
+        "weeknight"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "id": "artichoke-vegan-fish-tacos",
+      "name": "Artichoke Tacos (Vegan Fish Tacos)",
+      "protein": "none",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 45,
+      "servings": 4,
+      "source_url": "https://forkfulofplants.com/artichoke-tacos-vegan-fish-tacos/",
+      "nutrition_per_serving": {
+        "calories": 430,
+        "protein_g": 10,
+        "carbs_g": 52,
+        "fat_g": 21,
+        "fiber_g": 9,
+        "sodium_mg": 750,
+        "source": "estimated"
+      },
+      "tags": [
+        "tacos",
+        "light",
+        "vegan"
+      ]
+    },
+    {
+      "day": "Thursday",
+      "id": "roasted-broccoli-tofu-peanut-bowls",
+      "name": "Roasted Broccoli and Tofu Bowls with Peanut Sauce",
+      "protein": "tofu",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": null,
+      "servings": 4,
+      "source_url": "https://faithfulplateful.com/roasted-broccoli-and-tofu-bowls-with-peanut-sauce/",
+      "nutrition_per_serving": {
+        "calories": 610,
+        "protein_g": 21,
+        "carbs_g": 76,
+        "fat_g": 25,
+        "fiber_g": 9,
+        "sodium_mg": 950,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "sheet-pan",
+        "hearty",
+        "gluten-free",
+        "make-ahead"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 548,
+    "protein_g": 17.5,
+    "carbs_g": 62.8,
+    "fat_g": 26.2
+  }
+}
