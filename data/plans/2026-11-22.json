@@ -1,0 +1,67 @@
+{
+  "week_of": "2026-11-22",
+  "meals_requested": 2,
+  "nights": [
+    "Monday",
+    "Tuesday"
+  ],
+  "meals": [
+    {
+      "day": "Monday",
+      "id": "parmesan-white-beans-kale-bread-crumbs",
+      "name": "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs",
+      "protein": "beans",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 50,
+      "servings": 5,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 450,
+        "protein_g": 19,
+        "carbs_g": 53,
+        "fat_g": 20,
+        "fiber_g": 14,
+        "sodium_mg": 700,
+        "source": "estimated"
+      },
+      "tags": [
+        "one-pot",
+        "hearty",
+        "cozy"
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "id": "spicy-tangy-smoky-pinto-bean-bowls",
+      "name": "Spicy-Tangy-Smoky Pinto Bean Bowls",
+      "protein": "beans",
+      "vegetarian": true,
+      "veg_sub_note": null,
+      "total_min": 25,
+      "servings": 4,
+      "source_url": null,
+      "nutrition_per_serving": {
+        "calories": 420,
+        "protein_g": 15,
+        "carbs_g": 60,
+        "fat_g": 12,
+        "fiber_g": 12,
+        "sodium_mg": 580,
+        "source": "estimated"
+      },
+      "tags": [
+        "bowl",
+        "mexican-inspired",
+        "quick",
+        "vegan"
+      ]
+    }
+  ],
+  "nutrition_avg_per_serving": {
+    "calories": 435,
+    "protein_g": 17.0,
+    "carbs_g": 56.5,
+    "fat_g": 16.0
+  }
+}

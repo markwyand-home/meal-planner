@@ -1,0 +1,165 @@
+{
+  "week_of": "2026-11-22",
+  "meals": [
+    "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs",
+    "Spicy-Tangy-Smoky Pinto Bean Bowls"
+  ],
+  "sections": {
+    "produce": [
+      {
+        "item": "fresh rosemary",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "1 tsp fresh rosemary"
+      },
+      {
+        "item": "garlic",
+        "quantity": 8.0,
+        "unit": "clove",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs",
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "8 cloves garlic"
+      },
+      {
+        "item": "kale",
+        "quantity": 1.0,
+        "unit": "bunch",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "1 bunch kale"
+      },
+      {
+        "item": "lemon",
+        "quantity": 1.0,
+        "unit": "count",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "1 lemon"
+      },
+      {
+        "item": "onion",
+        "quantity": 0.5,
+        "unit": "count",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "\u00bd onion"
+      },
+      {
+        "item": "shallot",
+        "quantity": 3.0,
+        "unit": "count",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "3 shallots"
+      }
+    ],
+    "dairy-eggs": [
+      {
+        "item": "parmesan cheese",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "2 tbsp parmesan cheese"
+      },
+      {
+        "item": "parmesan cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "\u00bc cup parmesan cheese"
+      }
+    ],
+    "pantry": [
+      {
+        "item": "canned white beans",
+        "quantity": 3.0,
+        "unit": "can",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "3 cans canned white beans"
+      },
+      {
+        "item": "cooked rice",
+        "quantity": 4.0,
+        "unit": "cup",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "4 cups cooked rice"
+      },
+      {
+        "item": "panko breadcrumbs",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "1 cup panko breadcrumbs"
+      },
+      {
+        "item": "pinto beans",
+        "quantity": 2.0,
+        "unit": "(15 oz) can",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "2 (15 oz) can pinto beans"
+      },
+      {
+        "item": "tomato paste",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "2 tsp tomato paste"
+      },
+      {
+        "item": "vegetable stock",
+        "quantity": 1.0,
+        "unit": "cup",
+        "for": [
+          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+        ],
+        "display": "1 cup vegetable stock"
+      }
+    ],
+    "spices": [
+      {
+        "item": "smoked paprika",
+        "quantity": 4.0,
+        "unit": "tsp",
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "4 tsp smoked paprika"
+      }
+    ],
+    "other": [
+      {
+        "item": "optional toppings",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+        ],
+        "display": "optional toppings"
+      }
+    ]
+  },
+  "note": "Pantry staples (salt, pepper, oils, soy sauce, common vinegars, sugar, flour, butter, eggs, rice, garlic) are excluded - check you have them."
+}
