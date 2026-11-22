@@ -3,6 +3,11 @@
 Selects dinners from data/recipes.json following the house rules. The weekly
 routine asks how many dinners and which nights, then passes them in:
   python scripts/planner.py [YYYY-MM-DD] [--nights Mon,Wed,Thu] [count] [--force]
+The routine confirms the dinners with the household before it runs anything:
+  --preview            print the proposed dinners (with their ids) and write nothing;
+                       an existing plan for the week doesn't block it
+  --seed N             with --preview, a different draw (a "re-roll")
+  --meals id1,id2,...  use exactly these recipes, in night order (the approved set)
 `--nights` names the nights (any of Sun..Sat, full names or 3-letter forms; the
 count follows from it). With only a `count`, the first N of Mon..Sat are used;
 with neither, the default is 4 (Mon-Thu). `--force` replaces an existing plan
@@ -164,11 +169,27 @@ def parse_nights(text):
 
 def parse_args(argv):
     force, datearg, count, nights = False, None, None, None
+    preview, seed, meal_ids = False, None, None
     i = 0
     while i < len(argv):
         a = argv[i]
         if a == "--force":
             force = True
+        elif a == "--preview":
+            preview = True
+        elif a in ("--seed", "--meals") or a.startswith(("--seed=", "--meals=")):
+            if "=" in a:
+                key, value = a.split("=", 1)
+            else:
+                key = a
+                i += 1
+                if i >= len(argv):
+                    raise ValueError(f"{key} needs a value")
+                value = argv[i]
+            if key == "--seed":
+                seed = value
+            else:
+                meal_ids = [m.strip() for m in value.split(",") if m.strip()]
         elif a == "--nights" or a.startswith("--nights="):
             if a == "--nights":
                 i += 1
@@ -185,6 +206,8 @@ def parse_args(argv):
         else:
             raise ValueError(f"unrecognised argument: {a!r}")
         i += 1
+    if meal_ids is not None and nights is None and count is None:
+        count = len(meal_ids)
     if nights is not None:
         if count is not None and count != len(nights):
             raise ValueError(f"count {count} doesn't match {len(nights)} nights ({', '.join(nights)})")
@@ -195,12 +218,14 @@ def parse_args(argv):
         raise ValueError(f"meal count must be 1-{len(WEEK_DAYS)} (got {count})")
     if nights is None:
         nights = sorted(DEFAULT_NIGHTS[:count], key=WEEK_DAYS.index)
-    return force, datearg, count, nights
+    if meal_ids is not None and len(meal_ids) != count:
+        raise ValueError(f"--meals names {len(meal_ids)} recipes but {count} nights were asked for")
+    return force, datearg, count, nights, {"preview": preview, "seed": seed, "meal_ids": meal_ids}
 
 
 def main():
     try:
-        force, datearg, n_meals, nights = parse_args(sys.argv[1:])
+        force, datearg, n_meals, nights, opts = parse_args(sys.argv[1:])
     except ValueError as e:
         print(f"error: {e}")
         sys.exit(1)
@@ -213,18 +238,37 @@ def main():
     plans_dir = DATA / "plans"
     plans_dir.mkdir(parents=True, exist_ok=True)
     plan_path = plans_dir / f"{sunday.isoformat()}.json"
-    if plan_path.exists() and not force:
+    if plan_path.exists() and not force and not opts["preview"]:
         print(f"plan already exists: {plan_path}")
         return
-    if force:
+    if force or opts["preview"]:
         # Replacing a week: drop its history entry first, or the append below
         # adds a second row for the same Sunday.
         history["weeks"] = [w for w in history.get("weeks", []) if w["week_of"] != sunday.isoformat()]
 
-    rng = random.Random(sunday.isoformat() + ("" if n_meals == MEALS_PER_WEEK else f"-{n_meals}"))
-    must = recurring_picks(recipes, prefs, sunday, n_meals)
-    chosen = pick_meals(recipes, prefs, history, rng, n_meals, must)
-    rng.shuffle(chosen)
+    rng = random.Random(sunday.isoformat() + ("" if n_meals == MEALS_PER_WEEK else f"-{n_meals}")
+                        + (f"-{opts['seed']}" if opts["seed"] else ""))
+    if opts["meal_ids"]:
+        by_id = {r["id"]: r for r in recipes}
+        unknown = [m for m in opts["meal_ids"] if m not in by_id]
+        if unknown:
+            print(f"error: unknown recipe id(s): {', '.join(unknown)}")
+            sys.exit(1)
+        chosen = [by_id[m] for m in opts["meal_ids"]]  # the approved set, in night order
+    else:
+        must = recurring_picks(recipes, prefs, sunday, n_meals)
+        chosen = pick_meals(recipes, prefs, history, rng, n_meals, must)
+        rng.shuffle(chosen)
+
+    if opts["preview"]:
+        print(f"proposed dinners for the week of {sunday.isoformat()} (nothing written):")
+        for day, r in zip(nights, chosen):
+            veg = "veg" if r["vegetarian"] else "MEAT"
+            mins = f"{r['total_min']} min" if r.get("total_min") else "no time on file"
+            print(f"  {day:<10} {r['name']}  [{r['protein_primary']}, {veg}, {mins}]  id={r['id']}")
+        if plan_path.exists():
+            print(f"note: a plan already exists for this week ({plan_path.name}); approving means --force")
+        return
 
     meals = []
     for day, r in zip(nights, chosen):

@@ -27,8 +27,8 @@ first run — the AnyList push and the dashboard both need one-time configuratio
   `"pantry_staple": false` in `data/recipes.json` so it always lands on the grocery
   list and gets pushed to AnyList. Only dried garlic (powder/salt) stays a staple.
   (Decided 2026-08-30, after garlic was missing from a shopping list.)
-- **Noodles/pasta, tofu, gnocchi and tomatoes always get pushed to AnyList.** `data/anylist_rules.json`'s
-  `include_keywords_regex` (`noodles?|pasta|tofu|gnocchi|tomatoes`) overrides every exclude rule for
+- **Noodles/pasta, tofu, gnocchi, tomatoes and croutons always get pushed to AnyList.** `data/anylist_rules.json`'s
+  `include_keywords_regex` (`noodles?|pasta|tofu|gnocchi|tomatoes|croutons?`) overrides every exclude rule for
   these — needed because some ingredient names are "X noodles or rice noodles" /
   "pasta, polenta, or grain of choice" style either/or compounds that also contain
   an excluded staple word (rice, polenta, grain) and would otherwise get dropped.
@@ -60,11 +60,24 @@ week.
    can answer (an unattended session, or no way to ask), run nothing and say so
    plainly in the summary; never fall back to a default week silently. The
    scheduled run does this every Saturday at 3 pm.
-1. `python scripts/planner.py [YYYY-MM-DD] --nights Mon,Wed,Thu` — picks one dinner
-   per night asked for (the count follows from the nights; a bare count like `3`
-   uses the first N of Mon–Sat, and with neither it defaults to 4, Mon–Thu), writes
-   `data/plans/<sunday>.json`, appends `data/history.json`. "Plan already exists"
-   is a normal, successful result for a re-run; `--force` replaces the week's plan.
+0b. **Confirm the dinners before running.** Once you have the count and nights,
+   propose the dinners and wait for the household's OK. Nothing is written yet:
+   `python scripts/planner.py [YYYY-MM-DD] --nights Mon,Tue --preview` prints the
+   proposal with each recipe's id (it works even if a plan already exists for that
+   week). Show the dinners (name, night, protein, time) and ask: approve, re-roll
+   (`--preview --seed 2`, then 3, ...), or swap in specific recipes they name. If
+   they name recipes, use exactly those. Run nothing else until they approve. The
+   request can skip this only when it already names the exact dinners. The
+   approved set is passed to step 1 as `--meals`. Added 2026-11-21.
+1. `python scripts/planner.py [YYYY-MM-DD] --nights Mon,Wed,Thu --meals id1,id2,id3`
+   — writes the approved dinners, one per night asked for (the count follows from
+   the nights; a bare count like `3` uses the first N of Mon–Sat, and with neither
+   it defaults to 4, Mon–Thu), writes `data/plans/<sunday>.json`, appends
+   `data/history.json`. Without `--meals` it picks for you, which is only for a
+   request that explicitly says to skip confirmation. "Plan already exists" is a
+   normal, successful result for a re-run; `--force` replaces the week's plan
+   (replacing a week also means clearing that week's old recipe items from AnyList
+   first, tagged "<sunday> meal plan:", leaving favorites and hand-added items).
    Night dates are the plan's Sunday plus the weekday, so Monday is the day after.
 2. `python scripts/grocery.py [YYYY-MM-DD]` — writes `data/plans/<sunday>_grocery.json`.
 3. `node scripts/anylist_push.js [YYYY-MM-DD]` — pushes items to the AnyList list

@@ -11,10 +11,10 @@
   ],
 
   "include_keywords_regex": [
-    "\\b(noodles?|pasta|tofu|gnocchi|tomatoes)\\b"
+    "\\b(noodles?|pasta|tofu|gnocchi|tomatoes|croutons?)\\b"
   ],
 
-  "_include_note": "2026-11-01: added tomatoes, because the oil rule was dropping oil-packed sun-dried tomatoes (the oil rule now skips \"oil-packed\" too). include_keywords_regex overrides every other exclude rule below (category, exact-item, and keyword) — always added to the AnyList push, never treated as a pantry staple. Added 2026-08-30 after fresh garlic, then noodles/pasta and tofu, were found missing from the pushed list; noodles/pasta needed this override specifically because several ingredient names are 'X noodles or rice noodles' / 'pasta, polenta, or grain of choice' style either/or compounds that also contain an excluded staple word. Gnocchi added 2026-09-17: it had been listed in exclude_items, so the main component of that week's Monday dinner never reached the shopping list. The household does not keep it stocked.",
+  "_include_note": "2026-11-06: added croutons (\"whole grain croutons\" was being dropped by the grain rule). 2026-11-01: added tomatoes, because the oil rule was dropping oil-packed sun-dried tomatoes (the oil rule now skips \"oil-packed\" too). include_keywords_regex overrides every other exclude rule below (category, exact-item, and keyword) — always added to the AnyList push, never treated as a pantry staple. Added 2026-08-30 after fresh garlic, then noodles/pasta and tofu, were found missing from the pushed list; noodles/pasta needed this override specifically because several ingredient names are 'X noodles or rice noodles' / 'pasta, polenta, or grain of choice' style either/or compounds that also contain an excluded staple word. Gnocchi added 2026-09-17: it had been listed in exclude_items, so the main component of that week's Monday dinner never reached the shopping list. The household does not keep it stocked.",
 
   "exclude_items": [
     "fish sauce", "hoisin sauce", "chili paste", "chile crisp", "sambal oelek",
