@@ -8,60 +8,59 @@
   "meals": [
     {
       "day": "Monday",
-      "id": "parmesan-white-beans-kale-bread-crumbs",
-      "name": "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs",
-      "protein": "beans",
+      "id": "farro-crispy-spiced-chickpeas",
+      "name": "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks",
+      "protein": "chickpeas",
       "vegetarian": true,
       "veg_sub_note": null,
-      "total_min": 50,
+      "total_min": 65,
       "servings": 5,
       "source_url": null,
       "nutrition_per_serving": {
-        "calories": 450,
-        "protein_g": 19,
-        "carbs_g": 53,
-        "fat_g": 20,
+        "calories": 590,
+        "protein_g": 18,
+        "carbs_g": 77,
+        "fat_g": 24,
         "fiber_g": 14,
-        "sodium_mg": 700,
+        "sodium_mg": 750,
         "source": "estimated"
       },
       "tags": [
         "one-pot",
         "hearty",
-        "cozy"
+        "make-ahead"
       ]
     },
     {
       "day": "Tuesday",
-      "id": "spicy-tangy-smoky-pinto-bean-bowls",
-      "name": "Spicy-Tangy-Smoky Pinto Bean Bowls",
-      "protein": "beans",
+      "id": "sweet-chile-grain-bowl-tofu",
+      "name": "Sweet Chile Grain Bowl With Tofu",
+      "protein": "tofu",
       "vegetarian": true,
       "veg_sub_note": null,
-      "total_min": 25,
+      "total_min": 50,
       "servings": 4,
-      "source_url": null,
+      "source_url": "https://cooking.nytimes.com/recipes/1024956-sweet-chile-grain-bowl-with-tofu",
       "nutrition_per_serving": {
-        "calories": 420,
+        "calories": 284,
         "protein_g": 15,
-        "carbs_g": 60,
-        "fat_g": 12,
-        "fiber_g": 12,
-        "sodium_mg": 580,
-        "source": "estimated"
+        "carbs_g": 20,
+        "fat_g": 19,
+        "fiber_g": 6,
+        "sodium_mg": 1143,
+        "source": "site"
       },
       "tags": [
         "bowl",
-        "mexican-inspired",
-        "quick",
-        "vegan"
+        "sheet-pan",
+        "make-ahead"
       ]
     }
   ],
   "nutrition_avg_per_serving": {
-    "calories": 435,
-    "protein_g": 17.0,
-    "carbs_g": 56.5,
-    "fat_g": 16.0
+    "calories": 437,
+    "protein_g": 16.5,
+    "carbs_g": 48.5,
+    "fat_g": 21.5
   }
 }

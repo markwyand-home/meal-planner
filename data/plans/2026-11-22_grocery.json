@@ -1,163 +1,186 @@
 {
   "week_of": "2026-11-22",
   "meals": [
-    "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs",
-    "Spicy-Tangy-Smoky Pinto Bean Bowls"
+    "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks",
+    "Sweet Chile Grain Bowl With Tofu"
   ],
   "sections": {
     "produce": [
       {
-        "item": "fresh rosemary",
+        "item": "cherry tomatoes",
         "quantity": 1.0,
-        "unit": "tsp",
+        "unit": "pint",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
         ],
-        "display": "1 tsp fresh rosemary"
+        "display": "1 pint cherry tomatoes"
+      },
+      {
+        "item": "cherry tomatoes",
+        "quantity": 1.5,
+        "unit": "cup",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1\u00bd cups cherry tomatoes"
+      },
+      {
+        "item": "cilantro",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
+        ],
+        "display": "\u00bc cup cilantro"
+      },
+      {
+        "item": "cilantro",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "cilantro, for serving"
+      },
+      {
+        "item": "fennel",
+        "quantity": 2.0,
+        "unit": "cup",
+        "for": [
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
+        ],
+        "display": "2 cups fennel"
+      },
+      {
+        "item": "fresh thyme",
+        "quantity": null,
+        "unit": null,
+        "for": [
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
+        ],
+        "display": "fresh thyme, sprigs"
       },
       {
         "item": "garlic",
-        "quantity": 8.0,
+        "quantity": 3.0,
         "unit": "clove",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs",
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks",
+          "Sweet Chile Grain Bowl With Tofu"
         ],
-        "display": "8 cloves garlic"
+        "display": "3 cloves garlic"
       },
       {
-        "item": "kale",
-        "quantity": 1.0,
-        "unit": "bunch",
+        "item": "leeks",
+        "quantity": 2.0,
+        "unit": "count",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
         ],
-        "display": "1 bunch kale"
+        "display": "2 leeks"
       },
       {
         "item": "lemon",
         "quantity": 1.0,
         "unit": "count",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
         ],
         "display": "1 lemon"
       },
       {
-        "item": "onion",
-        "quantity": 0.5,
+        "item": "lime",
+        "quantity": 1.0,
         "unit": "count",
         "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Sweet Chile Grain Bowl With Tofu"
         ],
-        "display": "\u00bd onion"
+        "display": "1 lime"
       },
       {
-        "item": "shallot",
-        "quantity": 3.0,
-        "unit": "count",
+        "item": "napa cabbage",
+        "quantity": 1.5,
+        "unit": "lb",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+          "Sweet Chile Grain Bowl With Tofu"
         ],
-        "display": "3 shallots"
+        "display": "1\u00bd lb napa cabbage"
+      },
+      {
+        "item": "parsley",
+        "quantity": 0.25,
+        "unit": "cup",
+        "for": [
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
+        ],
+        "display": "\u00bc cup parsley"
+      },
+      {
+        "item": "scallions",
+        "quantity": 1.0,
+        "unit": "bunch",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1 bunch scallions"
       }
     ],
     "dairy-eggs": [
       {
-        "item": "parmesan cheese",
-        "quantity": 2.0,
-        "unit": "tbsp",
+        "item": "firm or extra-firm tofu",
+        "quantity": 14.0,
+        "unit": "oz",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+          "Sweet Chile Grain Bowl With Tofu"
         ],
-        "display": "2 tbsp parmesan cheese"
-      },
-      {
-        "item": "parmesan cheese",
-        "quantity": 0.25,
-        "unit": "cup",
-        "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
-        ],
-        "display": "\u00bc cup parmesan cheese"
+        "display": "14 oz firm or extra-firm tofu"
       }
     ],
     "pantry": [
       {
-        "item": "canned white beans",
-        "quantity": 3.0,
+        "item": "chickpeas",
+        "quantity": 2.0,
         "unit": "can",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
         ],
-        "display": "3 cans canned white beans"
+        "display": "2 cans chickpeas"
       },
       {
-        "item": "cooked rice",
+        "item": "chile crisp",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "for": [
+          "Sweet Chile Grain Bowl With Tofu"
+        ],
+        "display": "1 tbsp chile crisp"
+      },
+      {
+        "item": "cooked grains (rice, farro, barley, or millet)",
         "quantity": 4.0,
         "unit": "cup",
         "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Sweet Chile Grain Bowl With Tofu"
         ],
-        "display": "4 cups cooked rice"
+        "display": "4 cups cooked grains (rice, farro, barley, or millet)"
       },
       {
-        "item": "panko breadcrumbs",
-        "quantity": 1.0,
-        "unit": "cup",
+        "item": "fish sauce",
+        "quantity": 1.5,
+        "unit": "tbsp",
         "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
+          "Sweet Chile Grain Bowl With Tofu"
         ],
-        "display": "1 cup panko breadcrumbs"
+        "display": "1\u00bd tbsp fish sauce"
       },
       {
-        "item": "pinto beans",
-        "quantity": 2.0,
-        "unit": "(15 oz) can",
+        "item": "pearled or semi-pearled farro",
+        "quantity": 10.0,
+        "unit": "oz",
         "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
+          "Farro with Crispy Spiced Chickpeas, Tomatoes and Leeks"
         ],
-        "display": "2 (15 oz) can pinto beans"
-      },
-      {
-        "item": "tomato paste",
-        "quantity": 2.0,
-        "unit": "tsp",
-        "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
-        ],
-        "display": "2 tsp tomato paste"
-      },
-      {
-        "item": "vegetable stock",
-        "quantity": 1.0,
-        "unit": "cup",
-        "for": [
-          "Parmesan White Beans and Kale with Crunchy, Garlicky Bread Crumbs"
-        ],
-        "display": "1 cup vegetable stock"
-      }
-    ],
-    "spices": [
-      {
-        "item": "smoked paprika",
-        "quantity": 4.0,
-        "unit": "tsp",
-        "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
-        ],
-        "display": "4 tsp smoked paprika"
-      }
-    ],
-    "other": [
-      {
-        "item": "optional toppings",
-        "quantity": null,
-        "unit": null,
-        "for": [
-          "Spicy-Tangy-Smoky Pinto Bean Bowls"
-        ],
-        "display": "optional toppings"
+        "display": "10 oz pearled or semi-pearled farro"
       }
     ]
   },
